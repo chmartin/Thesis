@@ -12,5 +12,5 @@ Copied from A. Whitbek's git repository on Jan. 5, 2015
 
 main file:  chmartin_thesis.tex
 ===============================
-chapters:   
+chapters:   chapter0.tex
 ===============================
