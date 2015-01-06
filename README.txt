@@ -13,4 +13,6 @@ Used by Christopher B Martin for Thesis 2015
 main file:  chmartin_thesis.tex
 ===============================
 chapters:   chapter0.tex
+			Introduction.tex
+			Conclusions.tex
 ===============================
