@@ -3,7 +3,7 @@
 % Finally put to use by Andrew Whitbeck 2013
 % Copied by Christopher B Martin on Jan. 5, 2015 for use in Thesis writing
 
-\documentclass[12pt,twoside,draft,left=1.5in,top=1in,right=1.5in,bottom=1in,includehead,includefoot]{thesis}
+\documentclass[12pt,twoside,final]{thesis}
 
 % FOR FINAL VERSON CHANGE TO [oneside,final]
 
@@ -15,6 +15,7 @@
 \usepackage{amsmath,amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{epstopdf}
 \usepackage{mathrsfs}
 \usepackage{color}
 \graphicspath{{./figs/}}
@@ -26,7 +27,8 @@
 
 
 %%Added by Chris
-\usepackage{enumitem}
+
+\DeclareGraphicsRule{*}{mps}{*}{}
 \usepackage{xcolor}
 
 %My Colors
@@ -78,9 +80,9 @@
 \copyrightnotice
 
 % add your chaptders, best way is to have separate TeX files for each chapter
-\include{chapter0}
-\include{Introduction}
-\include{Conclusion}
+\include{chapter0/chapter0}
+\include{Introduction/Introduction}
+\include{Conclusion/Conclusion}
 
 %\include{appendix}
 
