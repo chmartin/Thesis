@@ -21,8 +21,42 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{wiki:Euler}
+\BIBentryALTinterwordspacing
+Wikipedia, ``Euler angles,'' 2015, [Accessed Feb. 9, 2015]. [Online].
+  Available: \url{http://en.wikipedia.org/wiki/Euler\_angles}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Armstrong:1988}
+M.~A. Armstrong, \emph{{Groups and Symmetry}}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer-Verlag, 1988.
+
+\bibitem{Miller:1972}
+W.~Miller, \emph{{Symmetry Groups and their Applications}}.\hskip 1em plus
+  0.5em minus 0.4em\relax Academic Press, Inc., 1972.
+
+\bibitem{Oliver:1993}
+P.~Oliver, \emph{{Applications of Lie Groups to Differential Equations}},
+  2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Springer-Verlag, 1993.
+
+\bibitem{Tung:1985}
+W.~Tung, \emph{{Group Theory in Physics}}.\hskip 1em plus 0.5em minus
+  0.4em\relax World Scientific Publishing, 1985.
+
+\bibitem{Noether:1918zz}
+E.~Noether, ``{Invariant Variation Problems},'' \emph{Gott.Nachr.}, vol. 1918,
+  pp. 235--257, 1918.
+
+\bibitem{Maggiore5.1:2005}
+M.~Maggiore, \emph{{A Modern Introduction to Quantum Field Theory}}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Oxford University Press, 2005, ch. 5.1.
+
+\bibitem{Schwabl:2002}
+F.~Schwabl, \emph{{Quantum Mechanics}}, 3rd~ed.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2002.
+
 \bibitem{ATLAS:2013mla}
-``{Study of the spin of the new boson with up to 25~fb$^{-1}$ of ATLAS data},''
-  2013.
+A.~Collaboration, ``{Study of the spin of the new boson with up to 25~fb$^{-1}$
+  of ATLAS data},'' \emph{ATLAS Conference Note}, 2013.
 
 \end{thebibliography}
