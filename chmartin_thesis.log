@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.2)  20 FEB 2015 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.2)  17 APR 2015 00:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,10 +1229,38 @@ Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup6
+(/usr/local/texlive/2014/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hepunits/hepunits.sty
+Package: hepunits 2007/09/27 High-energy physics units by Andy Buckley (v1.1.1)
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/SIunits/SIunits.sty
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units
+ (MH)
+
+
+\@qskwidth=\skip56
+\symgreek=\mathgroup6
+(/usr/local/texlive/2014/texmf-dist/tex/latex/SIunits/SIunits.cfg)
+LaTeX Info: Redefining \usk on input line 576.
+
+Option `mediumspace' provided!
+LaTeX Info: Redefining \@qsk on input line 576.
+Option `thickqspace' provided!
+Option `textstyle' provided!
+Option `squaren' provided!
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup7
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/contour/contour.sty
+Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
@@ -1241,6 +1269,16 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
+\con@length=\skip57
+
+Loading configuration file `contour.cfg'.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/contour/contour.cfg
+File: contour.cfg 2004/11/18 v2.14 Print contoured text (HH, MH)
+)
+contour: Using driver file `pdftex.cnt'.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/contour/pdftex.cnt
+File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
+))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2014/09/29 v1.1s fixes to LaTeX
 LaTeX Info: Redefining \em on input line 430.
@@ -1254,8 +1292,8 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen154
 \extrarowheight=\dimen155
 \NC@list=\toks22
-\extratabsurround=\skip56
-\backup@length=\skip57
+\extratabsurround=\skip58
+\backup@length=\skip59
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen156
@@ -1287,32 +1325,43 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip58
-\f@ncyO@elh=\skip59
-\f@ncyO@erh=\skip60
-\f@ncyO@olh=\skip61
-\f@ncyO@orh=\skip62
-\f@ncyO@elf=\skip63
-\f@ncyO@erf=\skip64
-\f@ncyO@olf=\skip65
-\f@ncyO@orf=\skip66
+\fancy@headwidth=\skip60
+\f@ncyO@elh=\skip61
+\f@ncyO@erh=\skip62
+\f@ncyO@olh=\skip63
+\f@ncyO@orh=\skip64
+\f@ncyO@elf=\skip65
+\f@ncyO@erf=\skip66
+\f@ncyO@olf=\skip67
+\f@ncyO@orf=\skip68
 )
 (./chmartin_thesis.aux (./chapter0/chapter0.aux)
-(./Introduction/Introduction.aux) (./Conclusion/Conclusion.aux))
+(./Introduction/Introduction.aux
+
+LaTeX Warning: Label `eq:KEscalar' multiply defined.
+
+) (./Conclusion/Conclusion.aux))
 \openout1 = `chmartin_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 78.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1328,9 +1377,13 @@ LaTeX Font Info:    ... okay on input line 72.
 \makeMPintoPDFobject=\count142
 \everyMPtoPDFconversion=\toks25
 )
+Option `squaren' provided! 
+ Command \squaren defined by SIunits package!
+
+LaTeX Info: Redefining \micro on input line 78.
 \openout2 = `chapter0/chapter0.aux'.
 
- (./chapter0/chapter0.tex
+(./chapter0/chapter0.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1371,14 +1424,19 @@ Underfull \vbox (badness 4266) detected at line 5
 \tf@toc=\write4
 \openout4 = `chmartin_thesis.toc'.
 
- [5] (./chmartin_thesis.lot)
+ [5] (./chmartin_thesis.lot
+Overfull \hbox (18.25871pt too wide) in paragraph at lines 2--2
+ [][] []\OT1/cmr/m/n/12 First gen-er-a-tion fermions and their dif-fer-ent char
+ges, grouped in left(right)- 
+ []
+
+)
 \tf@lot=\write5
 \openout5 = `chmartin_thesis.lot'.
 
  [6
 
-]
-(./chmartin_thesis.lof)
+] (./chmartin_thesis.lof)
 \tf@lof=\write6
 \openout6 = `chmartin_thesis.lof'.
 
@@ -1417,10 +1475,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4569) has occurred while \output is active []
 
  [5]
-Underfull \vbox (badness 5954) has occurred while \output is active []
+[6]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 126.
 
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3291) has occurred while \output is active []
 
  [7]
 Underfull \vbox (badness 1584) has occurred while \output is active []
@@ -1431,62 +1490,178 @@ Underfull \vbox (badness 1584) has occurred while \output is active []
 
 File: eeScattering.1 Graphic file (type mps)
  [MP to PDF] (./eeScattering.1) (./eeScattering.t1)
+<Introduction/Jayhawk_Feynman.pdf, id=86, 1166.3575pt x 615.29875pt>
+File: Introduction/Jayhawk_Feynman.pdf Graphic file (type pdf)
+
+<use Introduction/Jayhawk_Feynman.pdf>
+Package pdftex.def Info: Introduction/Jayhawk_Feynman.pdf used on input line 20
+8.
+(pdftex.def)             Requested size: 216.81pt x 114.37302pt.
+
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
- [10])
-[11]
+ [10]
+<Introduction/SMinfographic_image.png, id=90, 1027.84pt x 770.88pt>
+File: Introduction/SMinfographic_image.png Graphic file (type png)
+
+<use Introduction/SMinfographic_image.png>
+Package pdftex.def Info: Introduction/SMinfographic_image.png used on input lin
+e 222.
+(pdftex.def)             Requested size: 433.62pt x 325.2142pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./Introduction/Jayhawk_Feynman.pdf>] [12 <./Introduction/SMinfographic_im
+age.png>]
+[13]
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
+
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [14]
+[15]
+Overfull \hbox (23.96269pt too wide) in paragraph at lines 253--266
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+[17]
+Underfull \vbox (badness 6332) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20] [21]
+<Introduction/Non_Mexican_Hat.pdf, id=139, 752.09584pt x 506.19112pt>
+File: Introduction/Non_Mexican_Hat.pdf Graphic file (type pdf)
+
+<use Introduction/Non_Mexican_Hat.pdf>
+Package pdftex.def Info: Introduction/Non_Mexican_Hat.pdf used on input line 35
+1.
+(pdftex.def)             Requested size: 325.215pt x 218.8783pt.
+
+<Introduction/Non_Mexican_Hat_1D.pdf, id=140, 803.0pt x 495.8525pt>
+File: Introduction/Non_Mexican_Hat_1D.pdf Graphic file (type pdf)
+
+<use Introduction/Non_Mexican_Hat_1D.pdf>
+Package pdftex.def Info: Introduction/Non_Mexican_Hat_1D.pdf used on input line
+ 359.
+(pdftex.def)             Requested size: 325.215pt x 200.82672pt.
+ [22 <./Introduction/Non_Mexican_Hat.pdf>] <Introduction/Mexican_Hat.pdf, id=14
+8, 766.47653pt x 529.19907pt>
+File: Introduction/Mexican_Hat.pdf Graphic file (type pdf)
+
+<use Introduction/Mexican_Hat.pdf>
+Package pdftex.def Info: Introduction/Mexican_Hat.pdf used on input line 373.
+(pdftex.def)             Requested size: 325.215pt x 224.53922pt.
+
+<Introduction/Mexican_Hat_1D.pdf, id=149, 803.0pt x 495.8525pt>
+File: Introduction/Mexican_Hat_1D.pdf Graphic file (type pdf)
+
+<use Introduction/Mexican_Hat_1D.pdf>
+Package pdftex.def Info: Introduction/Mexican_Hat_1D.pdf used on input line 381
+.
+(pdftex.def)             Requested size: 325.215pt x 200.82672pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./Introduction/Non_Mexican_Hat_1D.pdf>] [24 <./Introduction/Mexican_Hat.p
+df> <./Introduction/Mexican_Hat_1D.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Introduction/Mexican_Hat_1D.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 5119) has occurred while \output is active []
+
+ [28]
+[29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+[32]) [33]
 \openout2 = `Conclusion/Conclusion.aux'.
 
  (./Conclusion/Conclusion.tex
 Chapter 2.
-<Conclusion/dumb-questions.pdf, id=92, 461.725pt x 363.3575pt>
+<Conclusion/dumb-questions.pdf, id=231, 461.725pt x 363.3575pt>
 File: Conclusion/dumb-questions.pdf Graphic file (type pdf)
 
 <use Conclusion/dumb-questions.pdf>
 Package pdftex.def Info: Conclusion/dumb-questions.pdf used on input line 9.
 (pdftex.def)             Requested size: 385.92152pt x 303.70459pt.
-) [12
+) [34
 
 
 
-] [13 <./Conclusion/dumb-questions.pdf>] (./chmartin_thesis.bbl) [14
+] [35 <./Conclusion/dumb-questions.pdf>] (./chmartin_thesis.bbl [36
 
 
-] [15] [16
+]
+Underfull \hbox (badness 1320) in paragraph at lines 100--102
+[]\OT1/cmr/m/n/12 P. W. Higgs, ``Bro-ken sym-me-tries, mass-less par-ti-cles an
+d gauge fields,''
+ []
 
-] (./chmartin_thesis.aux
-(./chapter0/chapter0.aux) (./Introduction/Introduction.aux)
-(./Conclusion/Conclusion.aux)) ) 
+[37]) [38] [39
+
+] (./chmartin_thesis.aux (./chapter0/chapter0.aux)
+(./Introduction/Introduction.aux) (./Conclusion/Conclusion.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 10344 strings out of 493109
- 180322 string characters out of 6135005
- 234462 words of memory out of 5000000
- 13639 multiletter control sequences out of 15000+600000
- 16083 words of font info for 64 fonts, out of 8000000 for 9000
+ 11104 strings out of 493109
+ 191206 string characters out of 6135005
+ 244225 words of memory out of 5000000
+ 14358 multiletter control sequences out of 15000+600000
+ 18064 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,44p,10412b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on chmartin_thesis.pdf (23 pages, 726037 bytes).
+ 42i,16n,44p,10411b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on chmartin_thesis.pdf (46 pages, 2854121 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 321 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

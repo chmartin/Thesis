@@ -1,5 +1,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Euler angles for three dimensional Cartesian coordinates.\cite {wiki:Euler}}}{3}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Feynman diagram depicting electron-electron scattering via the electromagnetic interaction.}}{10}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces A comedic example of a complicated Feynman diagram designed to appear similar to a Jayhawk \cite {Hogan:2007jh}.}}{11}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces A Summary Infographic of The Standard Model. This is a modified version of original found at \cite {SMinfo:2012sm}.}}{12}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces A 2D plot of the scalar potential, $V\left (\Phi \right )$, when $\mu ^2 > 0$. Created with \cite {Mathematica10_1}.}}{22}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces A 1D plot of the scalar potential, $V\left (\Phi \right )$, when $\mu ^2 > 0$. Created with \cite {Mathematica10_1}.}}{23}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces A 2D plot of the scalar potential, $V\left (\Phi \right )$, when $\mu ^2 < 0$. Created with \cite {Mathematica10_1}.}}{24}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces A 1D plot of the scalar potential, $V\left (\Phi \right )$, when $\mu ^2 < 0$. Created with \cite {Mathematica10_1}.}}{24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces This is a sample figure}}{13}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces This is a sample figure}}{35}

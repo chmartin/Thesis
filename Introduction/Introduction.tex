@@ -2,7 +2,7 @@
 \label{sec:intro}
 \chaptermark{Introduction}
 
-To present the ideas outlined in the abstract of this document it is necessary to start with a collection of definitions. Some will be given here, while others will need to be taken from references or outside sources. The natural starting point of this discussion is to present a useful example of symmetries that are observed in the world and how these are classified in physics. Next, a basic discussion of field theory and scattering amplitudes will be presented. From these examples, the discussion will expand to a categorization of the particles, fields, and symmetries that make up The Standard Model of Particle Physics. Equipped with these definitions and ideas we will investigate some specific features of this model, including an introduction of Electroweak symmetry breaking, discrete symmetries, and then limitations of the current model.
+To present the ideas outlined in the abstract of this document it is necessary to start with a collection of definitions. Some will be given here, while others will need to be taken from references or outside sources. The natural starting point of this discussion is to present a useful example of symmetries that are observed in the world and how these are classified in physics. Next, a basic discussion of field theory and scattering amplitudes will be presented. From these examples, the discussion will expand to a categorization of the particles, fields, and symmetries that make up The Standard Model of Particle Physics, including an introduction of Electroweak Symmetry Breaking. Equipped with these ideas an outline of Limitations of the Standard Model are presented using the Higgs boson as a tool for understanding them.
 
 \section{Symmetries in Physics}
 \label{sec:Symmetries}
@@ -82,17 +82,17 @@ The simplest way to represent a group is to find the elements that all other ele
 R(\phi) = e^{-i \frac{\phi}{2} \mathrm{J}},
 \end{equation}
 
-where $\mathrm{J}_{i} = \sigma_{i}$ and $\sigma_{i}$ is one of the Pauli matrices:
+where $\mathrm{J}_{i} = \tau_{i}$ and $\tau_{i}$ is one of the Pauli matrices:
 
 \begin{equation}
 \label{eq:Pauli}
-\sigma_{1} = \begin{pmatrix}
+\tau_{1} = \begin{pmatrix}
     0 & 1\\
     1 & 0
-  \end{pmatrix}, \sigma_{2} = \begin{pmatrix}
+  \end{pmatrix}, \tau_{2} = \begin{pmatrix}
     0 & -i\\
     i & 0
-  \end{pmatrix}, \sigma_{3} = \begin{pmatrix}
+  \end{pmatrix}, \tau_{3} = \begin{pmatrix}
     1 & 0\\
     0 & -1
   \end{pmatrix}
@@ -106,14 +106,14 @@ In this formulation $R(\phi)$ operates on states that are linear combinations of
 \chi_{+} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}, \chi_{-} = \begin{pmatrix} 0\\1\end{pmatrix}
 \end{equation}
 
-Fermions states can be expressed as linear combinations of these two component spinors, but we will find it more useful to transform the basis so that they can be rewritten in terms of the two component spinors $\psi_{R}$ (right-handed) and $\psi_{L}$ (left-handed) that are eigenstates of the parity transformation\footnote{As position transforms from $\vec{x} \to -\vec{x}$ the momentum transforms as $\vec{p} \to -\vec{p}$}.
+These states can be expressed as linear combinations of these two component spinors, but we will find it more useful to transform the basis so that they can be rewritten in terms of the two component spinors $\psi_{R}$ (right-handed) and $\psi_{L}$ (left-handed) that are eigenstates of the parity transformation\footnote{As position transforms from $\vec{x} \to -\vec{x}$ the momentum transforms as $\vec{p} \to -\vec{p}$}.
 
 \begin{equation}
 \label{eq:TwoRandL}
 \psi = \begin{pmatrix} \psi_{R} \\ \psi_{L} \end{pmatrix}
 \end{equation}
 
-These fermions and the group $\mathrm{SU}(2)$ will be two of the major building blocks that are used when we discuss the Standard Model of particle physics. Before we describe this model we will take some time to discuss Scattering Amplitudes.
+These states, called \textit{fermions}, and the group $\mathrm{SU}(2)$ will be two of the major building blocks that are used when we discuss the Standard Model of particle physics. Before we describe this model we will take some time to discuss Scattering Amplitudes.
 
 \section{Scattering Amplitudes}
 \label{sec:Scattering}
@@ -123,7 +123,7 @@ Particle physics at its core is not very different from pre-school; we want to s
 \subsection{Scattering Matrix}
 \label{sec:Smatrix}
 
-To explain how particle physics explains the evolution of a system over time, we will follow a procedure outlined in \cite{Maggiore5.1:2005}. Let us consider a set of particles with certain characteristics denoted $\ket{\psi}\left(t\right)$. The system at a time $t$ is given in Dirac notation\footnote{For a good explanation of Dirac notation see \cite{Schwabl:2002}}. We will denote the initial state of the system as $\ket{\psi_{i}} = \ket{\psi}\left(T_{i}\right)$, and the final state as $\bra{\psi_{f}} = \bra{\phi}\left(T_{f}\right)$. These states can be single or multiple particle states and typically quantities like momentum, spin, or helicity\footnote{Projection of spin onto momentum, $\vec{S}\cdot\hat{p}$} are used to specify them in this notation.
+To explain how particle physics explains the evolution of a system over time, we will follow a procedure outlined in \cite{Maggiore5.1:2005}. Let us consider a set of particle fields with certain characteristics denoted $\ket{\psi}\left(t\right)$. The system at a time $t$ is given in Dirac notation\footnote{For a good explanation of Dirac notation see \cite{Schwabl:2002}}. We will denote the initial state of the system as $\ket{\psi_{i}} = \ket{\psi}\left(T_{i}\right)$, and the final state as $\bra{\psi_{f}} = \bra{\phi}\left(T_{f}\right)$. These states can be single or multiple particle states and typically quantities like momentum, spin, or helicity\footnote{Projection of spin onto momentum, $\vec{S}\cdot\hat{p}$} are used to specify them in this notation.
 
 The evolution of a system from state $\ket{\psi_{i}}$ to $\bra{\psi_{f}}$ is given by
 \begin{equation}
@@ -158,18 +158,12 @@ These matrix elements can be used to describe the evolution of the system throug
 \end{equation}
 
 These amplitudes can also be expressed in a pictorial form, called \textit{Feynman diagrams}, that we will use extensively in this document. These diagrams are used to do the calculations through rules mapping vertex points, internal, and external lines to terms in the matrix element pieces.
-  
-%This is a sample equation:
-%\begin{equation}
-%\mathscr{L}_{EM} = \bar{\psi}\left(i\gamma^{\mu}(\partial_{\mu}+ieA_{\mu})-m\right)\psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu}.
-%\label{eq:EMlagrangian}
-%\end{equation}
 
 
 To use a concrete example, we will describe the interaction of electrons through the electromagnetic interaction. The Lagrangian for two fermions\footnote{Defined in \ref{sec:SU2}} interacting elecgromagneticily is given by 
 \begin{equation}
 \label{eq:EMlagrangian}
-\mathcal{L}_{EM} = \bar{\psi} \left(i\gamma^{\mu}\left(\delta_{\mu} + ieA_{\mu}\right) - m\right)\psi.
+\mathcal{L}_{EM} = \bar{\psi} \left(i\gamma^{\mu}\left(\partial_{\mu} + ieA_{\mu}\right) - m\right)\psi.
 \end{equation}
 
 In this equation, the electromagnetic interaction terms are represented by the vector potential, $A_{\mu}$ with $e$ as the coupling constant of the particle to the electromagnetic field. The $4 \times 4$ Dirac matrices $\gamma^{\mu}$ are defined by the $2 \times 2$ Identity matrix $\left(1\right)$ and the Pauli-matrices\footnote{Defined in \ref{sec:SU2}} we have already seen
@@ -178,17 +172,17 @@ In this equation, the electromagnetic interaction terms are represented by the v
 \label{eq:GammaMatrix}
 \gamma^{0} = \begin{pmatrix} 1 & 0 \\
 					       0 & -1 \end{pmatrix},
-\gamma^{i} = \begin{pmatrix} 0 & \sigma^{i} \\
-                                               -\sigma^{i} & 0 \end{pmatrix}.
+\gamma^{i} = \begin{pmatrix} 0 & \tau^{i} \\
+                                               -\tau^{i} & 0 \end{pmatrix}.
 \end{equation}
 
 In the amplitude notation this can be written as
 \begin{equation}
 \label{eq:eeScatteringAmpl}
-A = \left|\bra{\psi_{1}\psi_{2}}e^{\bar{\psi}\left(i\gamma^{\mu}\left(\delta_{\mu} + ieA_{\mu}\right) - m\right)\psi}\ket{\psi_{1}\psi_{2}}\right|^{2}
+A = \left|\bra{\psi_{1}\psi_{2}}e^{\bar{\psi}\left(i\gamma^{\mu}\left(\partial_{\mu} + ieA_{\mu}\right) - m\right)\psi}\ket{\psi_{1}\psi_{2}}\right|^{2}
 \end{equation}
 
-The equivalent representation lowest order terms of equation \ref{eq:EMlagrangian} as Feynman diagram will be Figure \ref{fig:eeScattering}. These diagrams can be used to quickly and simply represent complex interactions of particles and range from very simple, Figure \ref{fig:eeScattering}, to extremely complex, INSERT KU FEYNMAN DIAGRAM.
+The equivalent representation lowest order terms of equation \ref{eq:EMlagrangian} as Feynman diagram will be Figure \ref{fig:eeScattering}. These diagrams can be used to quickly and simply represent complex interactions of particles and range from very simple, Figure \ref{fig:eeScattering}, to extremely complex, as comedic example \ref{fig:Jayhawk_Feynman}.
 
 \begin{figure}
 \begin{center}
@@ -209,37 +203,291 @@ the electromagnetic interaction.}
 \label{fig:eeScattering}
 \end{figure}
 
-In this example we can see the properties of another group that will be important for the Standard Model. The electromagnetic interaction requires $\mathrm{U}(1)$ gauge symmetry. The conserved quantity for this group is the electric charge of the fermion, given by $e$ in the equations above. Now that we have introduced many of the pieces we need we will discuss the Standard Model of particle physics
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{Introduction/Jayhawk_Feynman.pdf}
+\caption{A comedic example of a complicated Feynman diagram designed to appear similar to a Jayhawk \cite{Hogan:2007jh}.}
+\label{fig:Jayhawk_Feynman}
+\end{center}
+\end{figure}
+
+In this example we can see the properties of another group that will be important for the Standard Model. The electromagnetic interaction requires $\mathrm{U}(1)$ gauge symmetry. The conserved quantity for this group is the electric charge of the fermion, given by $e$ in the equations above. Now that we have introduced many of the pieces we need we will discuss the Standard Model of particle physics.
 
 \section{The Standard Model}
-AND SO IT BEGINS!
+\label{sec:TheSM}
+So far we have considered very simple Lagrangians that describe very specific processes. These ideas are the basis for the construction of the \textit{Standard Model}(SM) \cite{StandardModel67_1,StandardModel67_2,StandardModel67_3,StandardModel67_4} of particle physics. This model attempts to describe and categorize the particles and interactions that make up the quantum world. The glaring omission being gravity, which is extremely weak compared to the other processes that are occurring at these distance scales. Before we can discuss how the model describes the fundamental interactions we need to describe and categorize the material that the universe is made from.
 
-%This is a sample table:
+\begin{figure}
+\begin{center}
+\includegraphics[width=\linewidth]{Introduction/SMinfographic_image.png}
+\caption{A Summary Infographic of The Standard Model. This is a modified version of original found at \cite{SMinfo:2012sm}.}
+\label{fig:TheSM}
+\end{center}
+\end{figure}
 
-%\begin{table}
-%\begin{center}
-%\begin{tabular}{l|c|c|c|c}
-%\hline 
-%\hline
-%particle & Q  & $T_3$ & $Y_W$ & colored \\ \hline \hline
-%$e_L$, $\mu_L$, $\tau_L$  & -1 & -1/2   &  -1 &  no \\ 
-%$e_R$, $\mu_R$, $\tau_R$  & -1 & 0      &  -2 &  no \\ 
-%$\nu_L$  & 0   & 1/2 & -1 & no \\ 
-%$u_L$, $c_L$, $b_L$    & 2/3 & 1/2  & 1/3& yes \\ 
-%$u_R$, $c_R$, $b_R$    & 2/3 & 0  & 4/3& yes \\ 
-%$d_L$, $s_L$, $t_L$    & -1/3& -1/2 & 1/3& yes \\ 
-%$d_R$, $s_R$, $t_R$    & -1/3& 0 & -2/3& yes \\
-%H        & 0   & 1/2  & -- & no \\
-%W        & 1   & 1    & -- & no \\
-%Z        & 0   & --   & -- & no \\
-%$\gamma$ & 0   & --   & -- & no \\
-%gluon    & 0   & 0    & 0  & yes \\
-%\hline
-%\end{tabular}
-%\end{center}
-%\caption{List of SM particles and their charges. 
-%Q represents the charge of the $SU(1)_{em}$ gauge symmetry,
-%$T_3$ the broken SU(2) gauge symmetry, and $Y_W$ the broken 
-%U(1) gauge symmetry.}
-%\label{table:SMcharges}
-%\end{table}
+\subsection{Matter}
+\label{sec:TheMatter}
+
+The SM provides a categorization of all the mater that makes up the universe. This categorization started with the first experiments attempting to describe atoms distinguishing the particles in the nucleus of an atom from the electrons that orbit around them. Today we know of matter in two categories, \textit{quarks} and \textit{leptons}, both are fermions with spins of $\hbar/2$, noted $1/2$ from now on\footnote{Here we have moved to natural units where $\hbar = c = 1$}. For each of these categories there are three generations of particles, each generation consisting of two quarks ($q$), two leptons ($\ell$) and their antiparticles\footnote{The antiparticle of a fermion is the $C$ transform of the particle state. $C$ transforms discussed more in section INSERT SECTION HERE}($\bar{q}, \bar{\ell}$). The heavier second and third generation fermions typically decay quickly into the first generation particles that make up the world we live in.
+
+\subsubsection{Quarks}
+\label{sec:TheQuarks}
+
+Quarks are the fundamental pieces that make up the nucleus of atoms. The protons and neutrons that are used to classify an atom are themselves built form combinations of quarks. The name ``quark" was coined by Gell-Mann who credits the term to a passage from \textit{Finnegans Wake} by James Joyce. Quarks come in six \textit{flavors} arranged by mass into three generations of doublets, this flavor is preserved in electromagnetic and strong interactions. The first letter of the quark name is often used to designate them so up, down, charm, strange, top, bottom are usually designated by u, d, c, s, t, and b respectively. Each flavor has a different mass ranging from $\sim\MeV$ (u and d) to $\sim170\GeV$ (top), the best knowledge of these masses is outlined in \ref{fig:TheSM}.
+
+Everyday matter consists mainly of the first generation quarks and antiquarks, u and d, grouped into the protons and neutrons. Quarks are never observed alone due to a \textit{color charge} that each posses\footnote{The property has nothing to do with physical color, but maps nicely to combining fundamental colors.}. This will be discussed more in section \ref{sec:TheForces}, but for now we will refer to it as a charge that can be ``red" (\textcolor{myred}{r}), ``blue" (\textcolor{myblue}{b}), or ``green"(\textcolor{mygreen}{g}). To be stable, a particle must be seen as  ``white" (\contour{black}{\textcolor{white}{w}}) to the outside world. Because matter must appear white, quarks group themselves into sets called \textit{hadrons}. Hadrons come in classifications based on the number of valence quarks they have. Two quark states are quark-antiquark pairs called \textit{mesons}, $\textrm{\textcolor{myred}{r}} + \textcolor{myred}{\bar{\textrm{r}}} = \textrm{\contour{black}{\textcolor{white}{w}}}$, a common example are pions $\left(\pi^{0},\pi^{\pm}\right)$ that come from cosmic rays. Three quark states are called \textit{baryons}, $\mathrm{\textcolor{myred}{r}} + \mathrm{\textcolor{myblue}{b}} + \mathrm{\textcolor{mygreen}{g}} = \mathrm{\contour{black}{\textcolor{white}{w}}}$, everyday examples being protons and neutrons. Recent observations also confirm tetraquark states \cite{Aaij:2014jqa} consisting of four quarks. 
+
+Each generation doublet has one particle with electromagnetic charge\footnote{``$e$" is used as the fundamental unit of electromagnetic charge. ``$-e$" is defined as the charge of an electron.} of $+2/3 e$ and another with charge $-1/3 e$. These will be combined so that all observable hadrons will have integer charges. The top-left section of figure \ref{fig:TheSM} summarizes the properties and categorization of the quarks. 
+
+One additional item that will prove relevant is that quarks can be both right-handed and left-handed eigenstates of the parity transform. This will distinguish their interactions when we discuss the weak force in section \ref{sec:TheForces}.
+
+\subsubsection{Leptons}
+\label{sec:TheLeptons}
+
+Unlike the quarks, leptons cary no property that stops them from existing by themselves. All leptons are neutral to color charge preventing them from interacting via the strong nuclear force. The most common lepton again belongs to the first generation, the electron. Many electrons make up the atoms that create the matter we are made from orbiting the nucleus. Similar to the heavier generations of the quarks, the electron also has corresponding heavier generation flavors, the muon ($\mu$) and tau ($\tau$) leptons. All three of these leptons cary an electromagnetic charge of ``$-e$", range in mass from $\sim0.5\MeV$($e$) to $\sim1.7\GeV$($\tau$), and can exist both as left or right-handed.
+
+Each of these three leptons has a corresponding doublet parter as well, the neutrinos ($\nu_{e}, \nu_{\mu}, \nu_{\tau}$). These particles are neutral in both color and electromagnetic charge, and are almost massless. Further complicating the story, they only exist as left-handed particles. They are extremely hard to interact with and detect since the electromagnetic and strong forces are invisible to them allowing them to only interact via the weak nuclear force. Additionally, unlike the quarks and the other leptons they oscillate between different flavors without interacting with the environment. In \ref{fig:TheSM} the leptons occupy the bottom left portion of the table. A summary of the first generation fermion fields that are given in table \ref{tab:FermionFields} where the doublets are grouped together and the distinction between left and right-handed particles has been made.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c|c|c||c}
+\hline 
+\hline
+Fermion Field & EM charge $\left(Q\right)$ & Weak Isospin $\left(T_{3}\right)$ & Hyperchage $\left(Y\right)$ & Color Charge \\ \hline
+$L_{L} = \begin{pmatrix} \nu_{L} \\ e^{-}_{L} \end{pmatrix}$ & $\begin{pmatrix} 0 \\ -1 \end{pmatrix}$ & $\begin{pmatrix} +1/2 \\ -1/2 \end{pmatrix}$ & $-1$ & no \\
+$e_{R}^{-}$ & $-1$ & $0$ & $-2$ & no \\
+\hline
+$Q_{L} = \begin{pmatrix} u_{L} \\ d_{L} \end{pmatrix}$ & $\begin{pmatrix} +2/3 \\ -1/3 \end{pmatrix}$ & $\begin{pmatrix} +1/2 \\ -1/2 \end{pmatrix}$ & $+1/3$ & yes \\
+$u_{R}$ & $+2/3$ & $0$ & $+4/3$ & yes \\
+$d_{R}$ & $-1/3$ & $0$ & $-2/3$ & yes \\
+\hline
+\hline
+\end{tabular}
+\end{center}
+\caption{First generation fermions and their different charges, grouped in left(right)-handed doublets(singlets).}
+\label{tab:FermionFields}
+\end{table}
+
+
+While everyday matter is made up of only electrons, muons and neutrinos are also quite common. These particles exist as cosmic rays that are constantly bombarding us from the upper atmosphere and outer space. Muons offer a particularly interesting case because they are moving at relativistic speeds so that in our frame of reference they appear as long lived particles.
+
+\subsection{Forces}
+\label{sec:TheForces}
+
+Now that we have introduced the building blocks of matter we can discuss how these particles interact. This description starts with a Lagrangian of terms describing particles and their interactions with each other, however this Lagrangian needs to preserve specific symmetries that we observe in nature. Specifically the SM Lagrangian should have $\mathrm{U}(1) \times \mathrm{SU}(2) \times \mathrm{SU}(3)$ local symmetry\footnote{The difference between a local and global symmetry has not been outlined in this document, but the author again refers you to \cite{Armstrong:1988,Miller:1972,Oliver:1993,Tung:1985} and many other places.}. Each of these symmetries correspond to physical interactions between the particles in the theory. Mathematically it is extremely similar to equation \ref{eq:EMlagrangian}, however the $\left(\partial_{\mu} + ieA_{\mu}\right)$ is replaced by the much more complicated covariant derivative $\mathcal{D}_{\mu}$.
+
+\begin{equation}
+\label{eq:CovariantD}
+\mathcal{D}_{\mu} = \partial_{\mu} - i g_{1} \frac{\mathrm{Y}}{2}B_{\mu} - i g_{2} \frac{\tau^{i}}{2}W^{i}_{\mu} - i g_{3} \frac{\lambda^{a}}{2}G^{a}_{\mu}
+\end{equation}
+
+Each of these additional terms are present to preserve one of the local symmetries that we observe in the world. Each of the $g_{i}$ variables are coupling constants that come from experimental results. These new fields map to the fundamental forces and in turn \textit{gauge bosons} that mediate each of the forces. They are called bosons because they have an integer unit\footnote{Recall that this unit is $\hbar$.} of inherent spin, as apposed to the matter particles that all have half-integer spin. Particle physics models fermions interacting with each other as the exchange of these bosons between particles.
+
+A rather glaring omission from both \ref{eq:EMlagrangian} and the extension with \ref{eq:CovariantD} is how these new fields (bosons) interact with themselves and each other. We will not take the time to introduce all of these terms but the relevant pieces will be used in section \ref{sec:EWsymmetry}.
+
+The term associated with $g_{1}$ is introduced to preserve local gauge invariance, $\mathrm{U}(1)$, introducing a spin-1 field $B_{\mu}$ and the generator $\mathrm{Y}$ (\textit{hypercharge}) will be a constant for every particle. This term, intertwined with the $g_{2}$ term, describes the \textit{electromagnetic force}. The $g_{2}$ term, along with the electromagnetic term, describes the \textit{weak nuclear force}.The details of their combination will be described in more detail in section \ref{sec:EWsymmetry}. 
+
+The $g_{2}$ term preserves rotations in fermion flavor space, $\mathrm{SU}(2)$, introducing three new vector fields $W^{i}_{\mu}$ where $i \in \left\{1, 2, 3\right\}$ and the generators $\tau^{i}$ (the Pauli matrices we have already seen). Similar to the case of angular momentum we have already seen, the $i=3$ projection, $T_{3}$, is a conserved quantity called \textit{weak isospin} that is useful in computations.
+
+Additionally, the $W^{i}_{\mu}$ bosons are exclusively left-handed, meaning it can only interact with left-handed particles (right-handed antiparticles). For now, it will is useful to note that both the $B_{\mu}$ and the $\tau^{3}W^{3}_{\mu}$ terms represent interactions that preserve the original flavor of the fermions they act on. In the framework of equation \ref{eq:EMlagrangian} and figure \ref{fig:eeScattering} this means that the photon field, $A_{\mu}$, is some linear combination of $B_{\mu}$ and $W^{3}_{\mu}$ and the electroweak charge, $e$, is a linear combination of $g_{1} \frac{\mathrm{Y}}{2}$ and $g_{2} \frac{\tau^{3}}{2}$.
+
+The final term associated with $g_{3}$ represents the \textit{strong nuclear force} and preserves rotations in the color charge space, $\mathrm{SU}(3)$. This term introduces eight new vector fields $G^{a}_{\mu}$ with $a \in \left\{1, 2, 3, 4, 5, 6, 7, 8\right\}$ and eight generators $\lambda^{a}$ which are the analog of the Pauli matrices in 3 dimensions. Each of these fields corresponds to a \textit{gluon} that mediates the strong force. These interactions are described by Quantum Chromodynamics (QCD), the quantum field theory for how particles with color charge (quarks \& gluons) interact with each other. The conserved charge in this theory is the color; ``redness", ``blueness", and ``greenness". Each of the eight gluons in this theory is a superposition of color charge states and ``holds" quarks of specific colors together into colorless hadrons\footnote{An explicit listing of the gluon states is not provided here, but a basic introduction can be found in \cite{Griffiths9:1987tj}.}.
+
+Before going through the details of the electromagnetic and weak forces, a quick note on the relative strength of these interactions. The electromagnetic force is common in every day life because it is a relatively strong interaction and operates over long distances, for example the light from a distant star can be seen at night. The strongest of the forces is the strong nuclear force which keeps the quarks grouped in hadrons and hadrons together in a nucleus is much stronger but only impacts particles that are very close together. The weakest of the forces considered in particle physics is the creatively named weak nuclear force, which governs the decay of higher generation fermions into lower generation fermions. In Table \ref{tab:Forces} you can find a summary of the different forces and their relative strengths and interaction ranges.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+\hline 
+\hline
+Force & Bosons & Relative Strength & Range (m) \\ \hline \hline
+Strong & gluons $\left(g\right)$ & 1 & $10^{-15}$ \\
+Electromagnetic & photon $\left(\gamma\right)$ & $\frac{1}{137}$ & $\infty$ \\
+Weak & $W^{\pm}, Z$ bosons & $10^{-6}$ & $10^{-18}$ \\
+Gravity & graviton $\left(G\right)$ & $10^{-39}$ & $\infty$ \\
+\hline
+\end{tabular}
+\end{center}
+\caption{List of Fundamental Forces their relative strengths and ranges.}
+\label{tab:Forces}
+\end{table}
+
+\subsection{Electroweak Symmetry Breaking}
+\label{sec:EWsymmetry}
+As eluded to above, the weak and electromagnetic forces are deeply connected. In their combined form they are referred to as the \textit{Electroweak force}. In the description above we outlined this means that the SM has $\mathrm{SU}(2) \times \mathrm{U}(1)$ symmetry, giving rise to four gauge bosons that would mediate these two forces; $B_{\mu}$, $W_{\mu}^{1}$, $W_{\mu}^{2}$, and $W_{\mu}^{3}$. In the mathematical construction that we have presented all of these $W_{\mu}^{i}$ bosons would be massless, but this would contradict the observed range of the weak force outlined in Table \ref{tab:Forces}. To give these bosons mass, the symmetry of the system must be broken. The \textit{Higgs Mechanism} \cite{Higgs:1964ia,Higgs:1964pj,Higgs:1966ev,Englert:1964et,Guralnik:1964eu,Kibble:1967sv} has been proposed as the source of the \textit{Electroweak Symmetry Breaking}\footnote{Much of this section uses \cite{Dawson:2008jk} as a referance.}. 
+
+To see how this happens, focus on the kinetic energy terms of the $W_{\mu}^{i}$ and $B_{\mu}$ fields that we neglected previously. These are given by equation \ref{eq:EW_KE}\footnote{This equation is the first appearance of the Field Tensors, these take the form $B_{\mu \nu} = \partial_{\nu}B_{\mu} - \partial_{\mu}B_{\nu}$ and $W_{\mu \nu}^{i} = \partial_{\nu}W_{\mu}^{i} - \partial_{\mu}W_{\nu}^{i} + g\epsilon^{ijk}W_{\mu}^{j}W_{\nu}^{k}$.} following the Weinberg-Salam Model of electroweak interactions \cite{StandardModel67_1,StandardModel67_2,StandardModel67_3,StandardModel67_4}.
+
+\begin{equation}
+\label{eq:EW_KE}
+\mathcal{L}_{KE} = -\frac{1}{4}W_{\mu \nu}^{i}W^{\mu \nu i} - \frac{1}{4}B_{\mu \nu}B^{\mu \nu}
+\end{equation}
+
+When one adds an additional scalar $\mathrm{SU}(2)$ doublet, $\Phi$, to this theory we find the key to giving some of these fields mass. We write this new scalar field in terms of its components shown in equation \ref{eq:SCALARdoub}.
+
+\begin{equation}
+\label{eq:SCALARdoub}
+\Phi = \begin{pmatrix} \phi^{+} \\ \phi^{0} \end{pmatrix}
+\end{equation}
+
+What makes this new field the key is the special potential energy term that accompanies it. This potential, given in equation \ref{eq:Hpotential}, and its parameters, $\lambda$ and $\mu$, define how the field interacts with itself and will be vital in our discussion.
+
+\begin{equation}
+\label{eq:Hpotential}
+V\left(\Phi\right) = \mu^{2}\left|\Phi^{\dagger}\Phi\right| - \lambda\left(\left|\Phi^{\dagger}\Phi\right|\right)^{2}
+\end{equation}
+
+Putting all of the pieces together we can write a toy Lagrangian for the electroweak part of the SM\footnote{In what follows we neglect fermion and QCD terms.} as
+
+\begin{equation}
+\label{eq:EWsector}
+\mathcal{L}_{EW} = -\frac{1}{4}W_{\mu \nu}^{i}W^{\mu \nu i} - \frac{1}{4}B_{\mu \nu}B^{\mu \nu} + \left|\mathcal{D}_{\mu}\Phi\right|^{2} - V\left(\Phi\right).
+\end{equation}
+
+When one investigates the behavior of this system as the total energy approaches zero\footnote{A stable minimum energy state being analogous to the current state of the universe.} the fields will approach their ground state. Focusing on the scalar potential one can see the behavior depends on the sign of the parameters $\mu^{2}$ and $\lambda$. We assume that $\lambda > 0$ so that a minimum state exists at all. If $\mu^2 > 0$ then the system will have a natural minimum where $\Phi = 0$ that preserves all of the symmetries that we have already outlined. This can be seen in the natural two-dimensional form and in the one-dimensional projection in Figures \ref{fig:2Dsymmetry} and \ref{fig:1Dsymmetry} respectively. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.75\linewidth]{Introduction/Non_Mexican_Hat.pdf}
+\caption{A 2D plot of the scalar potential, $V\left(\Phi\right)$, when $\mu^2 > 0$. Created with \cite{Mathematica10_1}.}
+\label{fig:2Dsymmetry}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.75\linewidth]{Introduction/Non_Mexican_Hat_1D.pdf}
+\caption{A 1D plot of the scalar potential, $V\left(\Phi\right)$, when $\mu^2 > 0$. Created with \cite{Mathematica10_1}.}
+\label{fig:1Dsymmetry}
+\end{center}
+\end{figure}
+
+The more interesting case is when $\mu^2 < 0$. In this case the potential has a minimum that is not at $\Phi = 0$ but the minimum energy state will occur at what we call the \textit{vacuum expectation value} (VEV) given in equation \ref{eq:VacExp}. This means that in the ground state, the scalar field will not go to zero but will have some amount of energy defined as $\frac{v}{\sqrt{2}}$ breaking the $\mathrm{U}(1)$ symmetry. Figures showing the natural two-dimensional potential and one-dimensional projection are seen in \ref{fig:2Dbroken} and \ref{fig:1Dbroken} respectively. 
+\begin{equation}
+\label{eq:VacExp}
+\left<\Phi\right> = \sqrt{-\frac{\mu^2}{2\lambda}} \begin{pmatrix} 0 \\ 1 \end{pmatrix} \equiv \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\ v \end{pmatrix}
+\end{equation}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.75\linewidth]{Introduction/Mexican_Hat.pdf}
+\caption{A 2D plot of the scalar potential, $V\left(\Phi\right)$, when $\mu^2 < 0$. Created with \cite{Mathematica10_1}.}
+\label{fig:2Dbroken}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.75\linewidth]{Introduction/Mexican_Hat_1D.pdf}
+\caption{A 1D plot of the scalar potential, $V\left(\Phi\right)$, when $\mu^2 < 0$. Created with \cite{Mathematica10_1}.}
+\label{fig:1Dbroken}
+\end{center}
+\end{figure}
+
+The choice of the VEV contribution to the $\phi^{+}$ or $\phi^{0}$ component in $\mathrm{SU}(2)$ space is arbitrary but we have chosen the conventional notation here, giving the new doublet a hypercharge of $Y_{\Phi} = 1$ and a electromagnetic charge $Q_{EM} = \frac{\tau^{3} + Y}{2}$. This gives a electromagnetically neutral ground state, even though the field retains its VEV. So, by giving the scalar field a non-zero expectation value in the ground state we have broken the $\mathrm{SU}(2) \times \mathrm{U}(1)$ symmetry to give a local $\mathrm{U}(1)_{EM}$ symmetry of the electromagnetic force\footnote{As required by the Lorentz invariance of the electromagnetic force}.
+
+In this formulation we can see the difference between the masses of the original bosons by formulating our original scalar field $\Phi$ in terms of the non-vanishing component, $v$, we have already seen and the remainder of the field, $h$. As in equation \ref{eq:vevPh}.
+
+\begin{equation}
+\label{eq:vevPh}
+\Phi =  \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\ v + h \end{pmatrix}
+\end{equation}
+
+To see how these terms generate mass it is convenient to perform a change of basis from $\tau^{1}, \tau^{2}, \tau^{3}$ to the $\tau^{+}, \tau^{-}, \tau^{3}$ representation given by equation \ref{eq:PauliPM}. This change of basis also will change the $W^{1}_{\mu}, W^{2}_{\mu}, W^{3}_{\mu}$ to  $W^{+}_{\mu}, W^{-}_{\mu}, W^{3}_{\mu}$ given by equation \ref{eq:Wpm}.
+\begin{equation}
+\label{eq:PauliPM}
+\tau^{\pm}  =  \frac{1}{\sqrt{2}}\left(\tau^{1} \pm i \tau^{2}\right)
+\end{equation}
+
+\begin{equation}
+\label{eq:Wpm}
+W^{\pm}_{\mu}  =  \frac{1}{\sqrt{2}}\left(W_{\mu}^{1} \mp i W_{\mu}^{2}\right)
+\end{equation}
+
+Looking at the scalar kinetic term of equation \ref{eq:EWsector}, $\left|\mathcal{D}_{\mu}\Phi\right|^{2}$, more explicitly we can write things in the form equation \ref{eq:KEscalar}, dropping terms that represent the dynamics and interactions of the $h$ field.
+
+\begin{equation}
+\label{eq:KEscalar} 
+\frac{v^2}{4}\left(g_{2}W_{\mu}^{3} - g_{1}B_{\mu}\right)^2 + \frac{g_{2}^{2}v^{2}}{2}W_{\mu}^{+}W^{\mu -}
+\end{equation}
+
+After one final change of basis to recast the first term in equation \label{eq:KEscalar} as the physical gauge fields we observe in nature. In equations \ref{eq:AandZ} and \ref{eq:masses} we see the $Z$ and $\gamma$ fields we are looking for and the masses of the bosons respectively. 
+
+\begin{eqnarray}
+\label{eq:AandZ}
+Z_{\mu}  &=&  \frac{g_{2}W^{3}_{\mu} - g_{1}B_{\mu}}{\sqrt{g_{1}^{2}+g_{2}^{2}}} \nonumber \\
+A_{\mu}  &=&  \frac{g_{2}W^{3}_{\mu} + g_{1}B_{\mu}}{\sqrt{g_{1}^{2}+g_{2}^{2}}}
+\end{eqnarray}
+
+\begin{eqnarray}
+\label{eq:masses}
+m_{W} & = & \frac{v}{\sqrt{2}}g_{2} \nonumber \\
+m_{Z} & = & \frac{v}{\sqrt{2}}\sqrt{g_{2}^{2} + g_{1}^{2}} \\
+m_{\gamma} & = & 0 \nonumber 
+\end{eqnarray}
+
+Thus we have broken the electroweak symmetry, given the $W^{\pm}$ and $Z$ bosons mass while keeping the $\gamma$ massless. This provides a theory that predicts a new field, $h$, called the \textit{Higgs field}, and allows us to describe the behavior of the weak and electromagnetic forces to fantastic accuracy. Just like the other fields that we have introduced this new field will be accompanied by a boson that mediates its interactions with other particles. This new boson is called the \textit{Higgs Boson} in common literature. Everything about this new boson can be predicted from the SM, except the two parameters, $\mu^{2}$ and $\lambda$, or equivalently the VEV given in equation \ref{eq:VeV} and the mass of the Higgs Boson in equation \ref{eq:Hmass}.
+
+\begin{equation}
+\label{eq:VeV}
+v^{2} = -\frac{\mu^2}{2\lambda}
+\end{equation}
+
+\begin{equation}
+\label{eq:Hmass}
+m_{h}^{2} = 2v^{2}\lambda
+\end{equation}
+
+\subsubsection{Implications of the Higgs field: Fermion Masses}
+\label{sec:FermionMasses}
+
+When we first started our discussion of Fermions we simply wrote the mass of a fermion as $-m\bar{\psi}\psi$. However, this term would explicitly break the electroweak gauge invariance we have just spent so much time constructing. It turns out that this new scalar field could also be responsible for the fermion masses in addition to the $W^{\pm}$ and $Z$ masses. The term can be created by considering a Yukawa coupling between the scalar field and a fermion field. For the down quark this term follows equations \ref{eq:Yd}.
+
+\begin{eqnarray}
+\label{eq:Yd}
+\mathcal{L}_{\mathrm{d-mass}} &=& -\lambda_{d}\bar{Q_{L}}\Phi d_{R} + h.c. \nonumber \\
+ &=& \frac{-\lambda_{d}}{\sqrt{2}}\begin{pmatrix}\bar{u_{L}}& \bar{d_{L}}\end{pmatrix}\begin{pmatrix} 0 \\ v + h \end{pmatrix} d_{R} + h.c. \\
+  &=& \frac{-\lambda_{d}v}{\sqrt{2}}\bar{d_{L}}d_{R} + h.c. \nonumber
+\end{eqnarray}
+
+Where the final equality comes from focusing on the terms that remain in the ground state of the scalar potential. From here its easy to see that the mass of the down quark can be obtained from the vacuum expectation value of the scalar field and the down coupling to the Higgs, $\lambda_{d}$.
+
+\begin{equation}
+\label{eq:Md}
+m_{d} = \frac{\lambda_{d}v}{\sqrt{2}}
+\end{equation}
+
+Similarly, looking at the terms that are dropped from the last line of equations \ref{eq:Yd} one observes that the Higgs field, $h$, also interacts with the fermions. This will be the key to generating Higgs bosons at the LHC.
+
+It seems that the Higgs Mechanism and the Higgs boson solve many of the issues that the SM has with describing the world we observe. However, there are many other unexplained phenomena in the universe and detailed study of the Higgs could lead unearth the origin of these discrepancies. The next subsection is an outline some of these discrepancies that will be discussed in this document.
+
+\section{Limitations of the SM: Higgs as a tool}
+\label{sec:Limitations}
+
+The SM has been one of the most successful scientific theories ever proposed. The predictive power of the model is unparalleled, yet some questions remain. The first limitation we will discuss in this section will be the matter-antimatter asymmetry seen in the universe around us. Secondly, a discussion of the SM's inability to accurately describe gravity is discussed. Finally, generalizations of the SM are discussed. These models that could generate the dark matter seen in astronomical measurements, solve the hierarchy problem, or explain more about fermions. The Higgs field could offer keys to understanding all of these issues and the tests presented in this document are intended to address these questions.
+
+\subsection{$CP$-volation: The Matter-Antimatter Asymmetry}
+\label{sec:CPviolation}
+
+Outside of specific particle physics experiments, the universe we live in is dominated by matter. It seems that only a very small fraction of antimatter exists in the universe. However, within specific tests of SM\footnote{Many performed before the SM was conceived.} no process is observed to generate this large of a discrepancy between matter and antimatter. After the big bang, matter and antimatter should have existed in relative equal densities and amounts. As the universe evolved the SM predicts a small amount of matter(antimatter) would transform to antimatter(matter) under the $CP$-violating processes that are predicted by the theory. The SM does not predict, nor has any experiment seen, a process that could generate enough $CP$-violation to create a universe that is so overwhelmingly dominated by matter.
+
+So far we have only eluded to $CP$ transformations when introducing the antiparticles that exist in the SM. In the most basic terms this is the combination of two discrete symmetries \textit{charge conjugation} and \textit{parity symmetry} (spatial inversion). The parity operation, $P$, is the spatial inversion through the origin. We saw the projections of a fermion onto the eigenstates of this operation at the end of section \ref{sec:SU2}. If $\psi\left(x\right)$ describes a fermion field at point $x$, then $P\psi\left(x\right) \to \psi\left(-x\right)$. This transformation will take $x \to -x$ and the momentum $p \to -p$ but leave the inherent spin and other quantum numbers unchanged. The charge conjugation operation, $C$, is the transformation of a particle to its antiparticle or vice versa. We used this transformation extensively in \ref{sec:TheSM} but never wrote out the transformations explicitly. As an example, given an electron, $e^{-}$, then $Ce^{-} \to e^{+}$. This transformation will reverse the sign of all quantum numbers associated with the particle (inherent spin, weak isospin, charge, hypercharge, etc...). Particles that are their own antiparticle ($\pi^0$ meson, $\nu$'s, ...) remain unchanged under this operator.
+
+Not all interactions allowed by the standard model will preserve these symmetries. The most explicit example is the weak interaction. Given that the weak force only interacts with left-handed particles it is maximally parity violating\footnote{Imagine a stationary pseudoscalar $\pi^{+}$ decaying into back-to-back $\mu^{+}$ and $\nu_{\mu}$ states via the weak interaction. Perform the parity operation on the initial and final states. The result requires a right-handed neutrino, which are unobserved.}. However, in most cases $CP$ together is a symmetry of the interactions. The notable exceptions to this are the decays of B mesons and Kaon INSERT REFERENCES. These decays highlight the necessity for a $CP$-violating component in the SM described by the Kobayashi-Moskawa Model INSERT REFERENCE. The specifics of this model are beyond the scope of this document, however, the observed magnitudes of the terms in the KM model cannot account for the large discrepancy that we observe in the universe.
+
+One proposed solution to this asymmetry is the presence of more than one Higgs field, resulting in a multiple Higgs bosons. The number of fields and bosons predicted varies depending to the model and any observed boson could have varied spin $(J)$, charge $(C)$, and parity $(P)$ transformation properties. It could be charged, neutral, pure scalar, pure pseudoscalar, vector, pseudovector or a mixed state of these. In this document we outline tests proposed and performed to test the $J^{CP}$ nature of a boson to see if a Higgs boson can offer any insights into the nature of the matter-antimatter asymmetry.
+
+\subsection{The Graviton: An Unexplained Force}
+\label{sec:Graviton}
+
+Gravity would be the weakest of all the forces we know of but it is not yet included in the SM. There are many possible theories of gravity at small scales and its corresponding boson, the \textit{graviton}. In Table \ref{tab:Forces} you can find a summary of the different forces and their relative strengths and interaction ranges, including gravity. Since gravity is so intimately connected with the mass of an object in relativistic mechanics it is expected to have similar couplings to the SM particles as the Higgs boson, but to match general relativity most theories claim that it must be a spin-2 scalar particle. Generally, most theories predict that a graviton would be a massless particle to have an infinite range. There is always the possibility of new physics spoiling our expectations so a detailed study of any new scalar particle found should be performed to determine if the spin is 0 (as predicted by Higgs boson) or 2 (as predicted by graviton). INSERT REFERENCES
+
+
+\subsection{Beyond the SM: The Dark Matter, Hierarchy \& Fermion Problems}
+\label{sec:BSM}
+
+It has not been explicitly expressed in our discussion of SM phenomena but everything that we understand about the universe is really only valid at relatively low energies. Using current models of the early universe, at early times we know that the energies are many orders of magnitude larger than what our SM theory can describe REFERENCE. Many extensions of the SM to these high energies have been proposed and generally we will call them Beyond SM (BSM) theories in this document. These theories predict varied and wide ranging possibilities for new particles and physics and could be tested by examining a Higgs boson. Some BSM theories predict particles that could exist in relative obscurity on Earth but could be the \textit{dark matter} observed in astronomical experiments REFERENCE. 
+
+Currently there is no explanation for why gravity is so much weaker, table \ref{tab:Forces}, than the other forces. The SM requires a very specific values in order to explain this difference without theoretical motivation. This is called the \textit{hierarchy problem} of the SM.  BSM theories offer natural solutions to this problem sometimes simultaneously with explanations for the dark matter abundance. Other issues that can be explained through BSM theories include the number of fermion generations and their masses. In principle, there is no preference for only three generations of fermions and not motivation for the specific masses of these particles. 
+
+Generally, BSM theories can come in almost any type imaginable. If these new particles interact with the scalar $\Phi$ field, then they could be seen as a deviation from the expected couplings (interactions) with SM particles. These deviations could take many forms, but those tested in this document include; Unusual production mechanisms, unexpected spin-parity behavior, and enhanced non-resonant production.

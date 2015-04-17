@@ -11,6 +11,16 @@
 \contentsline {subsection}{\numberline {1.2.1}Scattering Matrix}{7}
 \contentsline {subsection}{\numberline {1.2.2}Amplitudes and Feynman Diagrams}{8}
 \contentsline {section}{\numberline {1.3}The Standard Model}{11}
-\contentsline {chapter}{\numberline {2}Conclusions}{12}
-\contentsline {chapter}{Bibliography}{14}
-\contentsline {chapter}{Vita}{16}
+\contentsline {subsection}{\numberline {1.3.1}Matter}{13}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Quarks}{13}
+\contentsline {subsubsection}{\numberline {1.3.1.2}Leptons}{15}
+\contentsline {subsection}{\numberline {1.3.2}Forces}{17}
+\contentsline {subsection}{\numberline {1.3.3}Electroweak Symmetry Breaking}{20}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Implications of the Higgs field: Fermion Masses}{27}
+\contentsline {section}{\numberline {1.4}Limitations of the SM: Higgs as a tool}{29}
+\contentsline {subsection}{\numberline {1.4.1}$CP$-volation: The Matter-Antimatter Asymmetry}{29}
+\contentsline {subsection}{\numberline {1.4.2}The Graviton: An Unexplained Force}{32}
+\contentsline {subsection}{\numberline {1.4.3}Beyond the SM: The Dark Matter, Hierarchy \& Fermion Problems}{32}
+\contentsline {chapter}{\numberline {2}Conclusions}{34}
+\contentsline {chapter}{Bibliography}{36}
+\contentsline {chapter}{Vita}{39}
