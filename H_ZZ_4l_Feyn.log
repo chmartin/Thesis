@@ -1,0 +1,14 @@
+This is MetaPost, version 1.902 (TeX Live 2014) (kpathsea version 6.2.0)  14 JUN 2015 13:38
+**H_ZZ_4l_Feyn.mp
+(/usr/local/texlive/2014/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2014/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./H_ZZ_4l_Feyn.mp
+(/usr/local/texlive/2014/texmf-dist/metapost/feynmf/feynmp.mp) [1] )
+ 
+Here is how much of MetaPost's memory you used:
+ 398 strings using 6459 characters
+ 1590032 bytes of node memory
+ 922 symbolic tokens
+ 14i,77n,28p,113b,3f stack positions out of 16i,96n,31p,200b,4f
+1 output file written: H_ZZ_4l_Feyn.1
+

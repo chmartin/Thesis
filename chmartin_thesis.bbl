@@ -21,27 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{wiki:Euler}
-\BIBentryALTinterwordspacing
-Wikipedia, ``Euler angles,'' 2015, [Accessed Feb. 9, 2015]. [Online].
-  Available: \url{http://en.wikipedia.org/wiki/Euler\_angles}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Hogan:2007jh}
-D.~P. Hogan, ``{The Jayhawk Process},'' 2007, design for University of Kansas
-  SPS T-shirts.
-
-\bibitem{SMinfo:2012sm}
-\BIBentryALTinterwordspacing
-D.~Galbraith and C.~Burgard, ``{UX: Standard Model of the Standard Model},''
-  2012, {CERN Webfest 2012}. [Online]. Available:
-  \url{http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Mathematica10_1}
-{Wolfram Research, Inc.}, ``{Mathematica},'' Champaign, Illinois, 2015,
-  {Version 10.1}.
-
 \bibitem{Armstrong:1988}
 M.~A. Armstrong, \emph{{Groups and Symmetry}}.\hskip 1em plus 0.5em minus
   0.4em\relax Springer-Verlag, 1988.
@@ -62,6 +41,12 @@ W.~Tung, \emph{{Group Theory in Physics}}.\hskip 1em plus 0.5em minus
 E.~Noether, ``{Invariant Variation Problems},'' \emph{Gott.Nachr.}, vol. 1918,
   pp. 235--257, 1918.
 
+\bibitem{wiki:Euler}
+\BIBentryALTinterwordspacing
+Wikipedia, ``Euler angles,'' 2015, [Accessed Feb. 9, 2015]. [Online].
+  Available: \url{http://en.wikipedia.org/wiki/Euler\_angles}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Maggiore5.1:2005}
 M.~Maggiore, \emph{{A Modern Introduction to Quantum Field Theory}}.\hskip 1em
   plus 0.5em minus 0.4em\relax Oxford University Press, 2005, ch. 5.1.
@@ -69,6 +54,10 @@ M.~Maggiore, \emph{{A Modern Introduction to Quantum Field Theory}}.\hskip 1em
 \bibitem{Schwabl:2002}
 F.~Schwabl, \emph{{Quantum Mechanics}}, 3rd~ed.\hskip 1em plus 0.5em minus
   0.4em\relax Springer, 2002.
+
+\bibitem{Hogan:2007jh}
+D.~P. Hogan, ``{The Jayhawk Process},'' 2007, design for University of Kansas
+  SPS T-shirts.
 
 \bibitem{StandardModel67_1}
 S.~L. Glashow, ``{Partial Symmetries of Weak Interactions},'' \emph{Nucl.
@@ -86,6 +75,13 @@ A.~Salam, ``{Elementary Particle Physics},'' \emph{N. Svartholm ed., Almquvist
 S.~L. Glashow, J.~Iliopoulos, and L.~Maiani, ``{Weak Interactions with
   Lepton-Hadron Symmetry},'' \emph{Phys. Rev.}, vol.~D2, pp. 1285--1292, 1970.
 
+\bibitem{SMinfo:2012sm}
+\BIBentryALTinterwordspacing
+D.~Galbraith and C.~Burgard, ``{UX: Standard Model of the Standard Model},''
+  2012, {CERN Webfest 2012}. [Online]. Available:
+  \url{http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Aaij:2014jqa}
 R.~Aaij \emph{et~al.}, ``{Observation of the resonant character of the
   $Z(4430)^-$ state},'' \emph{Phys.Rev.Lett.}, vol. 112, no.~22, p. 222002,
@@ -101,11 +97,11 @@ P.~W. Higgs, ``{Broken symmetries, massless particles and gauge fields},''
   \emph{Phys.Lett.}, vol.~12, pp. 132--133, 1964.
 
 \bibitem{Higgs:1964pj}
-------, ``{Broken Symmetries and the Masses of Gauge Bosons},''
+P.~W. Higgs, ``{Broken Symmetries and the Masses of Gauge Bosons},''
   \emph{Phys.Rev.Lett.}, vol.~13, pp. 508--509, 1964.
 
 \bibitem{Higgs:1966ev}
-------, ``{Spontaneous Symmetry Breakdown without Massless Bosons},''
+P.~W. Higgs, ``{Spontaneous Symmetry Breakdown without Massless Bosons},''
   \emph{Phys.Rev.}, vol. 145, pp. 1156--1163, 1966.
 
 \bibitem{Englert:1964et}
@@ -123,5 +119,155 @@ T.~Kibble, ``{Symmetry breaking in nonAbelian gauge theories},''
 \bibitem{Dawson:2008jk}
 S.~Dawson, ``{Introduction to Electroweak Symmetry Breaking},'' \emph{AIP
   Conf.Proc.}, vol. 1116, pp. 11--34, 2009.
+
+\bibitem{Mathematica10_1}
+{Wolfram Research, Inc.}, ``{Mathematica},'' Champaign, Illinois, 2015,
+  {Version 10.1}.
+
+\bibitem{Bruning:782076}
+\BIBentryALTinterwordspacing
+{Br\"{u}ning, Oliver Sim and Collier, Paul and Lebrun, P and Myers, Stephen and
+  Ostojic, Ranko and Poole, John and Proudlock, Paul}, \emph{{LHC Design
+  Report}}.\hskip 1em plus 0.5em minus 0.4em\relax Geneva: CERN, 2004.
+  [Online]. Available: \url{http://cds.cern.ch/record/782076}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LHC_Lumi}
+\BIBentryALTinterwordspacing
+{LHC Programme Coordination}, ``{LHC Luminosity Plots for the 2012(2011) Proton
+  Run},'' {2011, 2012}. [Online]. Available: \url{http://lpc.web.cern.ch/lpc/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bruning:2007zzc}
+O.~S. Bruning and P.~Collier, ``{Building a behemoth},'' \emph{Nature}, vol.
+  448, pp. 285--289, 2007.
+
+\bibitem{CMS_Lumi}
+\BIBentryALTinterwordspacing
+{Public CMS Luminosity Information}, ``{2012(2011) Proton-Proton Collisions,
+  Luminosity versus day},'' {2011, 2012}. [Online]. Available:
+  \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bayatian:922757}
+\BIBentryALTinterwordspacing
+G.~L. Bayatian \emph{et~al.}, \emph{{CMS Physics: Technical Design Report
+  Volume 1: Detector Performance and Software}}, ser. Technical Design Report
+  CMS.\hskip 1em plus 0.5em minus 0.4em\relax Geneva: CERN, 2006, there is an
+  error on cover due to a technical problem for some items. [Online].
+  Available: \url{https://cds.cern.ch/record/922757}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Sakuma:2013jqa}
+T.~Sakuma and T.~McCauley, ``{Detector and Event Visualization with SketchUp at
+  the CMS Experiment},'' \emph{J.Phys.Conf.Ser.}, vol. 513, p. 022032, 2014.
+
+\bibitem{Chatrchyan:2009si}
+S.~Chatrchyan \emph{et~al.}, ``{Precise Mapping of the Magnetic Field in the
+  CMS Barrel Yoke using Cosmic Rays},'' \emph{JINST}, vol.~5, p. T03021, 2010.
+
+\bibitem{Chatrchyan:2014wfa}
+S.~Chatrchyan \emph{et~al.}, ``{Alignment of the CMS tracker with LHC and
+  cosmic ray data},'' \emph{JINST}, vol.~9, p. P06009, 2014.
+
+\bibitem{Kotlinski:478252}
+\BIBentryALTinterwordspacing
+D.~Kotlinski, R.~Baur, R.~P. Horisberger, R.~Schnyder, W.~Erdmann, and
+  K.~Gabathuler, ``{Readout of the CMS pixel detector},'' \emph{{CERN Document
+  Server}}, 2000. [Online]. Available: \url{https://cds.cern.ch/record/478252}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Chatrchyan:1129810}
+\BIBentryALTinterwordspacing
+S.~Chatrchyan \emph{et~al.}, ``{The CMS experiment at the CERN LHC. The Compact
+  Muon Solenoid experiment},'' \emph{J. Instrum.}, vol.~3, p. S08004. 361 p,
+  2008, also published by CERN Geneva in 2010. [Online]. Available:
+  \url{https://cds.cern.ch/record/1129810}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Chatrchyan:2013mxa}
+S.~Chatrchyan \emph{et~al.}, ``{Measurement of the properties of a Higgs boson
+  in the four-lepton final state},'' \emph{Phys.Rev.}, vol. D89, no.~9, p.
+  092007, 2014.
+
+\bibitem{Chatrchyan:2009hw}
+S.~Chatrchyan \emph{et~al.}, ``{Performance of CMS Hadron Calorimeter Timing
+  and Synchronization using Test Beam, Cosmic Ray, and LHC Beam Data},''
+  \emph{JINST}, vol.~5, p. T03013, 2010.
+
+\bibitem{CMS-PAS-PFT-09-001}
+\BIBentryALTinterwordspacing
+S.~Chatrchyan \emph{et~al.}, ``{Particle-Flow Event Reconstruction in CMS and
+  Performance for Jets, Taus, and MET},'' CERN, 2009. Geneva, Tech. Rep.
+  CMS-PAS-PFT-09-001, Apr 2009. [Online]. Available:
+  \url{https://cds.cern.ch/record/1194487}
+\BIBentrySTDinterwordspacing
+
+\bibitem{CMS-PAS-EGM-10-004}
+\BIBentryALTinterwordspacing
+S.~Chatrchyan \emph{et~al.}, ``{Electron reconstruction and identification at
+  sqrt(s) = 7 TeV},'' CERN, Geneva, Tech. Rep. CMS-PAS-EGM-10-004, 2010.
+  [Online]. Available: \url{http://cds.cern.ch/record/1299116}
+\BIBentrySTDinterwordspacing
+
+\bibitem{CMS-DP-2013-003}
+\BIBentryALTinterwordspacing
+S.~Chatrchyan \emph{et~al.}, ``{Electron performance with 19.6 fb$^{-1}$ of
+  data collected at $\sqrt{s} = 8$ TeV with the CMS detector.}'' \emph{{CERN
+  Document Server}}, Mar 2013. [Online]. Available:
+  \url{http://cds.cern.ch/record/1523273}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The Anti-k(t) jet clustering
+  algorithm},'' \emph{JHEP}, vol. 0804, p. 063, 2008.
+
+\bibitem{Chatrchyan:2011ds}
+S.~Chatrchyan \emph{et~al.}, ``{Determination of Jet Energy Calibration and
+  Transverse Momentum Resolution in CMS},'' \emph{JINST}, vol.~6, p. P11002,
+  2011.
+
+\bibitem{Chatrchyan:2009sr}
+S.~Chatrchyan \emph{et~al.}, ``{Alignment of the CMS Silicon Tracker during
+  Commissioning with Cosmic Rays},'' \emph{JINST}, vol.~5, p. T03009, 2010.
+
+\bibitem{Blobel:2002ax}
+V.~Blobel and C.~Kleinwort, ``{A New method for the high precision alignment of
+  track detectors},'' \emph{eConf}, pp. URL--STR(9), 2002.
+
+\bibitem{Karimaki:2006az}
+V.~Karimaki, T.~Lampen, and F.~Schilling, ``{The HIP algorithm for track based
+  alignment and its application to the CMS pixel detector},'' \emph{{CERN
+  Document Server}}, 2006.
+
+\bibitem{CMS-doc-1157-v7}
+A.~Bonato \emph{et~al.}, ``{Application of Survey Measurements in Tracker
+  Alignment},'' \emph{{CMS Internal Note}}, 2009.
+
+\bibitem{Adam:2009aa}
+W.~Adam \emph{et~al.}, ``{Alignment of the CMS Silicon Strip Tracker during
+  stand-alone Commissioning},'' \emph{JINST}, vol.~4, p. T07001, 2009.
+
+\bibitem{CMS-DP-2013-017}
+\BIBentryALTinterwordspacing
+S.~Chatrchyan \emph{et~al.}, ``{2012 CMS Tracker Alignment: Performance
+  Plots},'' \emph{{CERN Document Server}}, May 2013. [Online]. Available:
+  \url{https://cds.cern.ch/record/1552581}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Dittmaier:2011ti}
+{LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.), ``{Handbook of LHC Higgs Cross Sections:
+  1. Inclusive Observables},'' \emph{CERN-2011-002}, CERN, Geneva, 2011.
+
+\bibitem{Dittmaier:2012vm}
+{LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.), ``{Handbook of LHC Higgs Cross Sections:
+  2. Differential Distributions},'' \emph{CERN-2012-002}, CERN, Geneva, 2012.
+
+\bibitem{Heinemeyer:2013tqa}
+{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.), ``{Handbook of LHC Higgs Cross Sections:
+  3. Higgs Properties},'' \emph{CERN-2013-004}, CERN, Geneva, 2013.
 
 \end{thebibliography}

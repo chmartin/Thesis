@@ -1,7 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}
 \contentsline {chapter}{Acknowledgements}{iii}
-\contentsline {chapter}{List of Tables}{vi}
-\contentsline {chapter}{List of Figures}{vii}
+\contentsline {chapter}{List of Tables}{vii}
+\contentsline {chapter}{List of Figures}{viii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Symmetries in Physics}{2}
 \contentsline {subsection}{\numberline {1.1.1}Noether's Theorem}{2}
@@ -14,13 +14,36 @@
 \contentsline {subsection}{\numberline {1.3.1}Matter}{13}
 \contentsline {subsubsection}{\numberline {1.3.1.1}Quarks}{13}
 \contentsline {subsubsection}{\numberline {1.3.1.2}Leptons}{15}
-\contentsline {subsection}{\numberline {1.3.2}Forces}{17}
+\contentsline {subsection}{\numberline {1.3.2}Forces}{16}
 \contentsline {subsection}{\numberline {1.3.3}Electroweak Symmetry Breaking}{20}
 \contentsline {subsubsection}{\numberline {1.3.3.1}Implications of the Higgs field: Fermion Masses}{27}
-\contentsline {section}{\numberline {1.4}Limitations of the SM: Higgs as a tool}{29}
+\contentsline {section}{\numberline {1.4}Limitations of the SM: Higgs as a tool}{28}
 \contentsline {subsection}{\numberline {1.4.1}$CP$-volation: The Matter-Antimatter Asymmetry}{29}
-\contentsline {subsection}{\numberline {1.4.2}The Graviton: An Unexplained Force}{32}
+\contentsline {subsection}{\numberline {1.4.2}The Graviton: An Unexplained Force}{31}
 \contentsline {subsection}{\numberline {1.4.3}Beyond the SM: The Dark Matter, Hierarchy \& Fermion Problems}{32}
-\contentsline {chapter}{\numberline {2}Conclusions}{34}
-\contentsline {chapter}{Bibliography}{36}
-\contentsline {chapter}{Vita}{39}
+\contentsline {chapter}{\numberline {2}The Experiment: LHC and CMS}{34}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider (LHC)}{35}
+\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid (CMS)}{40}
+\contentsline {subsection}{\numberline {2.2.1}The Magnet}{44}
+\contentsline {subsection}{\numberline {2.2.2}The Inner Tracker System}{47}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Pixel Tracker}{47}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Strip Tracker}{50}
+\contentsline {subsection}{\numberline {2.2.3}Electromagnetic Calorimeter}{53}
+\contentsline {subsection}{\numberline {2.2.4}Hadronic Calorimeter}{55}
+\contentsline {subsection}{\numberline {2.2.5}Muon System}{58}
+\contentsline {section}{\numberline {2.3}Triggering and Particle Reconstruction}{63}
+\contentsline {subsection}{\numberline {2.3.1}CMS Trigger}{64}
+\contentsline {subsection}{\numberline {2.3.2}Particle Flow}{65}
+\contentsline {subsection}{\numberline {2.3.3}Electrons}{66}
+\contentsline {subsection}{\numberline {2.3.4}Muons}{71}
+\contentsline {subsection}{\numberline {2.3.5}Jets}{73}
+\contentsline {section}{\numberline {2.4}CMS Tracker Alignment}{74}
+\contentsline {subsection}{\numberline {2.4.1}Silicon Pixel Alignment in Prompt Calibration Loop}{78}
+\contentsline {chapter}{\numberline {3}Higgs boson at the LHC: Phenomenology}{81}
+\contentsline {section}{\numberline {3.1}Higgs boson production at LHC}{82}
+\contentsline {section}{\numberline {3.2}Higgs boson decay to $ZZ \to 4\ell $}{86}
+\contentsline {section}{\numberline {3.3}Higgs off resonance production and decay}{89}
+\contentsline {section}{\numberline {3.4}Spin and Parity of a Single-Produced Resonance}{89}
+\contentsline {chapter}{\numberline {4}Conclusions}{90}
+\contentsline {chapter}{Bibliography}{92}
+\contentsline {chapter}{Vita}{99}

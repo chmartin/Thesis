@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.2)  17 APR 2015 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.2)  15 JUN 2015 15:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1306,6 +1306,9 @@ Package: wrapfig 2003/01/31  v 3.6
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -1336,32 +1339,29 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 \f@ncyO@orf=\skip68
 )
 (./chmartin_thesis.aux (./chapter0/chapter0.aux)
-(./Introduction/Introduction.aux
-
-LaTeX Warning: Label `eq:KEscalar' multiply defined.
-
-) (./Conclusion/Conclusion.aux))
+(./Introduction/Introduction.aux) (./LHC_CMS/LHC_CMS.aux)
+(./LHC_Pheno/LHC_Pheno.aux) (./Conclusion/Conclusion.aux))
 \openout1 = `chmartin_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    ... okay on input line 88.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1380,7 +1380,7 @@ LaTeX Font Info:    ... okay on input line 78.
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
-LaTeX Info: Redefining \micro on input line 78.
+LaTeX Info: Redefining \micro on input line 88.
 \openout2 = `chapter0/chapter0.aux'.
 
 (./chapter0/chapter0.tex
@@ -1406,25 +1406,21 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-
-Underfull \vbox (badness 4266) detected at line 5
- []
-
-[1
+ [1
 
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3
 
-] (./chmartin_thesis.toc [4
+]
+(./chmartin_thesis.toc [4
 
-])
+] [5])
 \tf@toc=\write4
 \openout4 = `chmartin_thesis.toc'.
 
- [5] (./chmartin_thesis.lot
+ [6] (./chmartin_thesis.lot
 Overfull \hbox (18.25871pt too wide) in paragraph at lines 2--2
  [][] []\OT1/cmr/m/n/12 First gen-er-a-tion fermions and their dif-fer-ent char
 ges, grouped in left(right)- 
@@ -1434,15 +1430,30 @@ ges, grouped in left(right)-
 \tf@lot=\write5
 \openout5 = `chmartin_thesis.lot'.
 
- [6
+ [7
 
-] (./chmartin_thesis.lof)
+] (./chmartin_thesis.lof [8
+
+]
+Overfull \hbox (5.49911pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/n/12 ment of crys-tal mod-ules, su-per-mod-ules and end caps, with 
+the preshower 
+ []
+
+
+Overfull \hbox (3.24368pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/m/n/12 trans-verse en-ergy for bar-rel jets $[]$, end-cap jets $[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10])
 \tf@lof=\write6
 \openout6 = `chmartin_thesis.lof'.
 
- [7
-
-])
+ [11])
 \openout2 = `Introduction/Introduction.aux'.
 
  (./Introduction/Introduction.tex
@@ -1459,7 +1470,7 @@ Overfull \hbox (1.74976pt too wide) in paragraph at lines 24--24
 []\OT1/cmr/bx/n/17.28 Angular Mo-men-tum and the Ro-ta-tion Group 
  []
 
-[2] <Introduction/Euler.pdf, id=41, 614.295pt x 794.97pt>
+[2] <Introduction/Euler.pdf, id=57, 614.295pt x 794.97pt>
 File: Introduction/Euler.pdf Graphic file (type pdf)
 
 <use Introduction/Euler.pdf>
@@ -1482,186 +1493,525 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Underfull \vbox (badness 3291) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 1584) has occurred while \output is active []
-
- [8]
-[9]
+[8] [9]
 \openout3 = `eeScattering.mp'.
 
 File: eeScattering.1 Graphic file (type mps)
  [MP to PDF] (./eeScattering.1) (./eeScattering.t1)
-<Introduction/Jayhawk_Feynman.pdf, id=86, 1166.3575pt x 615.29875pt>
+<Introduction/Jayhawk_Feynman.pdf, id=100, 1166.3575pt x 615.29875pt>
 File: Introduction/Jayhawk_Feynman.pdf Graphic file (type pdf)
 
 <use Introduction/Jayhawk_Feynman.pdf>
 Package pdftex.def Info: Introduction/Jayhawk_Feynman.pdf used on input line 20
-8.
+7.
 (pdftex.def)             Requested size: 216.81pt x 114.37302pt.
 
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
  [10]
-<Introduction/SMinfographic_image.png, id=90, 1027.84pt x 770.88pt>
+<Introduction/SMinfographic_image.png, id=104, 1027.84pt x 770.88pt>
 File: Introduction/SMinfographic_image.png Graphic file (type png)
 
 <use Introduction/SMinfographic_image.png>
 Package pdftex.def Info: Introduction/SMinfographic_image.png used on input lin
-e 222.
+e 221.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [11 <./Introduction/Jayhawk_Feynman.pdf>] [12 <./Introduction/SMinfographic_im
-age.png>]
-[13]
-contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
-contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
-contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
-contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
-contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
-contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 238.
+age.png>] [13]
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 237.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 237.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 237.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 237.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 237.
+contour: Using 20 copies for `\leavevmode{\color {white}w}' on input line 237.
 
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [14]
-[15]
-Overfull \hbox (23.96269pt too wide) in paragraph at lines 253--266
+Overfull \hbox (23.96269pt too wide) in paragraph at lines 252--265
  [] 
  []
 
-
+[15] [16] [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-[17]
-Underfull \vbox (badness 6332) has occurred while \output is active []
 
  [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-[20] [21]
-<Introduction/Non_Mexican_Hat.pdf, id=139, 752.09584pt x 506.19112pt>
+[19] [20] [21]
+<Introduction/Non_Mexican_Hat.pdf, id=153, 752.09584pt x 506.19112pt>
 File: Introduction/Non_Mexican_Hat.pdf Graphic file (type pdf)
 
 <use Introduction/Non_Mexican_Hat.pdf>
 Package pdftex.def Info: Introduction/Non_Mexican_Hat.pdf used on input line 35
-1.
+0.
 (pdftex.def)             Requested size: 325.215pt x 218.8783pt.
 
-<Introduction/Non_Mexican_Hat_1D.pdf, id=140, 803.0pt x 495.8525pt>
+<Introduction/Non_Mexican_Hat_1D.pdf, id=154, 803.0pt x 495.8525pt>
 File: Introduction/Non_Mexican_Hat_1D.pdf Graphic file (type pdf)
 
 <use Introduction/Non_Mexican_Hat_1D.pdf>
 Package pdftex.def Info: Introduction/Non_Mexican_Hat_1D.pdf used on input line
- 359.
+ 358.
 (pdftex.def)             Requested size: 325.215pt x 200.82672pt.
- [22 <./Introduction/Non_Mexican_Hat.pdf>] <Introduction/Mexican_Hat.pdf, id=14
-8, 766.47653pt x 529.19907pt>
+ [22 <./Introduction/Non_Mexican_Hat.pdf>] <Introduction/Mexican_Hat.pdf, id=16
+2, 766.47653pt x 529.19907pt>
 File: Introduction/Mexican_Hat.pdf Graphic file (type pdf)
 
 <use Introduction/Mexican_Hat.pdf>
-Package pdftex.def Info: Introduction/Mexican_Hat.pdf used on input line 373.
+Package pdftex.def Info: Introduction/Mexican_Hat.pdf used on input line 372.
 (pdftex.def)             Requested size: 325.215pt x 224.53922pt.
 
-<Introduction/Mexican_Hat_1D.pdf, id=149, 803.0pt x 495.8525pt>
+<Introduction/Mexican_Hat_1D.pdf, id=163, 803.0pt x 495.8525pt>
 File: Introduction/Mexican_Hat_1D.pdf Graphic file (type pdf)
 
 <use Introduction/Mexican_Hat_1D.pdf>
-Package pdftex.def Info: Introduction/Mexican_Hat_1D.pdf used on input line 381
+Package pdftex.def Info: Introduction/Mexican_Hat_1D.pdf used on input line 380
 .
 (pdftex.def)             Requested size: 325.215pt x 200.82672pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3965) has occurred while \output is active []
 
  [23 <./Introduction/Non_Mexican_Hat_1D.pdf>] [24 <./Introduction/Mexican_Hat.p
 df> <./Introduction/Mexican_Hat_1D.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Introduction/Mexican_Hat_1D.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
->]
+>] [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-Underfull \vbox (badness 1412) has occurred while \output is active []
 
  [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1490) has occurred while \output is active []
 
  [27]
-Underfull \vbox (badness 5119) has occurred while \output is active []
+[28] [29] [30] [31] [32]) [33]
+\openout2 = `LHC_CMS/LHC_CMS.aux'.
 
- [28]
-[29]
+ (./LHC_CMS/LHC_CMS.tex
+Chapter 2.
+
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+ [34
+
+
+
+]
+Underfull \vbox (badness 1142) has occurred while \output is active []
+
+ [35]
+<LHC_CMS/LHC_Dipole.jpg, id=251, 602.25pt x 527.9725pt>
+File: LHC_CMS/LHC_Dipole.jpg Graphic file (type jpg)
+
+<use LHC_CMS/LHC_Dipole.jpg>
+Package pdftex.def Info: LHC_CMS/LHC_Dipole.jpg used on input line 25.
+(pdftex.def)             Requested size: 281.85034pt x 247.0998pt.
+ [36 <./LHC_CMS/LHC_Dipole.jpg>] [37]
+<LHC_CMS/luminosity_peak_7TeV.png, id=259, 361.35pt x 361.35pt>
+File: LHC_CMS/luminosity_peak_7TeV.png Graphic file (type png)
+
+<use LHC_CMS/luminosity_peak_7TeV.png>
+Package pdftex.def Info: LHC_CMS/luminosity_peak_7TeV.png used on input line 46
+.
+(pdftex.def)             Requested size: 195.12767pt x 195.1261pt.
+
+<LHC_CMS/luminosity_peak_8TeV.png, id=260, 361.35pt x 361.35pt>
+File: LHC_CMS/luminosity_peak_8TeV.png Graphic file (type png)
+
+<use LHC_CMS/luminosity_peak_8TeV.png>
+Package pdftex.def Info: LHC_CMS/luminosity_peak_8TeV.png used on input line 47
+.
+(pdftex.def)             Requested size: 195.12767pt x 195.1261pt.
+ [38 <./LHC_CMS/luminosity_peak_7TeV.png> <./LHC_CMS/luminosity_peak_8TeV.png>]
+
+<LHC_CMS/LHC_nature.jpg, id=267, 584.1825pt x 366.36874pt>
+File: LHC_CMS/LHC_nature.jpg Graphic file (type jpg)
+
+<use LHC_CMS/LHC_nature.jpg>
+Package pdftex.def Info: LHC_CMS/LHC_nature.jpg used on input line 57.
+(pdftex.def)             Requested size: 385.92152pt x 242.03891pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [39 <./LHC_CMS/LHC_nature.jpg>]
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [40]
+<LHC_CMS/luminosity_int_7TeV.pdf, id=274, 578.16pt x 433.62pt>
+File: LHC_CMS/luminosity_int_7TeV.pdf Graphic file (type pdf)
+
+<use LHC_CMS/luminosity_int_7TeV.pdf>
+Package pdftex.def Info: LHC_CMS/luminosity_int_7TeV.pdf used on input line 75.
+
+(pdftex.def)             Requested size: 195.12767pt x 146.34373pt.
+
+<LHC_CMS/luminosity_int_8TeV.pdf, id=275, 578.16pt x 433.62pt>
+File: LHC_CMS/luminosity_int_8TeV.pdf Graphic file (type pdf)
+
+<use LHC_CMS/luminosity_int_8TeV.pdf>
+Package pdftex.def Info: LHC_CMS/luminosity_int_8TeV.pdf used on input line 76.
+
+(pdftex.def)             Requested size: 195.12767pt x 146.34373pt.
+ [41 <./LHC_CMS/luminosity_int_7TeV.pdf> <./LHC_CMS/luminosity_int_8TeV.pdf>]
+<LHC_CMS/cms_onion.png, id=416, 3189.9175pt x 2253.41875pt>
+File: LHC_CMS/cms_onion.png Graphic file (type png)
+
+<use LHC_CMS/cms_onion.png>
+Package pdftex.def Info: LHC_CMS/cms_onion.png used on input line 86.
+(pdftex.def)             Requested size: 385.92152pt x 272.59918pt.
+ [42 <./LHC_CMS/cms_onion.png>] [43] [44]
+<LHC_CMS/lines_6wb3_4_nologo.png, id=428, 1269.74374pt x 562.1pt>
+File: LHC_CMS/lines_6wb3_4_nologo.png Graphic file (type png)
+
+<use LHC_CMS/lines_6wb3_4_nologo.png>
+Package pdftex.def Info: LHC_CMS/lines_6wb3_4_nologo.png used on input line 138
+.
+(pdftex.def)             Requested size: 433.62pt x 226.51709pt.
+ [45] [46 <./LHC_CMS/lines_6wb3_4_nologo.png (PNG copy)>]
+<LHC_CMS/TrackerLayoutWithLAS.pdf, id=437, 718.685pt x 338.26375pt>
+File: LHC_CMS/TrackerLayoutWithLAS.pdf Graphic file (type pdf)
+
+<use LHC_CMS/TrackerLayoutWithLAS.pdf>
+Package pdftex.def Info: LHC_CMS/TrackerLayoutWithLAS.pdf used on input line 16
+0.
+(pdftex.def)             Requested size: 303.53267pt x 142.86467pt.
+ [47]
+<LHC_CMS/PixelHardware.png, id=441, 569.12625pt x 569.12625pt>
+File: LHC_CMS/PixelHardware.png Graphic file (type png)
+
+<use LHC_CMS/PixelHardware.png>
+Package pdftex.def Info: LHC_CMS/PixelHardware.png used on input line 181.
+(pdftex.def)             Requested size: 195.12767pt x 195.1243pt.
+
+<LHC_CMS/Pixel_ROC.pdf, id=442, 592.2125pt x 809.0225pt>
+File: LHC_CMS/Pixel_ROC.pdf Graphic file (type pdf)
+
+<use LHC_CMS/Pixel_ROC.pdf>
+Package pdftex.def Info: LHC_CMS/Pixel_ROC.pdf used on input line 191.
+(pdftex.def)             Requested size: 195.12767pt x 266.55853pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-[32]) [33]
+ [48 <./LHC_CMS/TrackerLayoutWithLAS.pdf>] [49 <./LHC_CMS/PixelHardware.png (PN
+G copy)> <./LHC_CMS/Pixel_ROC.pdf>] [50]
+Underfull \vbox (badness 4132) has occurred while \output is active []
+
+ [51]
+<LHC_CMS/TrackerResolution.pdf, id=472, 1311.90125pt x 409.53pt>
+File: LHC_CMS/TrackerResolution.pdf Graphic file (type pdf)
+
+<use LHC_CMS/TrackerResolution.pdf>
+Package pdftex.def Info: LHC_CMS/TrackerResolution.pdf used on input line 236.
+(pdftex.def)             Requested size: 411.93767pt x 128.5902pt.
+
+Overfull \hbox (7.66869pt too wide) in paragraph at lines 245--246
+[]\OT1/cmr/m/n/12 The CMS Elec-tro-mag-netic Calorime-ter (ECAL) is com-posed o
+f $61200$ lead tungstate
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52 <./LHC_CMS/TrackerResolution.pdf>]
+<LHC_CMS/CMSecal.pdf, id=486, 1297.84875pt x 865.2325pt>
+File: LHC_CMS/CMSecal.pdf Graphic file (type pdf)
+
+<use LHC_CMS/CMSecal.pdf>
+Package pdftex.def Info: LHC_CMS/CMSecal.pdf used on input line 249.
+(pdftex.def)             Requested size: 411.93767pt x 274.62245pt.
+ [53] [54 <./LHC_CMS/CMSecal.pdf>]
+<LHC_CMS/effRMSbarrel_withregression_new.pdf, id=503, 569.12625pt x 546.04pt>
+File: LHC_CMS/effRMSbarrel_withregression_new.pdf Graphic file (type pdf)
+
+<use LHC_CMS/effRMSbarrel_withregression_new.pdf>
+Package pdftex.def Info: LHC_CMS/effRMSbarrel_withregression_new.pdf used on in
+put line 263.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+ [55 <./LHC_CMS/effRMSbarrel_withregression_new.pdf, page is rotated 90 degrees
+>]
+<LHC_CMS/HCALdiagram.png, id=551, 372.39125pt x 263.98625pt>
+File: LHC_CMS/HCALdiagram.png Graphic file (type png)
+
+<use LHC_CMS/HCALdiagram.png>
+Package pdftex.def Info: LHC_CMS/HCALdiagram.png used on input line 278.
+(pdftex.def)             Requested size: 325.215pt x 230.55235pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+[57 <./LHC_CMS/HCALdiagram.png (PNG copy)>]
+<LHC_CMS/HCALresolution.pdf, id=559, 1141.26375pt x 808.01875pt>
+File: LHC_CMS/HCALresolution.pdf Graphic file (type pdf)
+
+<use LHC_CMS/HCALresolution.pdf>
+Package pdftex.def Info: LHC_CMS/HCALresolution.pdf used on input line 290.
+(pdftex.def)             Requested size: 325.215pt x 230.25075pt.
+ [58 <./LHC_CMS/HCALresolution.pdf>]
+<LHC_CMS/Muon_Resolution.pdf, id=573, 1180.41pt x 645.41125pt>
+File: LHC_CMS/Muon_Resolution.pdf Graphic file (type pdf)
+
+<use LHC_CMS/Muon_Resolution.pdf>
+Package pdftex.def Info: LHC_CMS/Muon_Resolution.pdf used on input line 303.
+(pdftex.def)             Requested size: 325.215pt x 177.8087pt.
+
+Underfull \vbox (badness 2103) has occurred while \output is active []
+
+ [59 <./LHC_CMS/Muon_Resolution.pdf>]
+<LHC_CMS/Muon_Detectors.pdf, id=587, 1052.93375pt x 779.91376pt>
+File: LHC_CMS/Muon_Detectors.pdf Graphic file (type pdf)
+
+<use LHC_CMS/Muon_Detectors.pdf>
+Package pdftex.def Info: LHC_CMS/Muon_Detectors.pdf used on input line 315.
+(pdftex.def)             Requested size: 325.215pt x 240.89012pt.
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+[61 <./LHC_CMS/Muon_Detectors.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+ [63]
+[64] [65] [66] <LHC_CMS/Ele_BDT.pdf, id=620, 1607.00375pt x 798.985pt>
+File: LHC_CMS/Ele_BDT.pdf Graphic file (type pdf)
+
+<use LHC_CMS/Ele_BDT.pdf>
+Package pdftex.def Info: LHC_CMS/Ele_BDT.pdf used on input line 357.
+(pdftex.def)             Requested size: 325.215pt x 161.69604pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67 <./LHC_CMS/Ele_BDT.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+<LHC_CMS/scale-ptdep-8TeV.pdf, id=638, 569.12625pt x 550.055pt>
+File: LHC_CMS/scale-ptdep-8TeV.pdf Graphic file (type pdf)
+
+<use LHC_CMS/scale-ptdep-8TeV.pdf>
+Package pdftex.def Info: LHC_CMS/scale-ptdep-8TeV.pdf used on input line 371.
+(pdftex.def)             Requested size: 195.12767pt x 188.58574pt.
+
+<LHC_CMS/electron_resolution.pdf, id=639, 569.12625pt x 546.04pt>
+File: LHC_CMS/electron_resolution.pdf Graphic file (type pdf)
+
+<use LHC_CMS/electron_resolution.pdf>
+Package pdftex.def Info: LHC_CMS/electron_resolution.pdf used on input line 372
+.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+ [69] [70 <./LHC_CMS/scale-ptdep-8TeV.pdf, page is rotated 90 degrees> <./LHC_C
+MS/electron_resolution.pdf, page is rotated 90 degrees>] <LHC_CMS/100_scale_mf.
+pdf, id=733, 569.12625pt x 550.055pt>
+File: LHC_CMS/100_scale_mf.pdf Graphic file (type pdf)
+
+<use LHC_CMS/100_scale_mf.pdf>
+Package pdftex.def Info: LHC_CMS/100_scale_mf.pdf used on input line 386.
+(pdftex.def)             Requested size: 195.12767pt x 188.58574pt.
+
+<LHC_CMS/100_resolution_mf.pdf, id=734, 569.12625pt x 546.04pt>
+File: LHC_CMS/100_resolution_mf.pdf Graphic file (type pdf)
+
+<use LHC_CMS/100_resolution_mf.pdf>
+Package pdftex.def Info: LHC_CMS/100_resolution_mf.pdf used on input line 387.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+ [71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72 <./LHC_CMS/100_scale_mf.pdf, page is rotated 90 degrees> <./LHC_CMS/100_re
+solution_mf.pdf, page is rotated 90 degrees>] [73]
+<LHC_CMS/anti_kT.pdf, id=830, 524.96124pt x 393.47pt>
+File: LHC_CMS/anti_kT.pdf Graphic file (type pdf)
+
+<use LHC_CMS/anti_kT.pdf>
+Package pdftex.def Info: LHC_CMS/anti_kT.pdf used on input line 405.
+(pdftex.def)             Requested size: 195.12767pt x 146.25404pt.
+ [74 <./LHC_CMS/anti_kT.pdf>] [75]
+<LHC_CMS/Pix_strct.pdf, id=849, 542.025pt x 803.0pt>
+File: LHC_CMS/Pix_strct.pdf Graphic file (type pdf)
+
+<use LHC_CMS/Pix_strct.pdf>
+Package pdftex.def Info: LHC_CMS/Pix_strct.pdf used on input line 436.
+(pdftex.def)             Requested size: 195.12767pt x 289.07977pt.
+
+<LHC_CMS/Strip_strct.pdf, id=850, 594.22pt x 664.4825pt>
+File: LHC_CMS/Strip_strct.pdf Graphic file (type pdf)
+
+<use LHC_CMS/Strip_strct.pdf>
+Package pdftex.def Info: LHC_CMS/Strip_strct.pdf used on input line 444.
+(pdftex.def)             Requested size: 195.12767pt x 218.20514pt.
+ [76] [77 <./LHC_CMS/Pix_strct.pdf>]
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+ [78 <./LHC_CMS/Strip_strct.pdf>]
+<LHC_CMS/PCL_lateNovRuns.pdf, id=880, 569.12625pt x 408.52625pt>
+File: LHC_CMS/PCL_lateNovRuns.pdf Graphic file (type pdf)
+
+<use LHC_CMS/PCL_lateNovRuns.pdf>
+Package pdftex.def Info: LHC_CMS/PCL_lateNovRuns.pdf used on input line 459.
+(pdftex.def)             Requested size: 281.85034pt x 202.32397pt.
+) [79] [80 <./LHC_CMS/PCL_lateNovRuns.pdf, page is rotated 90 degrees>]
+\openout2 = `LHC_Pheno/LHC_Pheno.aux'.
+
+ (./LHC_Pheno/LHC_Pheno.tex
+Chapter 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81
+
+
+
+]
+<LHC_Pheno/Higgs_XS_7TeV.pdf, id=935, 612.20914pt x 430.21529pt>
+File: LHC_Pheno/Higgs_XS_7TeV.pdf Graphic file (type pdf)
+
+<use LHC_Pheno/Higgs_XS_7TeV.pdf>
+Package pdftex.def Info: LHC_Pheno/Higgs_XS_7TeV.pdf used on input line 17.
+(pdftex.def)             Requested size: 199.4681pt x 140.16623pt.
+
+<LHC_Pheno/Higgs_XS_8TeV_lx.pdf, id=936, 569.12625pt x 408.52625pt>
+File: LHC_Pheno/Higgs_XS_8TeV_lx.pdf Graphic file (type pdf)
+
+<use LHC_Pheno/Higgs_XS_8TeV_lx.pdf>
+Package pdftex.def Info: LHC_Pheno/Higgs_XS_8TeV_lx.pdf used on input line 18.
+(pdftex.def)             Requested size: 197.29788pt x 141.62117pt.
+ [82]
+\openout3 = `ggH_Feyn.mp'.
+
+File: ggH_Feyn.1 Graphic file (type mps)
+ [MP to PDF] (./ggH_Feyn.1)
+(./ggH_Feyn.t1) [83 <./LHC_Pheno/Higgs_XS_7TeV.pdf> <./LHC_Pheno/Higgs_XS_8TeV_
+lx.pdf, page is rotated 90 degrees>]
+\openout3 = `qqH_Feyn.mp'.
+
+File: qqH_Feyn.1 Graphic file (type mps)
+ [MP to PDF] (./qqH_Feyn.1) (./qqH_Feyn.t1)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+\openout3 = `VH_Feyn.mp'.
+
+File: VH_Feyn.1 Graphic file (type mps)
+
+[MP to PDF] (./VH_Feyn.1) (./VH_Feyn.t1)
+\openout3 = `ttH_Feyn.mp'.
+
+File: ttH_Feyn.1 Graphic file (type mps)
+ [MP to PDF] (./ttH_Feyn.1)
+(./ttH_Feyn.t1)
+
+LaTeX Warning: Reference `sec:Production_Mode_Experiment' on page 85 undefined 
+on input line 118.
+
+
+Underfull \vbox (badness 4303) has occurred while \output is active []
+
+ [85]
+<LHC_Pheno/Higgs_BR.pdf, id=1017, 614.295pt x 583.3213pt>
+File: LHC_Pheno/Higgs_BR.pdf Graphic file (type pdf)
+
+<use LHC_Pheno/Higgs_BR.pdf>
+Package pdftex.def Info: LHC_Pheno/Higgs_BR.pdf used on input line 127.
+(pdftex.def)             Requested size: 195.12767pt x 185.28702pt.
+
+<LHC_Pheno/XSBR_8TeV_SM_HM.pdf, id=1018, 614.295pt x 568.57217pt>
+File: LHC_Pheno/XSBR_8TeV_SM_HM.pdf Graphic file (type pdf)
+
+<use LHC_Pheno/XSBR_8TeV_SM_HM.pdf>
+Package pdftex.def Info: LHC_Pheno/XSBR_8TeV_SM_HM.pdf used on input line 128.
+(pdftex.def)             Requested size: 199.4681pt x 184.61891pt.
+
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [86]
+\openout3 = `H_ZZ_4l_Feyn.mp'.
+
+File: H_ZZ_4l_Feyn.1 Graphic file (type mps)
+
+[MP to PDF] (./H_ZZ_4l_Feyn.1) (./H_ZZ_4l_Feyn.t1)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87 <./LHC_Pheno/Higgs_BR.pdf> <./LHC_Pheno/XSBR_8TeV_SM_HM.pdf>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+[89]
 \openout2 = `Conclusion/Conclusion.aux'.
 
  (./Conclusion/Conclusion.tex
-Chapter 2.
-<Conclusion/dumb-questions.pdf, id=231, 461.725pt x 363.3575pt>
+Chapter 4.
+<Conclusion/dumb-questions.pdf, id=1097, 461.725pt x 363.3575pt>
 File: Conclusion/dumb-questions.pdf Graphic file (type pdf)
 
 <use Conclusion/dumb-questions.pdf>
 Package pdftex.def Info: Conclusion/dumb-questions.pdf used on input line 9.
 (pdftex.def)             Requested size: 385.92152pt x 303.70459pt.
-) [34
+) [90
 
 
 
-] [35 <./Conclusion/dumb-questions.pdf>] (./chmartin_thesis.bbl [36
+] [91 <./Conclusion/dumb-questions.pdf>] (./chmartin_thesis.bbl [92
 
 
 ]
-Underfull \hbox (badness 1320) in paragraph at lines 100--102
+Underfull \hbox (badness 1320) in paragraph at lines 96--98
 []\OT1/cmr/m/n/12 P. W. Higgs, ``Bro-ken sym-me-tries, mass-less par-ti-cles an
 d gauge fields,''
  []
 
-[37]) [38] [39
 
-] (./chmartin_thesis.aux (./chapter0/chapter0.aux)
-(./Introduction/Introduction.aux) (./Conclusion/Conclusion.aux))
+Underfull \hbox (badness 1803) in paragraph at lines 100--102
+[]\OT1/cmr/m/n/12 P. W. Higgs, ``Bro-ken Sym-me-tries and the Masses of Gauge B
+osons,''
+ []
 
-LaTeX Warning: There were multiply-defined labels.
+[93] [94] [95] [96] [97]) [98] [99
+
+] (./chmartin_thesis.aux
+(./chapter0/chapter0.aux) (./Introduction/Introduction.aux)
+(./LHC_CMS/LHC_CMS.aux) (./LHC_Pheno/LHC_Pheno.aux)
+(./Conclusion/Conclusion.aux))
+
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11104 strings out of 493109
- 191206 string characters out of 6135005
- 244225 words of memory out of 5000000
- 14358 multiletter control sequences out of 15000+600000
- 18064 words of font info for 71 fonts, out of 8000000 for 9000
+ 11477 strings out of 493109
+ 198660 string characters out of 6135005
+ 246633 words of memory out of 5000000
+ 14646 multiletter control sequences out of 15000+600000
+ 24041 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,16n,44p,10411b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on chmartin_thesis.pdf (46 pages, 2854121 bytes).
+ 43i,20n,44p,10411b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/cm-super/sfrm1200.pfb>
+Output written on chmartin_thesis.pdf (110 pages, 8752330 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
+ 1212 PDF objects out of 1440 (max. 8388607)
+ 729 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

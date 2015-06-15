@@ -19,15 +19,16 @@
 \usepackage{physics}
 \usepackage{slashed}
 \usepackage{hepunits}
+\usepackage{SIunits}
 \usepackage{mathrsfs}
 \usepackage{contour}
 \usepackage{color}
-\graphicspath{{./figs/}}
 \usepackage{fixltx2e}
 \usepackage{array}
 % wrapfig is fragile: use sparingly
 \usepackage{wrapfig} 
 \usepackage{courier}  % Use this for ugly fonts
+\usepackage[section]{placeins}
 
 %%Added by Chris
 
@@ -51,6 +52,15 @@
 
 \contourlength{0.5pt} %how thick each copy is
 \contournumber{20}  %number of copies
+
+%Forces figures and other floating objects to be placed within a specific subsection.
+\makeatletter
+\AtBeginDocument{%
+  \expandafter\renewcommand\expandafter\subsection\expandafter{%
+    \expandafter\@fb@secFB\subsection
+  }%
+}
+\makeatother
 
 %end Added by Chris
 
@@ -77,9 +87,9 @@
 
 \begin{document}
 
-\title{TITLE}
+\title{Characterizing a new particle using $4\ell$ events from the CMS experiment}
 \author{Christopher B. Martin}
-\degreemonth{MONTH}
+\degreemonth{July}
 \degreeyear{2015} 
 \dissertation
 \doctorphilosophy
@@ -88,6 +98,8 @@
 % add your chaptders, best way is to have separate TeX files for each chapter
 \include{chapter0/chapter0}
 \include{Introduction/Introduction}
+\include{LHC_CMS/LHC_CMS}
+\include{LHC_Pheno/LHC_Pheno}
 \include{Conclusion/Conclusion}
 
 %\include{appendix}
@@ -95,7 +107,7 @@
 %% REFERENCES
 
 % if you use BIBTEX
-\bibliographystyle{IEEEtran}
+\bibliographystyle{myIEEEtran}
 \bibliography{thesis}
 
 \begin{vita}

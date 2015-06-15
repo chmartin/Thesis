@@ -3,8 +3,10 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: chmartin_thesis.aux
 A level-1 auxiliary file: chapter0/chapter0.aux
 A level-1 auxiliary file: Introduction/Introduction.aux
+A level-1 auxiliary file: LHC_CMS/LHC_CMS.aux
+A level-1 auxiliary file: LHC_Pheno/LHC_Pheno.aux
 A level-1 auxiliary file: Conclusion/Conclusion.aux
-The style file: IEEEtran.bst
+The style file: myIEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -16,44 +18,44 @@ Database file #1: thesis.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 24 entries,
+You've used 50 entries,
             4024 wiz_defined-function locations,
-            972 strings with 10032 characters,
-and the built_in function-call counts, 14274 in all, are:
-= -- 1208
-> -- 215
-< -- 114
-+ -- 134
-- -- 31
-* -- 604
-:= -- 2278
-add.period$ -- 48
-call.type$ -- 24
-change.case$ -- 23
-chr.to.int$ -- 261
-cite$ -- 24
-duplicate$ -- 1070
-empty$ -- 1225
-format.name$ -- 36
-if$ -- 3289
+            1124 strings with 14270 characters,
+and the built_in function-call counts, 28636 in all, are:
+= -- 2520
+> -- 497
+< -- 157
++ -- 269
+- -- 95
+* -- 1232
+:= -- 4738
+add.period$ -- 100
+call.type$ -- 50
+change.case$ -- 49
+chr.to.int$ -- 312
+cite$ -- 50
+duplicate$ -- 2289
+empty$ -- 2385
+format.name$ -- 123
+if$ -- 6551
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 166
-newline$ -- 99
-num.names$ -- 24
-pop$ -- 386
+int.to.str$ -- 50
+missing$ -- 373
+newline$ -- 197
+num.names$ -- 50
+pop$ -- 868
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1177
+skip$ -- 2355
 stack$ -- 0
-substring$ -- 627
-swap$ -- 803
-text.length$ -- 27
+substring$ -- 899
+swap$ -- 1658
+text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 24
+type$ -- 50
 warning$ -- 0
-while$ -- 58
-width$ -- 26
-write$ -- 241
+while$ -- 100
+width$ -- 52
+write$ -- 506
