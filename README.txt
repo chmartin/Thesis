@@ -14,5 +14,7 @@ main file:  chmartin_thesis.tex
 ===============================
 chapters:   chapter0.tex
 			Introduction.tex
+			LHC_CMS.tex
+			LHC_Pheno.tex
 			Conclusions.tex
 ===============================
