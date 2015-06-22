@@ -21,22 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Armstrong:1988}
-M.~A. Armstrong, \emph{{Groups and Symmetry}}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer-Verlag, 1988.
-
-\bibitem{Miller:1972}
-W.~Miller, \emph{{Symmetry Groups and their Applications}}.\hskip 1em plus
-  0.5em minus 0.4em\relax Academic Press, Inc., 1972.
-
-\bibitem{Oliver:1993}
-P.~Oliver, \emph{{Applications of Lie Groups to Differential Equations}},
-  2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Springer-Verlag, 1993.
-
-\bibitem{Tung:1985}
-W.~Tung, \emph{{Group Theory in Physics}}.\hskip 1em plus 0.5em minus
-  0.4em\relax World Scientific Publishing, 1985.
-
 \bibitem{Noether:1918zz}
 E.~Noether, ``{Invariant Variation Problems},'' \emph{Gott.Nachr.}, vol. 1918,
   pp. 235--257, 1918.
@@ -87,6 +71,22 @@ R.~Aaij \emph{et~al.}, ``{Observation of the resonant character of the
   $Z(4430)^-$ state},'' \emph{Phys.Rev.Lett.}, vol. 112, no.~22, p. 222002,
   2014.
 
+\bibitem{Armstrong:1988}
+M.~A. Armstrong, \emph{{Groups and Symmetry}}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer-Verlag, 1988.
+
+\bibitem{Miller:1972}
+W.~Miller, \emph{{Symmetry Groups and their Applications}}.\hskip 1em plus
+  0.5em minus 0.4em\relax Academic Press, Inc., 1972.
+
+\bibitem{Oliver:1993}
+P.~Oliver, \emph{{Applications of Lie Groups to Differential Equations}},
+  2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Springer-Verlag, 1993.
+
+\bibitem{Tung:1985}
+W.~Tung, \emph{{Group Theory in Physics}}.\hskip 1em plus 0.5em minus
+  0.4em\relax World Scientific Publishing, 1985.
+
 \bibitem{Griffiths9:1987tj}
 D.~J. Griffiths, \emph{{Introduction to Elementary Particles}}.\hskip 1em plus
   0.5em minus 0.4em\relax John Wiley \& Sons, Inc., 1987, ch. 9 Quantum
@@ -123,6 +123,30 @@ S.~Dawson, ``{Introduction to Electroweak Symmetry Breaking},'' \emph{AIP
 \bibitem{Mathematica10_1}
 {Wolfram Research, Inc.}, ``{Mathematica},'' Champaign, Illinois, 2015,
   {Version 10.1}.
+
+\bibitem{Maggiore11.2:2005}
+M.~Maggiore, \emph{{A Modern Introduction to Quantum Field Theory}}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Oxford University Press, 2005, ch. 11.2.
+
+\bibitem{Agashe:2014kda}
+K.~Olive \emph{et~al.}, ``{Review of Particle Physics},'' \emph{Chin.Phys.},
+  vol. C38, p. 090001, 2014.
+
+\bibitem{Kobayashi:1973fv}
+M.~Kobayashi and T.~Maskawa, ``{CP Violation in the Renormalizable Theory of
+  Weak Interaction},'' \emph{Prog.Theor.Phys.}, vol.~49, pp. 652--657, 1973.
+
+\bibitem{Klein:1926fj}
+O.~Klein, ``{The Atomicity of Electricity as a Quantum Theory Law},''
+  \emph{Nature}, vol. 118, p. 516, 1926.
+
+\bibitem{Weinberg:1977ji}
+S.~Weinberg, ``{The First Three Minutes. A Modern View of the Origin of the
+  Universe},'' 1977.
+
+\bibitem{Trimble:1987ee}
+V.~Trimble, ``{Existence and Nature of Dark Matter in the Universe},''
+  \emph{Ann.Rev.Astron.Astrophys.}, vol.~25, pp. 425--472, 1987.
 
 \bibitem{Bruning:782076}
 \BIBentryALTinterwordspacing
@@ -269,5 +293,73 @@ S.~Chatrchyan \emph{et~al.}, ``{2012 CMS Tracker Alignment: Performance
 {LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
   G.~Passarino, and R.~Tanaka~(Eds.), ``{Handbook of LHC Higgs Cross Sections:
   3. Higgs Properties},'' \emph{CERN-2013-004}, CERN, Geneva, 2013.
+
+\bibitem{Kauer:2012hd}
+N.~Kauer and G.~Passarino, ``{Inadequacy of zero-width approximation for a
+  light Higgs boson signal},'' \emph{JHEP}, vol. 1208, p. 116, 2012.
+
+\bibitem{Caola:2013yja}
+F.~Caola and K.~Melnikov, ``{Constraining the Higgs boson width with ZZ
+  production at the LHC},'' \emph{Phys.Rev.}, vol. D88, p. 054024, 2013.
+
+\bibitem{Khachatryan:2014iha}
+V.~Khachatryan \emph{et~al.}, ``{Constraints on the Higgs boson width from
+  off-shell production and decay to Z-boson pairs},'' \emph{Phys.Lett.}, vol.
+  B736, p.~64, 2014.
+
+\bibitem{Anderson:2013afp}
+I.~Anderson, S.~Bolognesi, F.~Caola, Y.~Gao, A.~V. Gritsan \emph{et~al.},
+  ``{Constraining anomalous HVV interactions at proton and lepton colliders},''
+  \emph{Phys.Rev.}, vol. D89, no.~3, p. 035007, 2014.
+
+\bibitem{Khachatryan:2014kca}
+V.~Khachatryan \emph{et~al.}, ``{Constraints on the spin-parity and anomalous
+  HVV couplings of the Higgs boson in proton collisions at 7 and 8 TeV},''
+  \emph{{CERN Document Server}}, 2014.
+
+\bibitem{Gao:2010qx}
+Y.~Gao, A.~V. Gritsan, Z.~Guo, K.~Melnikov, M.~Schulze \emph{et~al.}, ``{Spin
+  determination of single-produced resonances at hadron colliders},''
+  \emph{Phys.Rev.}, vol. D81, p. 075022, 2010.
+
+\bibitem{Bolognesi:2012mm}
+S.~Bolognesi, Y.~Gao, A.~V. Gritsan, K.~Melnikov, M.~Schulze \emph{et~al.},
+  ``{On the spin and parity of a single-produced resonance at the LHC},''
+  \emph{Phys.Rev.}, vol. D86, p. 095031, 2012.
+
+\bibitem{Landau:1948kw}
+L.~Landau, ``{On the angular momentum of a two-photon system},''
+  \emph{Dokl.Akad.Nauk Ser.Fiz.}, vol.~60, pp. 207--209, 1948.
+
+\bibitem{Yang:1950rg}
+C.-N. Yang, ``{Selection Rules for the Dematerialization of a Particle Into Two
+  Photons},'' \emph{Phys.Rev.}, vol.~77, pp. 242--245, 1950.
+
+\bibitem{Aad:2012tfa}
+G.~Aad \emph{et~al.}, ``{Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC},''
+  \emph{Phys.Lett.}, vol. B716, pp. 1--29, 2012.
+
+\bibitem{Chatrchyan:2012ufa}
+S.~Chatrchyan \emph{et~al.}, ``{Observation of a new boson at a mass of 125 GeV
+  with the CMS experiment at the LHC},'' \emph{Phys.Lett.}, vol. B716, pp.
+  30--61, 2012.
+
+\bibitem{Chatrchyan:2013lba}
+S.~Chatrchyan \emph{et~al.}, ``{Observation of a new boson with mass near 125
+  GeV in pp collisions at $\sqrt{s}$ = 7 and 8 TeV},'' \emph{JHEP}, vol. 1306,
+  p. 081, 2013.
+
+\bibitem{Randall:1999vf}
+L.~Randall and R.~Sundrum, ``{An Alternative to compactification},''
+  \emph{Phys.Rev.Lett.}, vol.~83, pp. 4690--4693, 1999.
+
+\bibitem{Randall:1999ee}
+L.~Randall and R.~Sundrum, ``{A Large mass hierarchy from a small extra
+  dimension},'' \emph{Phys.Rev.Lett.}, vol.~83, pp. 3370--3373, 1999.
+
+\bibitem{Agashe:2007zd}
+K.~Agashe, H.~Davoudiasl, G.~Perez, and A.~Soni, ``{Warped Gravitons at the LHC
+  and Beyond},'' \emph{Phys.Rev.}, vol. D76, p. 036006, 2007.
 
 \end{thebibliography}
