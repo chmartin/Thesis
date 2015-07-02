@@ -16,5 +16,6 @@ chapters:   chapter0.tex
 			Introduction.tex
 			LHC_CMS.tex
 			LHC_Pheno.tex
+			HZZ4l_search.tex
 			Conclusions.tex
 ===============================
