@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.2)  22 JUN 2015 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.2)  2 JUL 2015 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1339,7 +1339,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (./chmartin_thesis.aux (./chapter0/chapter0.aux)
 (./Introduction/Introduction.aux) (./LHC_CMS/LHC_CMS.aux)
-(./LHC_Pheno/LHC_Pheno.aux) (./Conclusion/Conclusion.aux))
+(./LHC_Pheno/LHC_Pheno.aux) (./HZZ4l_search/HZZ4l_search.aux)
+(./Conclusion/Conclusion.aux))
 \openout1 = `chmartin_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -1415,23 +1416,33 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ]
 (./chmartin_thesis.toc [5
 
-] [6])
+] [6] [7])
 \tf@toc=\write4
 \openout4 = `chmartin_thesis.toc'.
 
- [7] (./chmartin_thesis.lot
+ [8] (./chmartin_thesis.lot
 Overfull \hbox (18.25871pt too wide) in paragraph at lines 2--2
  [][] []\OT1/cmr/m/n/12 First gen-er-a-tion fermions and their dif-fer-ent char
 ges, grouped in left(right)- 
+ []
+
+
+Overfull \hbox (7.48254pt too wide) in paragraph at lines 13--13
+ [][] []\OT1/cmr/m/n/12 Effect of sys-tem-atic un-cer-tain-ties on the yields o
+f sig-nal ($\OML/cmm/m/it/12 m[] \OT1/cmr/m/n/12 = []$) 
  []
 
 )
 \tf@lot=\write5
 \openout5 = `chmartin_thesis.lot'.
 
- [8
 
-] (./chmartin_thesis.lof [9
+Underfull \vbox (badness 6876) has occurred while \output is active []
+
+ [9
+
+]
+[10] (./chmartin_thesis.lof [11
 
 ]
 Overfull \hbox (5.49911pt too wide) in paragraph at lines 22--22
@@ -1444,11 +1455,15 @@ Overfull \hbox (3.24368pt too wide) in paragraph at lines 25--25
  \OT1/cmr/m/n/12 trans-verse en-ergy for bar-rel jets $[]$, end-cap jets $[]$ 
  []
 
-[10] [11])
+[12] [13]
+Underfull \vbox (badness 6978) has occurred while \output is active []
+
+ [14]
+[15] [16])
 \tf@lof=\write6
 \openout6 = `chmartin_thesis.lof'.
 
- [12])
+ [17])
 \openout2 = `Introduction/Introduction.aux'.
 
  (./Introduction/Introduction.tex
@@ -1466,35 +1481,37 @@ Overfull \hbox (1.74976pt too wide) in paragraph at lines 27--27
 []\OT1/cmr/bx/n/17.28 Angular Mo-men-tum and the Ro-ta-tion Group 
  []
 
-<Introduction/Euler.pdf, id=58, 614.295pt x 794.97pt>
+<Introduction/Euler.pdf, id=75, 614.295pt x 794.97pt>
 File: Introduction/Euler.pdf Graphic file (type pdf)
 
 <use Introduction/Euler.pdf>
 Package pdftex.def Info: Introduction/Euler.pdf used on input line 34.
-(pdftex.def)             Requested size: 216.81pt x 280.57268pt.
- [3] [4 <./Introduction/Euler.pdf>]
-Underfull \vbox (badness 1484) has occurred while \output is active []
+(pdftex.def)             Requested size: 151.76964pt x 196.40086pt.
 
- [5]
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+ [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7]
+ [4 <./Introduction/Euler.pdf>] [5] [6]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
+
+Underfull \vbox (badness 6625) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 2197) has occurred while \output is active []
+
  [8]
-Underfull \vbox (badness 2875) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Underfull \vbox (badness 1603) has occurred while \output is active []
-
- [10]
 \openout3 = `eeScattering.mp'.
 
 File: eeScattering.1 Graphic file (type mps)
 
 [MP to PDF] (./eeScattering.1) (./eeScattering.t1)
-<Introduction/Jayhawk_Feynman.pdf, id=106, 1166.3575pt x 615.29875pt>
+<Introduction/Jayhawk_Feynman.pdf, id=119, 1166.3575pt x 615.29875pt>
 File: Introduction/Jayhawk_Feynman.pdf Graphic file (type pdf)
 
 <use Introduction/Jayhawk_Feynman.pdf>
@@ -1502,10 +1519,11 @@ Package pdftex.def Info: Introduction/Jayhawk_Feynman.pdf used on input line 21
 0.
 (pdftex.def)             Requested size: 216.81pt x 114.37302pt.
 
-Underfull \vbox (badness 4291) has occurred while \output is active []
+Underfull \vbox (badness 2644) has occurred while \output is active []
 
- [11 <./Introduction/Jayhawk_Feynman.pdf>]
-<Introduction/SMinfographic_image.png, id=120, 1027.84pt x 770.88pt>
+ [10]
+[11 <./Introduction/Jayhawk_Feynman.pdf>]
+<Introduction/SMinfographic_image.png, id=136, 1027.84pt x 770.88pt>
 File: Introduction/SMinfographic_image.png Graphic file (type png)
 
 <use Introduction/SMinfographic_image.png>
@@ -1541,7 +1559,7 @@ Underfull \vbox (badness 3323) has occurred while \output is active []
 Underfull \vbox (badness 1348) has occurred while \output is active []
 
  [22]
-<Introduction/Non_Mexican_Hat.pdf, id=158, 752.09584pt x 506.19112pt>
+<Introduction/Non_Mexican_Hat.pdf, id=174, 752.09584pt x 506.19112pt>
 File: Introduction/Non_Mexican_Hat.pdf Graphic file (type pdf)
 
 <use Introduction/Non_Mexican_Hat.pdf>
@@ -1549,22 +1567,22 @@ Package pdftex.def Info: Introduction/Non_Mexican_Hat.pdf used on input line 35
 5.
 (pdftex.def)             Requested size: 325.215pt x 218.8783pt.
 
-<Introduction/Non_Mexican_Hat_1D.pdf, id=159, 803.0pt x 495.8525pt>
+<Introduction/Non_Mexican_Hat_1D.pdf, id=175, 803.0pt x 495.8525pt>
 File: Introduction/Non_Mexican_Hat_1D.pdf Graphic file (type pdf)
 
 <use Introduction/Non_Mexican_Hat_1D.pdf>
 Package pdftex.def Info: Introduction/Non_Mexican_Hat_1D.pdf used on input line
  363.
 (pdftex.def)             Requested size: 325.215pt x 200.82672pt.
- [23 <./Introduction/Non_Mexican_Hat.pdf>] <Introduction/Mexican_Hat.pdf, id=16
-7, 766.47653pt x 529.19907pt>
+ [23 <./Introduction/Non_Mexican_Hat.pdf>] <Introduction/Mexican_Hat.pdf, id=18
+4, 766.47653pt x 529.19907pt>
 File: Introduction/Mexican_Hat.pdf Graphic file (type pdf)
 
 <use Introduction/Mexican_Hat.pdf>
 Package pdftex.def Info: Introduction/Mexican_Hat.pdf used on input line 377.
 (pdftex.def)             Requested size: 325.215pt x 224.53922pt.
 
-<Introduction/Mexican_Hat_1D.pdf, id=168, 803.0pt x 495.8525pt>
+<Introduction/Mexican_Hat_1D.pdf, id=185, 803.0pt x 495.8525pt>
 File: Introduction/Mexican_Hat_1D.pdf Graphic file (type pdf)
 
 <use Introduction/Mexican_Hat_1D.pdf>
@@ -1583,7 +1601,7 @@ Underfull \vbox (badness 1789) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<Introduction/Oscillations_VEV.pdf, id=228, 707.22649pt x 682.60826pt>
+<Introduction/Oscillations_VEV.pdf, id=244, 707.22649pt x 682.60826pt>
 File: Introduction/Oscillations_VEV.pdf Graphic file (type pdf)
 
 <use Introduction/Oscillations_VEV.pdf>
@@ -1610,7 +1628,7 @@ Underfull \vbox (badness 1448) has occurred while \output is active []
 Underfull \vbox (badness 1142) has occurred while \output is active []
 
  [37]
-<LHC_CMS/LHC_Dipole.jpg, id=270, 602.25pt x 527.9725pt>
+<LHC_CMS/LHC_Dipole.jpg, id=285, 602.25pt x 527.9725pt>
 File: LHC_CMS/LHC_Dipole.jpg Graphic file (type jpg)
 
 <use LHC_CMS/LHC_Dipole.jpg>
@@ -1620,7 +1638,7 @@ Package pdftex.def Info: LHC_CMS/LHC_Dipole.jpg used on input line 25.
 Underfull \vbox (badness 6364) has occurred while \output is active []
 
  [38 <./LHC_CMS/LHC_Dipole.jpg>] [39]
-<LHC_CMS/luminosity_peak_7TeV.png, id=278, 361.35pt x 361.35pt>
+<LHC_CMS/luminosity_peak_7TeV.png, id=294, 361.35pt x 361.35pt>
 File: LHC_CMS/luminosity_peak_7TeV.png Graphic file (type png)
 
 <use LHC_CMS/luminosity_peak_7TeV.png>
@@ -1628,7 +1646,7 @@ Package pdftex.def Info: LHC_CMS/luminosity_peak_7TeV.png used on input line 46
 .
 (pdftex.def)             Requested size: 195.12767pt x 195.1261pt.
 
-<LHC_CMS/luminosity_peak_8TeV.png, id=279, 361.35pt x 361.35pt>
+<LHC_CMS/luminosity_peak_8TeV.png, id=295, 361.35pt x 361.35pt>
 File: LHC_CMS/luminosity_peak_8TeV.png Graphic file (type png)
 
 <use LHC_CMS/luminosity_peak_8TeV.png>
@@ -1637,14 +1655,14 @@ Package pdftex.def Info: LHC_CMS/luminosity_peak_8TeV.png used on input line 47
 (pdftex.def)             Requested size: 195.12767pt x 195.1261pt.
  [40 <./LHC_CMS/luminosity_peak_7TeV.png> <./LHC_CMS/luminosity_peak_8TeV.png>]
 
-<LHC_CMS/LHC_nature.jpg, id=285, 584.1825pt x 366.36874pt>
+<LHC_CMS/LHC_nature.jpg, id=301, 584.1825pt x 366.36874pt>
 File: LHC_CMS/LHC_nature.jpg Graphic file (type jpg)
 
 <use LHC_CMS/LHC_nature.jpg>
 Package pdftex.def Info: LHC_CMS/LHC_nature.jpg used on input line 57.
 (pdftex.def)             Requested size: 385.92152pt x 242.03891pt.
  [41 <./LHC_CMS/LHC_nature.jpg>] [42]
-<LHC_CMS/luminosity_int_7TeV.pdf, id=292, 578.16pt x 433.62pt>
+<LHC_CMS/luminosity_int_7TeV.pdf, id=308, 578.16pt x 433.62pt>
 File: LHC_CMS/luminosity_int_7TeV.pdf Graphic file (type pdf)
 
 <use LHC_CMS/luminosity_int_7TeV.pdf>
@@ -1652,7 +1670,7 @@ Package pdftex.def Info: LHC_CMS/luminosity_int_7TeV.pdf used on input line 75.
 
 (pdftex.def)             Requested size: 195.12767pt x 146.34373pt.
 
-<LHC_CMS/luminosity_int_8TeV.pdf, id=293, 578.16pt x 433.62pt>
+<LHC_CMS/luminosity_int_8TeV.pdf, id=309, 578.16pt x 433.62pt>
 File: LHC_CMS/luminosity_int_8TeV.pdf Graphic file (type pdf)
 
 <use LHC_CMS/luminosity_int_8TeV.pdf>
@@ -1663,14 +1681,14 @@ Package pdftex.def Info: LHC_CMS/luminosity_int_8TeV.pdf used on input line 76.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43 <./LHC_CMS/luminosity_int_7TeV.pdf> <./LHC_CMS/luminosity_int_8TeV.pdf>]
-<LHC_CMS/cms_onion.png, id=435, 3189.9175pt x 2253.41875pt>
+<LHC_CMS/cms_onion.png, id=450, 3189.9175pt x 2253.41875pt>
 File: LHC_CMS/cms_onion.png Graphic file (type png)
 
 <use LHC_CMS/cms_onion.png>
 Package pdftex.def Info: LHC_CMS/cms_onion.png used on input line 86.
 (pdftex.def)             Requested size: 385.92152pt x 272.59918pt.
  [44 <./LHC_CMS/cms_onion.png>] [45] [46]
-<LHC_CMS/lines_6wb3_4_nologo.png, id=446, 1269.74374pt x 562.1pt>
+<LHC_CMS/lines_6wb3_4_nologo.png, id=462, 1269.74374pt x 562.1pt>
 File: LHC_CMS/lines_6wb3_4_nologo.png Graphic file (type png)
 
 <use LHC_CMS/lines_6wb3_4_nologo.png>
@@ -1678,7 +1696,7 @@ Package pdftex.def Info: LHC_CMS/lines_6wb3_4_nologo.png used on input line 138
 .
 (pdftex.def)             Requested size: 433.62pt x 226.51709pt.
  [47] [48 <./LHC_CMS/lines_6wb3_4_nologo.png (PNG copy)>]
-<LHC_CMS/TrackerLayoutWithLAS.pdf, id=455, 718.685pt x 338.26375pt>
+<LHC_CMS/TrackerLayoutWithLAS.pdf, id=471, 718.685pt x 338.26375pt>
 File: LHC_CMS/TrackerLayoutWithLAS.pdf Graphic file (type pdf)
 
 <use LHC_CMS/TrackerLayoutWithLAS.pdf>
@@ -1686,14 +1704,14 @@ Package pdftex.def Info: LHC_CMS/TrackerLayoutWithLAS.pdf used on input line 16
 0.
 (pdftex.def)             Requested size: 303.53267pt x 142.86467pt.
  [49]
-<LHC_CMS/PixelHardware.pdf, id=460, 1139.25626pt x 721.69624pt>
+<LHC_CMS/PixelHardware.pdf, id=475, 1139.25626pt x 721.69624pt>
 File: LHC_CMS/PixelHardware.pdf Graphic file (type pdf)
 
 <use LHC_CMS/PixelHardware.pdf>
 Package pdftex.def Info: LHC_CMS/PixelHardware.pdf used on input line 181.
 (pdftex.def)             Requested size: 195.12767pt x 123.60074pt.
 
-<LHC_CMS/Pixel_ROC.pdf, id=461, 592.2125pt x 809.0225pt>
+<LHC_CMS/Pixel_ROC.pdf, id=476, 592.2125pt x 809.0225pt>
 File: LHC_CMS/Pixel_ROC.pdf Graphic file (type pdf)
 
 <use LHC_CMS/Pixel_ROC.pdf>
@@ -1707,7 +1725,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
-<LHC_CMS/TrackerResolution.pdf, id=500, 1311.90125pt x 409.53pt>
+<LHC_CMS/TrackerResolution.pdf, id=517, 1311.90125pt x 409.53pt>
 File: LHC_CMS/TrackerResolution.pdf Graphic file (type pdf)
 
 <use LHC_CMS/TrackerResolution.pdf>
@@ -1723,14 +1741,14 @@ f $61200$ lead tungstate
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54 <./LHC_CMS/TrackerResolution.pdf>]
-<LHC_CMS/CMSecal.pdf, id=515, 1297.84875pt x 865.2325pt>
+<LHC_CMS/CMSecal.pdf, id=531, 1297.84875pt x 865.2325pt>
 File: LHC_CMS/CMSecal.pdf Graphic file (type pdf)
 
 <use LHC_CMS/CMSecal.pdf>
 Package pdftex.def Info: LHC_CMS/CMSecal.pdf used on input line 249.
 (pdftex.def)             Requested size: 411.93767pt x 274.62245pt.
  [55] [56 <./LHC_CMS/CMSecal.pdf>]
-<LHC_CMS/effRMSbarrel_withregression_new.pdf, id=533, 569.12625pt x 546.04pt>
+<LHC_CMS/effRMSbarrel_withregression_new.pdf, id=549, 569.12625pt x 546.04pt>
 File: LHC_CMS/effRMSbarrel_withregression_new.pdf Graphic file (type pdf)
 
 <use LHC_CMS/effRMSbarrel_withregression_new.pdf>
@@ -1739,7 +1757,7 @@ put line 263.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
  [57 <./LHC_CMS/effRMSbarrel_withregression_new.pdf, page is rotated 90 degrees
 >]
-<LHC_CMS/HCALdiagram.png, id=580, 372.39125pt x 263.98625pt>
+<LHC_CMS/HCALdiagram.png, id=596, 372.39125pt x 263.98625pt>
 File: LHC_CMS/HCALdiagram.png Graphic file (type png)
 
 <use LHC_CMS/HCALdiagram.png>
@@ -1750,14 +1768,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
 [59 <./LHC_CMS/HCALdiagram.png (PNG copy)>]
-<LHC_CMS/HCALresolution.pdf, id=587, 1141.26375pt x 808.01875pt>
+<LHC_CMS/HCALresolution.pdf, id=603, 1141.26375pt x 808.01875pt>
 File: LHC_CMS/HCALresolution.pdf Graphic file (type pdf)
 
 <use LHC_CMS/HCALresolution.pdf>
 Package pdftex.def Info: LHC_CMS/HCALresolution.pdf used on input line 290.
 (pdftex.def)             Requested size: 325.215pt x 230.25075pt.
  [60 <./LHC_CMS/HCALresolution.pdf>]
-<LHC_CMS/Muon_Resolution.pdf, id=601, 1180.41pt x 645.41125pt>
+<LHC_CMS/Muon_Resolution.pdf, id=617, 1180.41pt x 645.41125pt>
 File: LHC_CMS/Muon_Resolution.pdf Graphic file (type pdf)
 
 <use LHC_CMS/Muon_Resolution.pdf>
@@ -1767,7 +1785,7 @@ Package pdftex.def Info: LHC_CMS/Muon_Resolution.pdf used on input line 303.
 Underfull \vbox (badness 2103) has occurred while \output is active []
 
  [61 <./LHC_CMS/Muon_Resolution.pdf>]
-<LHC_CMS/Muon_Detectors.pdf, id=616, 1052.93375pt x 779.91376pt>
+<LHC_CMS/Muon_Detectors.pdf, id=631, 1052.93375pt x 779.91376pt>
 File: LHC_CMS/Muon_Detectors.pdf Graphic file (type pdf)
 
 <use LHC_CMS/Muon_Detectors.pdf>
@@ -1786,7 +1804,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
  [65]
-[66] [67] [68] <LHC_CMS/Ele_BDT.pdf, id=649, 1607.00375pt x 798.985pt>
+[66] [67] [68] <LHC_CMS/Ele_BDT.pdf, id=665, 1607.00375pt x 798.985pt>
 File: LHC_CMS/Ele_BDT.pdf Graphic file (type pdf)
 
 <use LHC_CMS/Ele_BDT.pdf>
@@ -1799,14 +1817,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [70]
-<LHC_CMS/scale-ptdep-8TeV.pdf, id=666, 569.12625pt x 550.055pt>
+<LHC_CMS/scale-ptdep-8TeV.pdf, id=683, 569.12625pt x 550.055pt>
 File: LHC_CMS/scale-ptdep-8TeV.pdf Graphic file (type pdf)
 
 <use LHC_CMS/scale-ptdep-8TeV.pdf>
 Package pdftex.def Info: LHC_CMS/scale-ptdep-8TeV.pdf used on input line 371.
 (pdftex.def)             Requested size: 195.12767pt x 188.58574pt.
 
-<LHC_CMS/electron_resolution.pdf, id=667, 569.12625pt x 546.04pt>
+<LHC_CMS/electron_resolution.pdf, id=684, 569.12625pt x 546.04pt>
 File: LHC_CMS/electron_resolution.pdf Graphic file (type pdf)
 
 <use LHC_CMS/electron_resolution.pdf>
@@ -1815,53 +1833,53 @@ Package pdftex.def Info: LHC_CMS/electron_resolution.pdf used on input line 372
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
  [71] [72 <./LHC_CMS/scale-ptdep-8TeV.pdf, page is rotated 90 degrees> <./LHC_C
 MS/electron_resolution.pdf, page is rotated 90 degrees>] <LHC_CMS/100_scale_mf.
-pdf, id=761, 569.12625pt x 550.055pt>
+pdf, id=777, 569.12625pt x 550.055pt>
 File: LHC_CMS/100_scale_mf.pdf Graphic file (type pdf)
 
 <use LHC_CMS/100_scale_mf.pdf>
-Package pdftex.def Info: LHC_CMS/100_scale_mf.pdf used on input line 386.
+Package pdftex.def Info: LHC_CMS/100_scale_mf.pdf used on input line 387.
 (pdftex.def)             Requested size: 195.12767pt x 188.58574pt.
 
-<LHC_CMS/100_resolution_mf.pdf, id=762, 569.12625pt x 546.04pt>
+<LHC_CMS/100_resolution_mf.pdf, id=778, 569.12625pt x 546.04pt>
 File: LHC_CMS/100_resolution_mf.pdf Graphic file (type pdf)
 
 <use LHC_CMS/100_resolution_mf.pdf>
-Package pdftex.def Info: LHC_CMS/100_resolution_mf.pdf used on input line 387.
+Package pdftex.def Info: LHC_CMS/100_resolution_mf.pdf used on input line 388.
 (pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
  [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74 <./LHC_CMS/100_scale_mf.pdf, page is rotated 90 degrees> <./LHC_CMS/100_re
 solution_mf.pdf, page is rotated 90 degrees>] [75]
-<LHC_CMS/anti_kT.pdf, id=859, 524.96124pt x 393.47pt>
+<LHC_CMS/anti_kT.pdf, id=875, 524.96124pt x 393.47pt>
 File: LHC_CMS/anti_kT.pdf Graphic file (type pdf)
 
 <use LHC_CMS/anti_kT.pdf>
-Package pdftex.def Info: LHC_CMS/anti_kT.pdf used on input line 405.
+Package pdftex.def Info: LHC_CMS/anti_kT.pdf used on input line 407.
 (pdftex.def)             Requested size: 195.12767pt x 146.25404pt.
  [76 <./LHC_CMS/anti_kT.pdf>] [77]
-<LHC_CMS/Pix_strct.pdf, id=877, 542.025pt x 803.0pt>
+<LHC_CMS/Pix_strct.pdf, id=893, 542.025pt x 803.0pt>
 File: LHC_CMS/Pix_strct.pdf Graphic file (type pdf)
 
 <use LHC_CMS/Pix_strct.pdf>
-Package pdftex.def Info: LHC_CMS/Pix_strct.pdf used on input line 436.
+Package pdftex.def Info: LHC_CMS/Pix_strct.pdf used on input line 438.
 (pdftex.def)             Requested size: 195.12767pt x 289.07977pt.
 
-<LHC_CMS/Strip_strct.pdf, id=878, 594.22pt x 664.4825pt>
+<LHC_CMS/Strip_strct.pdf, id=894, 594.22pt x 664.4825pt>
 File: LHC_CMS/Strip_strct.pdf Graphic file (type pdf)
 
 <use LHC_CMS/Strip_strct.pdf>
-Package pdftex.def Info: LHC_CMS/Strip_strct.pdf used on input line 444.
+Package pdftex.def Info: LHC_CMS/Strip_strct.pdf used on input line 446.
 (pdftex.def)             Requested size: 195.12767pt x 218.20514pt.
  [78] [79 <./LHC_CMS/Pix_strct.pdf>]
 Underfull \vbox (badness 1838) has occurred while \output is active []
 
  [80 <./LHC_CMS/Strip_strct.pdf>]
-<LHC_CMS/PCL_lateNovRuns.pdf, id=910, 569.12625pt x 408.52625pt>
+<LHC_CMS/PCL_lateNovRuns.pdf, id=926, 569.12625pt x 408.52625pt>
 File: LHC_CMS/PCL_lateNovRuns.pdf Graphic file (type pdf)
 
 <use LHC_CMS/PCL_lateNovRuns.pdf>
-Package pdftex.def Info: LHC_CMS/PCL_lateNovRuns.pdf used on input line 459.
+Package pdftex.def Info: LHC_CMS/PCL_lateNovRuns.pdf used on input line 461.
 (pdftex.def)             Requested size: 281.85034pt x 202.32397pt.
 ) [81] [82 <./LHC_CMS/PCL_lateNovRuns.pdf, page is rotated 90 degrees>]
 \openout2 = `LHC_Pheno/LHC_Pheno.aux'.
@@ -1876,14 +1894,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<LHC_Pheno/Higgs_XS_7TeV.pdf, id=963, 612.20914pt x 430.21529pt>
+<LHC_Pheno/Higgs_XS_7TeV.pdf, id=979, 612.20914pt x 430.21529pt>
 File: LHC_Pheno/Higgs_XS_7TeV.pdf Graphic file (type pdf)
 
 <use LHC_Pheno/Higgs_XS_7TeV.pdf>
 Package pdftex.def Info: LHC_Pheno/Higgs_XS_7TeV.pdf used on input line 17.
 (pdftex.def)             Requested size: 199.4681pt x 140.16623pt.
 
-<LHC_Pheno/Higgs_XS_8TeV_lx.pdf, id=964, 569.12625pt x 408.52625pt>
+<LHC_Pheno/Higgs_XS_8TeV_lx.pdf, id=980, 569.12625pt x 408.52625pt>
 File: LHC_Pheno/Higgs_XS_8TeV_lx.pdf Graphic file (type pdf)
 
 <use LHC_Pheno/Higgs_XS_8TeV_lx.pdf>
@@ -1913,26 +1931,21 @@ File: VH_Feyn.1 Graphic file (type mps)
 File: ttH_Feyn.1 Graphic file (type mps)
  [MP to PDF] (./ttH_Feyn.1)
 (./ttH_Feyn.t1)
-
-LaTeX Warning: Reference `sec:Production_Mode_Experiment' on page 87 undefined 
-on input line 118.
-
-
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
  [87]
-<LHC_Pheno/Higgs_BR.pdf, id=1046, 614.295pt x 583.3213pt>
+<LHC_Pheno/Higgs_BR.pdf, id=1062, 614.295pt x 583.3213pt>
 File: LHC_Pheno/Higgs_BR.pdf Graphic file (type pdf)
 
 <use LHC_Pheno/Higgs_BR.pdf>
-Package pdftex.def Info: LHC_Pheno/Higgs_BR.pdf used on input line 127.
+Package pdftex.def Info: LHC_Pheno/Higgs_BR.pdf used on input line 126.
 (pdftex.def)             Requested size: 195.12767pt x 185.28702pt.
 
-<LHC_Pheno/XSBR_8TeV_SM_HM.pdf, id=1047, 614.295pt x 568.57217pt>
+<LHC_Pheno/XSBR_8TeV_SM_HM.pdf, id=1063, 614.295pt x 568.57217pt>
 File: LHC_Pheno/XSBR_8TeV_SM_HM.pdf Graphic file (type pdf)
 
 <use LHC_Pheno/XSBR_8TeV_SM_HM.pdf>
-Package pdftex.def Info: LHC_Pheno/XSBR_8TeV_SM_HM.pdf used on input line 128.
+Package pdftex.def Info: LHC_Pheno/XSBR_8TeV_SM_HM.pdf used on input line 127.
 (pdftex.def)             Requested size: 199.4681pt x 184.61891pt.
 
 Underfull \vbox (badness 1552) has occurred while \output is active []
@@ -1955,12 +1968,7 @@ File: qq_ZZ_4l_Feyn.1 Graphic file (type mps)
 
 File: gg_ZZ_4l_Feyn.1 Graphic file (type mps)
  [MP to PDF] (./gg_ZZ_4l_Feyn.1)
-(./gg_ZZ_4l_Feyn.t1)
-
-LaTeX Warning: Reference `sec:4l_Experiment' on page 90 undefined on input line
- 210.
-
-[90]
+(./gg_ZZ_4l_Feyn.t1) [90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91]
@@ -1976,14 +1984,14 @@ df>
 (epstopdf)                    size: 9137 bytes
 (epstopdf)             Command: <repstopdf --outfile=LHC_Pheno/YRHXS_BR_fig2-ep
 s-converted-to.pdf LHC_Pheno/YRHXS_BR_fig2.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
-<LHC_Pheno/YRHXS_BR_fig2-eps-converted-to.pdf, id=1129, 569.12625pt x 546.04pt>
+<LHC_Pheno/YRHXS_BR_fig2-eps-converted-to.pdf, id=1145, 569.12625pt x 546.04pt>
 File: LHC_Pheno/YRHXS_BR_fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use LHC_Pheno/YRHXS_BR_fig2-eps-converted-to.pdf>
 Package pdftex.def Info: LHC_Pheno/YRHXS_BR_fig2-eps-converted-to.pdf used on i
-nput line 223.
+nput line 222.
 (pdftex.def)             Requested size: 199.4681pt x 191.37515pt.
  [93 <./LHC_Pheno/YRHXS_BR_fig2-eps-converted-to.pdf>]
 \openout3 = `ggH_ZZ_Feyn.mp'.
@@ -2002,18 +2010,18 @@ Package epstopdf Info: Source file: <LHC_Pheno/lhzwa_fig1b.eps>
 (epstopdf)                    size: 24198 bytes
 (epstopdf)             Command: <repstopdf --outfile=LHC_Pheno/lhzwa_fig1b-eps-
 converted-to.pdf LHC_Pheno/lhzwa_fig1b.eps>
-(epstopdf)             \includegraphics on input line 274.
+(epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
 
-<LHC_Pheno/lhzwa_fig1b-eps-converted-to.pdf, id=1145, 496.85625pt x 561.09625pt
+<LHC_Pheno/lhzwa_fig1b-eps-converted-to.pdf, id=1161, 496.85625pt x 561.09625pt
 >
 File: LHC_Pheno/lhzwa_fig1b-eps-converted-to.pdf Graphic file (type pdf)
  <use LHC_Pheno/lhzwa_fig1b-eps-converted-to.pdf>
 Package pdftex.def Info: LHC_Pheno/lhzwa_fig1b-eps-converted-to.pdf used on inp
-ut line 274.
+ut line 273.
 (pdftex.def)             Requested size: 199.4681pt x 225.25644pt.
 
-Underfull \vbox (badness 3579) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [94]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2031,26 +2039,26 @@ Package epstopdf Info: Source file: <LHC_Pheno/lhzwa_fig2.eps>
 (epstopdf)                    size: 37411 bytes
 (epstopdf)             Command: <repstopdf --outfile=LHC_Pheno/lhzwa_fig2-eps-c
 onverted-to.pdf LHC_Pheno/lhzwa_fig2.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 306.
 Package epstopdf Info: Output file is already uptodate.
 
-<LHC_Pheno/lhzwa_fig2-eps-converted-to.pdf, id=1185, 494.84875pt x 452.69125pt>
+<LHC_Pheno/lhzwa_fig2-eps-converted-to.pdf, id=1201, 494.84875pt x 452.69125pt>
 File: LHC_Pheno/lhzwa_fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use LHC_Pheno/lhzwa_fig2-eps-converted-to.pdf>
 Package pdftex.def Info: LHC_Pheno/lhzwa_fig2-eps-converted-to.pdf used on inpu
-t line 307.
+t line 306.
 (pdftex.def)             Requested size: 199.4681pt x 182.47551pt.
 
-<LHC_Pheno/ZZMass_100-800_SIM_20May2014.pdf, id=1186, 569.12625pt x 519.9425pt>
+<LHC_Pheno/ZZMass_100-800_SIM_20May2014.pdf, id=1202, 569.12625pt x 519.9425pt>
 File: LHC_Pheno/ZZMass_100-800_SIM_20May2014.pdf Graphic file (type pdf)
 <use LHC_Pheno/ZZMass_100-800_SIM_20May2014.pdf>
 Package pdftex.def Info: LHC_Pheno/ZZMass_100-800_SIM_20May2014.pdf used on inp
-ut line 315.
+ut line 314.
 (pdftex.def)             Requested size: 199.4681pt x 182.22855pt.
 
 
 LaTeX Warning: Reference `sec:Width_Experiment' on page 97 undefined on input l
-ine 321.
+ine 320.
 
 [97 <./LHC_Pheno/lhzwa_fig2-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2060,31 +2068,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [99]
-Overfull \hbox (15.6189pt too wide) detected at line 345
+Overfull \hbox (15.6189pt too wide) detected at line 344
 \OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H \OMS/cmsy/m/n/12 ! \OML/c
 mm/m/it/12 VV\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^X [] \OML/cmm/m/it/12 m[]^^O[
 ]^^O[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a[]f[]f[] \OT1/cmr/m/n/12 + \OML/cmm/
 m/it/12 a[]f[][]
  []
 
-
-Underfull \vbox (badness 1371) has occurred while \output is active []
-
- [100]
-Underfull \vbox (badness 2042) has occurred while \output is active []
+[100]
+Underfull \vbox (badness 1803) has occurred while \output is active []
 
  [101]
-Overfull \hbox (0.70143pt too wide) in paragraph at lines 361--362
+Overfull \hbox (0.70143pt too wide) in paragraph at lines 360--361
 []\OT1/cmr/m/n/12 In CMS stud-ies of these re-sults, anal-o-gous frac-tions are
  cre-ated for the $\OML/cmm/m/it/12 WW; Z^^M; ^^M^^M$
  []
 
 [102]
-
-LaTeX Warning: Reference `sec:4l_Experiment' on page 103 undefined on input lin
-e 375.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
@@ -2092,70 +2092,580 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [104])
 [105] [106]
+\openout2 = `HZZ4l_search/HZZ4l_search.aux'.
+
+ (./HZZ4l_search/HZZ4l_search.tex
+Chapter 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107
+
+
+
+]
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [108]
+[109]
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+<HZZ4l_search/electron_efficiency.pdf, id=1316, 569.12625pt x 550.055pt>
+File: HZZ4l_search/electron_efficiency.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/electron_efficiency.pdf>
+Package pdftex.def Info: HZZ4l_search/electron_efficiency.pdf used on input lin
+e 41.
+(pdftex.def)             Requested size: 195.12767pt x 188.58574pt.
+
+<HZZ4l_search/muon_efficiency.pdf, id=1317, 569.12625pt x 550.055pt>
+File: HZZ4l_search/muon_efficiency.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/muon_efficiency.pdf>
+Package pdftex.def Info: HZZ4l_search/muon_efficiency.pdf used on input line 42
+.
+(pdftex.def)             Requested size: 195.12767pt x 188.58574pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111 <./HZZ4l_search/electron_efficiency.pdf, page is rotated 90 degrees> <./H
+ZZ4l_search/muon_efficiency.pdf, page is rotated 90 degrees>] [112] [113]
+<HZZ4l_search/Efficiency_ggH_8TeV.pdf, id=1414, 569.12625pt x 408.52625pt>
+File: HZZ4l_search/Efficiency_ggH_8TeV.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/Efficiency_ggH_8TeV.pdf>
+Package pdftex.def Info: HZZ4l_search/Efficiency_ggH_8TeV.pdf used on input lin
+e 93.
+(pdftex.def)             Requested size: 281.85034pt x 202.32397pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+[115 <./HZZ4l_search/Efficiency_ggH_8TeV.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+[117]
+Overfull \hbox (25.29605pt too wide) in paragraph at lines 130--131
+\OT1/cmr/m/n/12 tions of the back-ground to-gether, as-sign-ing a sys-tem-atic 
+un-var-tainty of $20%\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25%\OML/cmm/m/it/12 ; [
+]\OT1/cmr/m/n/12 40%$
+ []
+
+
+<HZZ4l_search/CRs_m4l_SR_4l_Prediction_WFC_PAPER.pdf, id=1472, 569.12625pt x 55
+2.0625pt>
+File: HZZ4l_search/CRs_m4l_SR_4l_Prediction_WFC_PAPER.pdf Graphic file (type pd
+f)
+ <use HZZ4l_search/CRs_m4l_SR_4l_Prediction_WFC_PAPER.pdf>
+Package pdftex.def Info: HZZ4l_search/CRs_m4l_SR_4l_Prediction_WFC_PAPER.pdf us
+ed on input line 134.
+(pdftex.def)             Requested size: 195.12767pt x 189.274pt.
+
+<HZZ4l_search/PredictedComponentsSR_withData_PAPER.pdf, id=1473, 569.12625pt x 
+553.06625pt>
+File: HZZ4l_search/PredictedComponentsSR_withData_PAPER.pdf Graphic file (type 
+pdf)
+ <use HZZ4l_search/PredictedComponentsSR_withData_PAPER.pdf>
+Package pdftex.def Info: HZZ4l_search/PredictedComponentsSR_withData_PAPER.pdf 
+used on input line 135.
+(pdftex.def)             Requested size: 195.12767pt x 189.61815pt.
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+ [118 <./HZZ4l_search/CRs_m4l_SR_4l_Prediction_WFC_PAPER.pdf, page is rotated 9
+0 degrees> <./HZZ4l_search/PredictedComponentsSR_withData_PAPER.pdf, page is ro
+tated 90 degrees>] [119]
+<HZZ4l_search/ZZMass_7Plus8TeV_70-1000_3GeV.pdf, id=1566, 569.12625pt x 439.642
+5pt>
+File: HZZ4l_search/ZZMass_7Plus8TeV_70-1000_3GeV.pdf Graphic file (type pdf)
+ <use HZZ4l_search/ZZMass_7Plus8TeV_70-1000_3GeV.pdf>
+Package pdftex.def Info: HZZ4l_search/ZZMass_7Plus8TeV_70-1000_3GeV.pdf used on
+ input line 202.
+(pdftex.def)             Requested size: 433.62pt x 334.98373pt.
+ [120] [121 <./HZZ4l_search/ZZMass_7Plus8TeV_70-1000_3GeV.pdf, page is rotated 
+90 degrees>]
+<HZZ4l_search/fitM126_channel1.pdf, id=1616, 569.12625pt x 550.055pt>
+File: HZZ4l_search/fitM126_channel1.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/fitM126_channel1.pdf>
+Package pdftex.def Info: HZZ4l_search/fitM126_channel1.pdf used on input line 2
+31.
+(pdftex.def)             Requested size: 138.76157pt x 134.11418pt.
+
+<HZZ4l_search/fitM126_channel2.pdf, id=1617, 569.12625pt x 550.055pt>
+File: HZZ4l_search/fitM126_channel2.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/fitM126_channel2.pdf>
+Package pdftex.def Info: HZZ4l_search/fitM126_channel2.pdf used on input line 2
+32.
+(pdftex.def)             Requested size: 138.76157pt x 134.11418pt.
+
+<HZZ4l_search/fitM126_channel0.pdf, id=1618, 569.12625pt x 550.055pt>
+File: HZZ4l_search/fitM126_channel0.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/fitM126_channel0.pdf>
+Package pdftex.def Info: HZZ4l_search/fitM126_channel0.pdf used on input line 2
+33.
+(pdftex.def)             Requested size: 138.76157pt x 134.11418pt.
+
+Overfull \hbox (15.58977pt too wide) in paragraph at lines 253--253
+[]\OT1/cmr/bx/n/17.28 Matrix El-e-ment Like-li-hood Ap-proach (MELA)
+ []
+
+
+Underfull \vbox (badness 1460) has occurred while \output is active []
+
+ [122 <./HZZ4l_search/fitM126_channel1.pdf, page is rotated 90 degrees> <./HZZ4
+l_search/fitM126_channel2.pdf, page is rotated 90 degrees> <./HZZ4l_search/fitM
+126_channel0.pdf, page is rotated 90 degrees>]
+<HZZ4l_search/angles-HZZ4l_snowmass.pdf, id=1753, 531.9875pt x 461.725pt>
+File: HZZ4l_search/angles-HZZ4l_snowmass.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/angles-HZZ4l_snowmass.pdf>
+Package pdftex.def Info: HZZ4l_search/angles-HZZ4l_snowmass.pdf used on input l
+ine 263.
+(pdftex.def)             Requested size: 195.12767pt x 169.35605pt.
+ [123 <./HZZ4l_search/angles-HZZ4l_snowmass.pdf>]
+<HZZ4l_search/cCompare_DataMC_AllTeV_Z1Mass_SignalEnriched.pdf, id=1759, 569.12
+625pt x 552.0625pt>
+File: HZZ4l_search/cCompare_DataMC_AllTeV_Z1Mass_SignalEnriched.pdf Graphic fil
+e (type pdf)
+
+<use HZZ4l_search/cCompare_DataMC_AllTeV_Z1Mass_SignalEnriched.pdf>
+Package pdftex.def Info: HZZ4l_search/cCompare_DataMC_AllTeV_Z1Mass_SignalEnric
+hed.pdf used on input line 281.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+<HZZ4l_search/cCompare_DataMC_AllTeV_Z2Mass_SignalEnriched.pdf, id=1760, 569.12
+625pt x 552.0625pt>
+File: HZZ4l_search/cCompare_DataMC_AllTeV_Z2Mass_SignalEnriched.pdf Graphic fil
+e (type pdf)
+
+<use HZZ4l_search/cCompare_DataMC_AllTeV_Z2Mass_SignalEnriched.pdf>
+Package pdftex.def Info: HZZ4l_search/cCompare_DataMC_AllTeV_Z2Mass_SignalEnric
+hed.pdf used on input line 282.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+<HZZ4l_search/cCompare_DataMC_AllTeV_costhetastar_SignalEnriched.pdf, id=1761, 
+569.12625pt x 552.0625pt>
+File: HZZ4l_search/cCompare_DataMC_AllTeV_costhetastar_SignalEnriched.pdf Graph
+ic file (type pdf)
+
+<use HZZ4l_search/cCompare_DataMC_AllTeV_costhetastar_SignalEnriched.pdf>
+Package pdftex.def Info: HZZ4l_search/cCompare_DataMC_AllTeV_costhetastar_Signa
+lEnriched.pdf used on input line 283.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+<HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ1_SignalEnriched.pdf, id=1762,
+ 569.12625pt x 552.0625pt>
+File: HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ1_SignalEnriched.pdf Grap
+hic file (type pdf)
+
+<use HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ1_SignalEnriched.pdf>
+Package pdftex.def Info: HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ1_Sign
+alEnriched.pdf used on input line 284.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+<HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ2_SignalEnriched.pdf, id=1763,
+ 569.12625pt x 552.0625pt>
+File: HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ2_SignalEnriched.pdf Grap
+hic file (type pdf)
+
+<use HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ2_SignalEnriched.pdf>
+Package pdftex.def Info: HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ2_Sign
+alEnriched.pdf used on input line 285.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+<HZZ4l_search/cCompare_DataMC_AllTeV_helphi_SignalEnriched.pdf, id=1764, 569.12
+625pt x 552.0625pt>
+File: HZZ4l_search/cCompare_DataMC_AllTeV_helphi_SignalEnriched.pdf Graphic fil
+e (type pdf)
+
+<use HZZ4l_search/cCompare_DataMC_AllTeV_helphi_SignalEnriched.pdf>
+Package pdftex.def Info: HZZ4l_search/cCompare_DataMC_AllTeV_helphi_SignalEnric
+hed.pdf used on input line 286.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+<HZZ4l_search/cCompare_DataMC_AllTeV_phistarZ1_SignalEnriched.pdf, id=1765, 569
+.12625pt x 552.0625pt>
+File: HZZ4l_search/cCompare_DataMC_AllTeV_phistarZ1_SignalEnriched.pdf Graphic 
+file (type pdf)
+
+<use HZZ4l_search/cCompare_DataMC_AllTeV_phistarZ1_SignalEnriched.pdf>
+Package pdftex.def Info: HZZ4l_search/cCompare_DataMC_AllTeV_phistarZ1_SignalEn
+riched.pdf used on input line 287.
+(pdftex.def)             Requested size: 138.76157pt x 134.60364pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+[125 <./HZZ4l_search/cCompare_DataMC_AllTeV_Z1Mass_SignalEnriched.pdf, page is 
+rotated 90 degrees> <./HZZ4l_search/cCompare_DataMC_AllTeV_Z2Mass_SignalEnriche
+d.pdf, page is rotated 90 degrees> <./HZZ4l_search/cCompare_DataMC_AllTeV_costh
+etastar_SignalEnriched.pdf, page is rotated 90 degrees> <./HZZ4l_search/cCompar
+e_DataMC_AllTeV_helcosthetaZ1_SignalEnriched.pdf, page is rotated 90 degrees> <
+./HZZ4l_search/cCompare_DataMC_AllTeV_helcosthetaZ2_SignalEnriched.pdf, page is
+ rotated 90 degrees> <./HZZ4l_search/cCompare_DataMC_AllTeV_helphi_SignalEnrich
+ed.pdf, page is rotated 90 degrees> <./HZZ4l_search/cCompare_DataMC_AllTeV_phis
+tarZ1_SignalEnriched.pdf, page is rotated 90 degrees>]
+<HZZ4l_search/KD_vs_m4l_lowMass_Back.pdf, id=2074, 569.12625pt x 546.04pt>
+File: HZZ4l_search/KD_vs_m4l_lowMass_Back.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/KD_vs_m4l_lowMass_Back.pdf>
+Package pdftex.def Info: HZZ4l_search/KD_vs_m4l_lowMass_Back.pdf used on input 
+line 322.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
+<HZZ4l_search/KD_vs_m4l_highMass_Back.pdf, id=2075, 569.12625pt x 546.04pt>
+File: HZZ4l_search/KD_vs_m4l_highMass_Back.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/KD_vs_m4l_highMass_Back.pdf>
+Package pdftex.def Info: HZZ4l_search/KD_vs_m4l_highMass_Back.pdf used on input
+ line 323.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
+<HZZ4l_search/KD_vs_m4l_lowMass_Signal.pdf, id=2076, 569.12625pt x 546.04pt>
+File: HZZ4l_search/KD_vs_m4l_lowMass_Signal.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/KD_vs_m4l_lowMass_Signal.pdf>
+Package pdftex.def Info: HZZ4l_search/KD_vs_m4l_lowMass_Signal.pdf used on inpu
+t line 349.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
+<HZZ4l_search/KDPeak.pdf, id=2077, 569.12625pt x 546.04pt>
+File: HZZ4l_search/KDPeak.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/KDPeak.pdf>
+Package pdftex.def Info: HZZ4l_search/KDPeak.pdf used on input line 350.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+ [126] [127 <./HZZ4l_search/KD_vs_m4l_lowMass_Back.pdf> <./HZZ4l_search/KD_vs_m
+4l_highMass_Back.pdf>] [128 <./HZZ4l_search/KD_vs_m4l_lowMass_Signal.pdf> <./HZ
+Z4l_search/KDPeak.pdf>]
+<HZZ4l_search/djet_shape.pdf, id=2280, 569.12625pt x 546.04pt>
+File: HZZ4l_search/djet_shape.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/djet_shape.pdf>
+Package pdftex.def Info: HZZ4l_search/djet_shape.pdf used on input line 406.
+(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
+
+<HZZ4l_search/pt_shape.pdf, id=2281, 569.12625pt x 546.04pt>
+File: HZZ4l_search/pt_shape.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/pt_shape.pdf>
+Package pdftex.def Info: HZZ4l_search/pt_shape.pdf used on input line 407.
+(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
+
+<HZZ4l_search/deta_shape.pdf, id=2282, 569.12625pt x 546.04pt>
+File: HZZ4l_search/deta_shape.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/deta_shape.pdf>
+Package pdftex.def Info: HZZ4l_search/deta_shape.pdf used on input line 408.
+(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
+
+<HZZ4l_search/mjj_shape.pdf, id=2283, 569.12625pt x 546.04pt>
+File: HZZ4l_search/mjj_shape.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/mjj_shape.pdf>
+Package pdftex.def Info: HZZ4l_search/mjj_shape.pdf used on input line 409.
+(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
+ [129] [130 <./HZZ4l_search/djet_shape.pdf, page is rotated 90 degrees> <./HZZ4
+l_search/pt_shape.pdf, page is rotated 90 degrees> <./HZZ4l_search/deta_shape.p
+df, page is rotated 90 degrees> <./HZZ4l_search/mjj_shape.pdf, page is rotated 
+90 degrees>]
+<HZZ4l_search/M4l_vs_pT_all.pdf, id=2462, 569.12625pt x 546.04pt>
+File: HZZ4l_search/M4l_vs_pT_all.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/M4l_vs_pT_all.pdf>
+Package pdftex.def Info: HZZ4l_search/M4l_vs_pT_all.pdf used on input line 425.
+
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
+<HZZ4l_search/PT01JetPeak.pdf, id=2463, 569.12625pt x 544.0325pt>
+File: HZZ4l_search/PT01JetPeak.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/PT01JetPeak.pdf>
+Package pdftex.def Info: HZZ4l_search/PT01JetPeak.pdf used on input line 426.
+(pdftex.def)             Requested size: 195.12767pt x 186.52094pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131 <./HZZ4l_search/M4l_vs_pT_all.pdf, page is rotated 90 degrees> <./HZZ4l_s
+earch/PT01JetPeak.pdf, page is rotated 90 degrees>]
+<HZZ4l_search/M4l_vs_Fisher_all.pdf, id=2554, 569.12625pt x 546.04pt>
+File: HZZ4l_search/M4l_vs_Fisher_all.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/M4l_vs_Fisher_all.pdf>
+Package pdftex.def Info: HZZ4l_search/M4l_vs_Fisher_all.pdf used on input line 
+464.
+(pdftex.def)             Requested size: 195.12767pt x 187.2092pt.
+
+<HZZ4l_search/FisherPeak.pdf, id=2555, 569.12625pt x 544.0325pt>
+File: HZZ4l_search/FisherPeak.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/FisherPeak.pdf>
+Package pdftex.def Info: HZZ4l_search/FisherPeak.pdf used on input line 465.
+(pdftex.def)             Requested size: 195.12767pt x 186.52094pt.
+ [132 <./HZZ4l_search/M4l_vs_Fisher_all.pdf> <./HZZ4l_search/FisherPeak.pdf>]
+<HZZ4l_search/ZZMass_7Plus8TeV_70-180_3GeV.pdf, id=2641, 569.12625pt x 546.04pt
+>
+File: HZZ4l_search/ZZMass_7Plus8TeV_70-180_3GeV.pdf Graphic file (type pdf)
+ <use HZZ4l_search/ZZMass_7Plus8TeV_70-180_3GeV.pdf>
+Package pdftex.def Info: HZZ4l_search/ZZMass_7Plus8TeV_70-180_3GeV.pdf used on 
+input line 499.
+(pdftex.def)             Requested size: 325.215pt x 312.03757pt.
+
+Underfull \vbox (badness 5147) has occurred while \output is active []
+
+ [133]
+[134 <./HZZ4l_search/ZZMass_7Plus8TeV_70-180_3GeV.pdf, page is rotated 90 degre
+es>] [135]
+Overfull \hbox (41.79462pt too wide) in paragraph at lines 600--615
+ [] 
+ []
+
+[136] [137] [138]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139]
+<HZZ4l_search/UpperLimit_ASCLS_7p8TeV_wholeMass_Final2_2l2tau.pdf, id=2708, 569
+.12625pt x 518.93875pt>
+File: HZZ4l_search/UpperLimit_ASCLS_7p8TeV_wholeMass_Final2_2l2tau.pdf Graphic 
+file (type pdf)
+
+<use HZZ4l_search/UpperLimit_ASCLS_7p8TeV_wholeMass_Final2_2l2tau.pdf>
+Package pdftex.def Info: HZZ4l_search/UpperLimit_ASCLS_7p8TeV_wholeMass_Final2_
+2l2tau.pdf used on input line 654.
+(pdftex.def)             Requested size: 325.215pt x 296.5504pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
+[141 <./HZZ4l_search/UpperLimit_ASCLS_7p8TeV_wholeMass_Final2_2l2tau.pdf, page 
+is rotated 90 degrees>]
+<HZZ4l_search/Pvals_PLP_wholeMass_Final3_2l2tau_7p8sep.pdf, id=2759, 569.12625p
+t x 518.93875pt>
+File: HZZ4l_search/Pvals_PLP_wholeMass_Final3_2l2tau_7p8sep.pdf Graphic file (t
+ype pdf)
+
+<use HZZ4l_search/Pvals_PLP_wholeMass_Final3_2l2tau_7p8sep.pdf>
+Package pdftex.def Info: HZZ4l_search/Pvals_PLP_wholeMass_Final3_2l2tau_7p8sep.
+pdf used on input line 665.
+(pdftex.def)             Requested size: 195.12767pt x 177.91757pt.
+
+<HZZ4l_search/Pvals_PLP_lowMass_1D2D3D_Final3_no2l2tau_7p8sep.pdf, id=2760, 569
+.12625pt x 518.93875pt>
+File: HZZ4l_search/Pvals_PLP_lowMass_1D2D3D_Final3_no2l2tau_7p8sep.pdf Graphic 
+file (type pdf)
+
+<use HZZ4l_search/Pvals_PLP_lowMass_1D2D3D_Final3_no2l2tau_7p8sep.pdf>
+Package pdftex.def Info: HZZ4l_search/Pvals_PLP_lowMass_1D2D3D_Final3_no2l2tau_
+7p8sep.pdf used on input line 666.
+(pdftex.def)             Requested size: 195.12767pt x 177.91757pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142 <./HZZ4l_search/Pvals_PLP_wholeMass_Final3_2l2tau_7p8sep.pdf> <./HZZ4l_se
+arch/Pvals_PLP_lowMass_1D2D3D_Final3_no2l2tau_7p8sep.pdf>]
+<HZZ4l_search/1D_new.png, id=2855, 463.7325pt x 452.69125pt>
+File: HZZ4l_search/1D_new.png Graphic file (type png)
+
+<use HZZ4l_search/1D_new.png>
+Package pdftex.def Info: HZZ4l_search/1D_new.png used on input line 674.
+(pdftex.def)             Requested size: 130.08731pt x 126.98753pt.
+
+<HZZ4l_search/2D_new.png, id=2856, 453.695pt x 446.66875pt>
+File: HZZ4l_search/2D_new.png Graphic file (type png)
+
+<use HZZ4l_search/2D_new.png>
+Package pdftex.def Info: HZZ4l_search/2D_new.png used on input line 675.
+(pdftex.def)             Requested size: 130.08731pt x 128.07207pt.
+
+<HZZ4l_search/3D_new.png, id=2857, 456.70625pt x 447.6725pt>
+File: HZZ4l_search/3D_new.png Graphic file (type png)
+
+<use HZZ4l_search/3D_new.png>
+Package pdftex.def Info: HZZ4l_search/3D_new.png used on input line 676.
+(pdftex.def)             Requested size: 130.08731pt x 127.51285pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [143 <./HZZ4l_search/1D_new.png> <./HZZ4l_search/2D_new.png> <./HZZ4l_search/3
+D_new.png>]
+Package epstopdf Info: Source file: <HZZ4l_search/UpperLimit_ASCLS_7p8TeV_lowMa
+ss_2H_search.eps>
+(epstopdf)                    date: 2015-06-29 23:10:53
+(epstopdf)                    size: 18556 bytes
+(epstopdf)             Output file: <HZZ4l_search/UpperLimit_ASCLS_7p8TeV_lowMa
+ss_2H_search-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-29 23:37:11
+(epstopdf)                    size: 14564 bytes
+(epstopdf)             Command: <repstopdf --outfile=HZZ4l_search/UpperLimit_AS
+CLS_7p8TeV_lowMass_2H_search-eps-converted-to.pdf HZZ4l_search/UpperLimit_ASCLS
+_7p8TeV_lowMass_2H_search.eps>
+(epstopdf)             \includegraphics on input line 688.
+Package epstopdf Info: Output file is already uptodate.
+
+<HZZ4l_search/UpperLimit_ASCLS_7p8TeV_lowMass_2H_search-eps-converted-to.pdf, i
+d=2861, 569.12625pt x 549.05125pt>
+File: HZZ4l_search/UpperLimit_ASCLS_7p8TeV_lowMass_2H_search-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use HZZ4l_search/UpperLimit_ASCLS_7p8TeV_lowMass_2H_search-eps-converted-to.pd
+f>
+Package pdftex.def Info: HZZ4l_search/UpperLimit_ASCLS_7p8TeV_lowMass_2H_search
+-eps-converted-to.pdf used on input line 688.
+(pdftex.def)             Requested size: 195.12767pt x 188.24161pt.
+Package epstopdf Info: Source file: <HZZ4l_search/Pvals_PLP_lowMass_2H_no2l2tau
+_7p8sep.eps>
+(epstopdf)                    date: 2015-06-29 23:27:39
+(epstopdf)                    size: 20731 bytes
+(epstopdf)             Output file: <HZZ4l_search/Pvals_PLP_lowMass_2H_no2l2tau
+_7p8sep-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-29 23:37:15
+(epstopdf)                    size: 13001 bytes
+(epstopdf)             Command: <repstopdf --outfile=HZZ4l_search/Pvals_PLP_low
+Mass_2H_no2l2tau_7p8sep-eps-converted-to.pdf HZZ4l_search/Pvals_PLP_lowMass_2H_
+no2l2tau_7p8sep.eps>
+(epstopdf)             \includegraphics on input line 689.
+Package epstopdf Info: Output file is already uptodate.
+
+<HZZ4l_search/Pvals_PLP_lowMass_2H_no2l2tau_7p8sep-eps-converted-to.pdf, id=286
+2, 569.12625pt x 549.05125pt>
+File: HZZ4l_search/Pvals_PLP_lowMass_2H_no2l2tau_7p8sep-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use HZZ4l_search/Pvals_PLP_lowMass_2H_no2l2tau_7p8sep-eps-converted-to.pdf>
+Package pdftex.def Info: HZZ4l_search/Pvals_PLP_lowMass_2H_no2l2tau_7p8sep-eps-
+converted-to.pdf used on input line 689.
+(pdftex.def)             Requested size: 195.12767pt x 188.24161pt.
+
+[144] [145 <./HZZ4l_search/UpperLimit_ASCLS_7p8TeV_lowMass_2H_search-eps-conver
+ted-to.pdf> <./HZZ4l_search/Pvals_PLP_lowMass_2H_no2l2tau_7p8sep-eps-converted-
+to.pdf>] [146]
+<HZZ4l_search/mu_bestfit_bycategory.pdf, id=2891, 569.12625pt x 550.055pt>
+File: HZZ4l_search/mu_bestfit_bycategory.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/mu_bestfit_bycategory.pdf>
+Package pdftex.def Info: HZZ4l_search/mu_bestfit_bycategory.pdf used on input l
+ine 707.
+(pdftex.def)             Requested size: 195.12767pt x 188.58574pt.
+
+<HZZ4l_search/RVRF.pdf, id=2892, 569.12625pt x 544.0325pt>
+File: HZZ4l_search/RVRF.pdf Graphic file (type pdf)
+
+<use HZZ4l_search/RVRF.pdf>
+Package pdftex.def Info: HZZ4l_search/RVRF.pdf used on input line 708.
+(pdftex.def)             Requested size: 195.12767pt x 186.52094pt.
+)
+Underfull \vbox (badness 6412) has occurred while \output is active []
+
+ [147 <./HZZ4l_search/mu_bestfit_bycategory.pdf, page is rotated 90 degrees> <.
+/HZZ4l_search/RVRF.pdf, page is rotated 90 degrees>] [148]
 \openout2 = `Conclusion/Conclusion.aux'.
 
  (./Conclusion/Conclusion.tex
-Chapter 4.
-<Conclusion/dumb-questions.pdf, id=1287, 461.725pt x 363.3575pt>
+Chapter 5.
+<Conclusion/dumb-questions.pdf, id=2985, 461.725pt x 363.3575pt>
 File: Conclusion/dumb-questions.pdf Graphic file (type pdf)
 
 <use Conclusion/dumb-questions.pdf>
 Package pdftex.def Info: Conclusion/dumb-questions.pdf used on input line 9.
 (pdftex.def)             Requested size: 385.92152pt x 303.70459pt.
-) [107
+) [149
 
 
 
-] [108 <./Conclusion/dumb-questions.pdf>] (./chmartin_thesis.bbl [109
+] [150 <./Conclusion/dumb-questions.pdf>] (./chmartin_thesis.bbl [151
 
 
-]
-Underfull \hbox (badness 1320) in paragraph at lines 96--98
-[]\OT1/cmr/m/n/12 P. W. Higgs, ``Bro-ken sym-me-tries, mass-less par-ti-cles an
-d gauge fields,''
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 100--102
+] [152]
+Underfull \hbox (badness 1264) in paragraph at lines 100--102
 []\OT1/cmr/m/n/12 P. W. Higgs, ``Bro-ken Sym-me-tries and the Masses of Gauge B
 osons,''
  []
 
-[110] [111]
-Underfull \hbox (badness 2150) in paragraph at lines 148--150
+
+Underfull \hbox (badness 4316) in paragraph at lines 120--122
+[]\OT1/cmr/m/n/12 S. Daw-son, ``In-tro-duc-tion to Elec-troweak Sym-me-try Brea
+k-ing,'' \OT1/cmr/m/it/12 AIP
+ []
+
+[153]
+Underfull \hbox (badness 1540) in paragraph at lines 148--150
 []\OT1/cmr/m/n/12 V. Trim-ble, ``Ex-is-tence and Na-ture of Dark Mat-ter in the
  Uni-verse,''
  []
 
-[112] [113] [114] [115]
-Underfull \hbox (badness 5741) in paragraph at lines 331--333
+[154] [155] [156] [157] [158]
+Underfull \hbox (badness 4403) in paragraph at lines 331--333
 []\OT1/cmr/m/n/12 L. Lan-dau, ``On the an-gu-lar mo-men-tum of a two-photon sys
 -tem,''
  []
 
-[116]
-Underfull \hbox (badness 6110) in paragraph at lines 354--356
+
+Underfull \hbox (badness 4569) in paragraph at lines 354--356
 []\OT1/cmr/m/n/12 L. Ran-dall and R. Sun-drum, ``An Al-ter-na-tive to com-pact-
 i-fi-ca-tion,''
  []
 
-) [117] [118
+[159] [160] [161]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no š in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no š in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+ [162] [163] [164]
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no š in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no š in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no © in font cmr12!
+ [165]
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [166]
+Underfull \hbox (badness 1097) in paragraph at lines 600--602
+[]\OT1/cmr/m/n/12 S. Go-ria, G. Pas-sarino, and D. Rosco, ``The Higgs Bo-son Li
+ne-shape,''
+ []
+
+[167]) [168] [169
 
 ] (./chmartin_thesis.aux (./chapter0/chapter0.aux)
 (./Introduction/Introduction.aux) (./LHC_CMS/LHC_CMS.aux)
-(./LHC_Pheno/LHC_Pheno.aux) (./Conclusion/Conclusion.aux))
+(./LHC_Pheno/LHC_Pheno.aux) (./HZZ4l_search/HZZ4l_search.aux)
+(./Conclusion/Conclusion.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11594 strings out of 493109
- 200963 string characters out of 6135005
- 248577 words of memory out of 5000000
- 14736 multiletter control sequences out of 15000+600000
- 24041 words of font info for 93 fonts, out of 8000000 for 9000
+ 11903 strings out of 493109
+ 211575 string characters out of 6135005
+ 252580 words of memory out of 5000000
+ 14996 multiletter control sequences out of 15000+600000
+ 26037 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,20n,44p,10411b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,23n,44p,10411b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -2181,10 +2691,10 @@ t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2014/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1200.pfb>
-Output written on chmartin_thesis.pdf (130 pages, 8934419 bytes).
+Output written on chmartin_thesis.pdf (186 pages, 9951151 bytes).
 PDF statistics:
- 1403 PDF objects out of 1440 (max. 8388607)
- 858 compressed objects within 9 object streams
+ 3133 PDF objects out of 3580 (max. 8388607)
+ 1738 compressed objects within 18 object streams
  0 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 427 words of extra memory for PDF output out of 10000 (max. 10000000)
 

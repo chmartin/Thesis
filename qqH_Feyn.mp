@@ -15,7 +15,7 @@ vconnect ("boson,label=$W/Z$,label.side=left", __v1, __v3);
 vconnect ("boson", __v3, __v2);
 vconstraint (((0,.3h)), __v1, __v3);
 vconstraint (((0,.3h)), __v3, __v2);
-vconnect ("scalar,label=$H$", __v3, __sp2);
+vconnect ("dashes,label=$H$", __v3, __sp2);
 vfreeze;
 vdraw;
 endsubgraph;

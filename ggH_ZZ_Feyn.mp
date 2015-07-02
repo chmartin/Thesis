@@ -13,7 +13,7 @@ vconnect ("gluon,label=$g$", __i1, __v1);
 vconnect ("gluon,label=$g$", __i2, __v2);
 vconnect ("fermion", __v1, __v2, __v3, __v1);
 vconstraint (((0,.5h)), __v1, __v2);
-vconnect ("scalar,label=$H$", __v3, __v4);
+vconnect ("dashes,label=$H$", __v3, __v4);
 vconstraint (((.3w,0)), __v3, __v4);
 vconnect ("boson,label=$Z$", __v4, __sp1);
 vconnect ("boson,label=$Z$", __v4, __sp2);

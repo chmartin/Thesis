@@ -1,15 +1,15 @@
 \contentsline {chapter}{Abstract}{ii}
 \contentsline {chapter}{Acknowledgements}{iv}
-\contentsline {chapter}{List of Tables}{viii}
-\contentsline {chapter}{List of Figures}{ix}
+\contentsline {chapter}{List of Tables}{ix}
+\contentsline {chapter}{List of Figures}{xi}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Symmetries in Physics}{2}
 \contentsline {subsection}{\numberline {1.1.1}Noether's Theorem}{2}
 \contentsline {subsection}{\numberline {1.1.2}Angular Momentum and the Rotation Group}{3}
 \contentsline {subsection}{\numberline {1.1.3}Inherent Spin and $\mathrm {SU}(2)$}{5}
 \contentsline {section}{\numberline {1.2}Scattering Amplitudes}{7}
-\contentsline {subsection}{\numberline {1.2.1}Scattering Matrix}{8}
-\contentsline {subsection}{\numberline {1.2.2}Amplitudes and Feynman Diagrams}{9}
+\contentsline {subsection}{\numberline {1.2.1}Scattering Matrix}{7}
+\contentsline {subsection}{\numberline {1.2.2}Amplitudes and Feynman Diagrams}{8}
 \contentsline {section}{\numberline {1.3}The Standard Model}{12}
 \contentsline {subsection}{\numberline {1.3.1}Matter}{14}
 \contentsline {subsubsection}{\numberline {1.3.1.1}Quarks}{14}
@@ -47,6 +47,21 @@
 \contentsline {subsection}{\numberline {3.4.1}Decay of a spin-zero resonance}{100}
 \contentsline {subsection}{\numberline {3.4.2}Decay of a spin-one resonance}{102}
 \contentsline {subsection}{\numberline {3.4.3}Decay of a spin-two resonance}{104}
-\contentsline {chapter}{\numberline {4}Conclusions}{107}
-\contentsline {chapter}{Bibliography}{109}
-\contentsline {chapter}{Vita}{118}
+\contentsline {chapter}{\numberline {4}$H \to ZZ \to 4\ell $ search \& Production/Decay Fractions}{107}
+\contentsline {section}{\numberline {4.1}General overview of $H \to ZZ \to 4l$}{108}
+\contentsline {section}{\numberline {4.2}Object Selection}{109}
+\contentsline {section}{\numberline {4.3}Event Selection, Simulation, \& Categorization}{112}
+\contentsline {subsection}{\numberline {4.3.1}Simulated Data Samples}{112}
+\contentsline {subsection}{\numberline {4.3.2}Selection \& Categorization}{113}
+\contentsline {subsection}{\numberline {4.3.3}Background estimation}{115}
+\contentsline {section}{\numberline {4.4}Kinematic Distributions}{119}
+\contentsline {subsection}{\numberline {4.4.1}$4\ell $ mass spectrum}{120}
+\contentsline {subsection}{\numberline {4.4.2}Matrix Element Likelihood Approach (MELA) kinematic discriminant}{122}
+\contentsline {subsection}{\numberline {4.4.3}$p_{T}^{4\ell }$ and Jet Kinematic Discriminant}{129}
+\contentsline {section}{\numberline {4.5}Search Results}{132}
+\contentsline {subsection}{\numberline {4.5.1}Quantifying the observation}{138}
+\contentsline {subsection}{\numberline {4.5.2}Search for additional Higgs bosons}{144}
+\contentsline {section}{\numberline {4.6}Production \& Decay Fraction Results}{146}
+\contentsline {chapter}{\numberline {5}Conclusions}{149}
+\contentsline {chapter}{Bibliography}{151}
+\contentsline {chapter}{Vita}{169}
