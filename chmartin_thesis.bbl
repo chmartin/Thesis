@@ -141,8 +141,8 @@ O.~Klein, ``{The Atomicity of Electricity as a Quantum Theory Law},''
   \emph{Nature}, vol. 118, p. 516, 1926.
 
 \bibitem{Weinberg:1977ji}
-S.~Weinberg, ``{The First Three Minutes. A Modern View of the Origin of the
-  Universe},'' 1977.
+S.~Weinberg, \emph{{The First Three Minutes. A Modern View of the Origin of the
+  Universe}}.\hskip 1em plus 0.5em minus 0.4em\relax Basic Books, 1977.
 
 \bibitem{Trimble:1987ee}
 V.~Trimble, ``{Existence and Nature of Dark Matter in the Universe},''
@@ -395,7 +395,7 @@ C.~L. Smith, ``High energy behaviour and gauge symmetry,'' \emph{Physics
 
 \bibitem{ALEPH:2010aa}
 L.~E.~W. Group, ``{Precision Electroweak Measurements and Constraints on the
-  Standard Model},'' 2010.
+  Standard Model},'' \emph{Eprint Only}, 2010.
 
 \bibitem{Barate:2003sz}
 R.~Barate \emph{et~al.}, ``{Search for the standard model Higgs boson at
@@ -527,7 +527,8 @@ T.~Melia, P.~Nason, R.~Rontsch, and G.~Zanderighi, ``{W+W-, WZ and ZZ
 
 \bibitem{Binoth:2008pr}
 T.~Binoth, N.~Kauer, and P.~Mertsch, ``{Gluon-induced QCD corrections to pp
-  ---> ZZ ---> l anti-l l-prime anti-l-prime},'' p. 142, 2008.
+  ---> ZZ ---> l anti-l l-prime anti-l-prime},'' \emph{Eprint only}, p. 142,
+  2008.
 
 \bibitem{Campbell:2011bn}
 J.~M. Campbell, R.~K. Ellis, and C.~Williams, ``{Vector boson pair production
@@ -615,16 +616,16 @@ S.~Chatrchyan \emph{et~al.}, ``{Study of the Mass and Spin-Parity of the Higgs
 
 \bibitem{CMS-PAS-EWK-11-001}
 \BIBentryALTinterwordspacing
-``{Absolute Calibration of Luminosity Measurement at CMS: Summer 2011
-  Update},'' CERN, Geneva, Tech. Rep. CMS-PAS-EWK-11-001, 2011. [Online].
-  Available: \url{http://cds.cern.ch/record/1376102}
+C.~Collaboration, ``{Absolute Calibration of Luminosity Measurement at CMS:
+  Summer 2011 Update},'' CERN, Geneva, Tech. Rep. CMS-PAS-EWK-11-001, 2011.
+  [Online]. Available: \url{http://cds.cern.ch/record/1376102}
 \BIBentrySTDinterwordspacing
 
 \bibitem{CMS-PAS-LUM-13-001}
 \BIBentryALTinterwordspacing
-``{CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update},''
-  CERN, Geneva, Tech. Rep. CMS-PAS-LUM-13-001, 2013. [Online]. Available:
-  \url{http://cds.cern.ch/record/1598864}
+C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
+  2013 Update},'' CERN, Geneva, Tech. Rep. CMS-PAS-LUM-13-001, 2013. [Online].
+  Available: \url{http://cds.cern.ch/record/1598864}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Denner:2011mq}
@@ -643,5 +644,137 @@ A.~L. Read, ``{Presentation of search results: The CL(s) technique},''
 \bibitem{Gross:2010qma}
 E.~Gross and O.~Vitells, ``{Trial factors or the look elsewhere effect in high
   energy physics},'' \emph{Eur.Phys.J.}, vol. C70, pp. 525--530, 2010.
+
+\bibitem{Aad:2013wqa}
+G.~Aad \emph{et~al.}, ``{Measurements of Higgs boson production and couplings
+  in diboson final states with the ATLAS detector at the LHC},''
+  \emph{Phys.Lett.}, vol. B726, pp. 88--119, 2013.
+
+\bibitem{Aad:2013xqa}
+G.~Aad \emph{et~al.}, ``{Evidence for the spin-0 nature of the Higgs boson
+  using ATLAS data},'' \emph{Phys.Lett.}, vol. B726, pp. 120--144, 2013.
+
+\bibitem{Kauer:2013cga}
+N.~Kauer, ``{Inadequacy of zero-width approximation for a light Higgs boson
+  signal},'' \emph{Mod.Phys.Lett.}, vol. A28, p. 1330015, 2013.
+
+\bibitem{Campbell:2013una}
+J.~M. Campbell, R.~K. Ellis, and C.~Williams, ``{Bounding the Higgs width at
+  the LHC using full analytic results for $gg -> e^- e^+ \mu^- \mu^+$},''
+  \emph{JHEP}, vol. 1404, p. 060, 2014.
+
+\bibitem{Passarino:2013bha}
+G.~Passarino, ``{Higgs CAT},'' \emph{Eur.Phys.J.}, vol. C74, p. 2866, 2014.
+
+\bibitem{Chatrchyan:2013yoa}
+S.~Chatrchyan \emph{et~al.}, ``{Search for a standard-model-like Higgs boson
+  with a mass in the range 145 to 1000 GeV at the LHC},'' \emph{Eur.Phys.J.},
+  vol. C73, p. 2469, 2013.
+
+\bibitem{Chatrchyan:2012ft}
+S.~Chatrchyan \emph{et~al.}, ``{Search for the standard model Higgs boson in
+  the $H$ to $Z Z$ to 2 $\ell 2 \nu$ channel in $pp$ collisions at $\sqrt{s}=7$
+  TeV},'' \emph{JHEP}, vol. 1203, p. 040, 2012.
+
+\bibitem{Kauer:2013qba}
+N.~Kauer, ``{Interference effects for H $\to$ WW/ZZ $\to
+  \ell\bar{\nu}_\ell\bar{\ell}\nu_\ell$ searches in gluon fusion at the LHC},''
+  \emph{JHEP}, vol. 1312, p. 082, 2013.
+
+\bibitem{Martin:2009iq}
+A.~Martin, W.~Stirling, R.~Thorne, and G.~Watt, ``{Parton distributions for the
+  LHC},'' \emph{Eur.Phys.J.}, vol. C63, pp. 189--285, 2009.
+
+\bibitem{Bonvini:2013jha}
+M.~Bonvini, F.~Caola, S.~Forte, K.~Melnikov, and G.~Ridolfi,
+  ``{Signal-background interference effects for $gg→H→W^+W^-$ beyond
+  leading order},'' \emph{Phys.Rev.}, vol. D88, no.~3, p. 034032, 2013.
+
+\bibitem{Ballestrero:2007xq}
+A.~Ballestrero, A.~Belhouari, G.~Bevilacqua, V.~Kashkan, and E.~Maina,
+  ``{PHANTOM: A Monte Carlo event generator for six parton final states at high
+  energy colliders},'' \emph{Comput.Phys.Commun.}, vol. 180, pp. 401--417,
+  2009.
+
+\bibitem{Alioli:2010xd}
+S.~Alioli, P.~Nason, C.~Oleari, and E.~Re, ``{A general framework for
+  implementing NLO calculations in shower Monte Carlo programs: the POWHEG
+  BOX},'' \emph{JHEP}, vol. 1006, p. 043, 2010.
+
+\bibitem{Bierweiler:2013dja}
+A.~Bierweiler, T.~Kasprzik, and J.~H. Kühn, ``{Vector-boson pair production at
+  the LHC to $\mathcal{O}(\alpha^3)$ accuracy},'' \emph{JHEP}, vol. 1312, p.
+  071, 2013.
+
+\bibitem{Baglio:2013toa}
+J.~Baglio, L.~D. Ninh, and M.~M. Weber, ``{Massive gauge boson pair production
+  at the LHC: a next-to-leading order story},'' \emph{Phys.Rev.}, vol. D88, p.
+  113005, 2013.
+
+\bibitem{Chatrchyan:2012jua}
+S.~Chatrchyan \emph{et~al.}, ``{Identification of b-quark jets with the CMS
+  experiment},'' \emph{JINST}, vol.~8, p. P04013, 2013.
+
+\bibitem{Alekhin:2011sk}
+S.~Alekhin, S.~Alioli, R.~D. Ball, V.~Bertone, J.~Blumlein \emph{et~al.},
+  ``{The PDF4LHC Working Group Interim Report},'' \emph{Eprint only}, 2011.
+
+\bibitem{Botje:2011sn}
+M.~Botje, J.~Butterworth, A.~Cooper-Sarkar, A.~de~Roeck, J.~Feltesse
+  \emph{et~al.}, ``{The PDF4LHC Working Group Interim Recommendations},''
+  \emph{Eprint only}, 2011.
+
+\bibitem{Ball:2011mu}
+R.~D. Ball, V.~Bertone, F.~Cerutti, L.~Del~Debbio, S.~Forte \emph{et~al.},
+  ``{Impact of Heavy Quark Masses on Parton Distributions and LHC
+  Phenomenology},'' \emph{Nucl.Phys.}, vol. B849, pp. 296--363, 2011.
+
+\bibitem{CMS_AN_2014_018}
+N.~Amapane \emph{et~al.}, ``{A measurement of the Higgs boson width using
+  off-shell production and decay to 4 leptons},'' \emph{CMS Internal Analysis
+  Note}, vol. 2014/018, 2014.
+
+\bibitem{Chen:2012jy}
+Y.~Chen, N.~Tran, and R.~Vega-Morales, ``{Scrutinizing the Higgs Signal and
+  Background in the $2e2\mu$ Golden Channel},'' \emph{JHEP}, vol. 1301, p. 182,
+  2013.
+
+\bibitem{rosenblatt1956}
+\BIBentryALTinterwordspacing
+M.~Rosenblatt, ``Remarks on some nonparametric estimates of a density
+  function,'' \emph{Ann. Math. Statist.}, vol.~27, no.~3, pp. 832--837, 09
+  1956. [Online]. Available: \url{http://dx.doi.org/10.1214/aoms/1177728190}
+\BIBentrySTDinterwordspacing
+
+\bibitem{parzen1962}
+\BIBentryALTinterwordspacing
+E.~Parzen, ``On estimation of a probability density function and mode,''
+  \emph{Ann. Math. Statist.}, vol.~33, no.~3, pp. 1065--1076, 09 1962.
+  [Online]. Available: \url{http://dx.doi.org/10.1214/aoms/1177704472}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Wilks:1938dza}
+S.~Wilks, ``{The Large-Sample Distribution of the Likelihood Ratio for Testing
+  Composite Hypotheses},'' \emph{Annals Math.Statist.}, vol.~9, no.~1, pp.
+  60--62, 1938.
+
+\bibitem{Chatrchyan:2013vaa}
+S.~Chatrchyan \emph{et~al.}, ``{Search for a Higgs boson decaying into a Z and
+  a photon in pp collisions at $\sqrt{s}$ = 7 and 8 TeV},'' \emph{Phys.Lett.},
+  vol. B726, pp. 587--609, 2013.
+
+\bibitem{Khachatryan:2014ira}
+V.~Khachatryan \emph{et~al.}, ``{Observation of the diphoton decay of the Higgs
+  boson and measurement of its properties},'' \emph{Eur.Phys.J.}, vol. C74,
+  no.~10, p. 3076, 2014.
+
+\bibitem{Dawson:2013bba}
+S.~Dawson, A.~Gritsan, H.~Logan, J.~Qian, C.~Tully \emph{et~al.}, ``{Working
+  Group Report: Higgs Boson},'' 2013.
+
+\bibitem{Chen:2014gka}
+Y.~Chen, R.~Harnik, and R.~Vega-Morales, ``{Probing the Higgs Couplings to
+  Photons in h→4ℓ at the LHC},'' \emph{Phys.Rev.Lett.}, vol. 113, no.~19,
+  p. 191801, 2014.
 
 \end{thebibliography}
