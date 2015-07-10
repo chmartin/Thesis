@@ -641,6 +641,13 @@ T.~Junk, ``{Confidence level computation for combining searches with small
 A.~L. Read, ``{Presentation of search results: The CL(s) technique},''
   \emph{J.Phys.}, vol. G28, pp. 2693--2704, 2002.
 
+\bibitem{CMS-NOTE-2011-005}
+\BIBentryALTinterwordspacing
+``{Procedure for the LHC Higgs boson search combination in Summer 2011},''
+  CERN, Geneva, Tech. Rep. CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, Aug 2011.
+  [Online]. Available: \url{http://cds.cern.ch/record/1379837}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Gross:2010qma}
 E.~Gross and O.~Vitells, ``{Trial factors or the look elsewhere effect in high
   energy physics},'' \emph{Eur.Phys.J.}, vol. C70, pp. 525--530, 2010.
@@ -685,21 +692,11 @@ N.~Kauer, ``{Interference effects for H $\to$ WW/ZZ $\to
 A.~Martin, W.~Stirling, R.~Thorne, and G.~Watt, ``{Parton distributions for the
   LHC},'' \emph{Eur.Phys.J.}, vol. C63, pp. 189--285, 2009.
 
-\bibitem{Bonvini:2013jha}
-M.~Bonvini, F.~Caola, S.~Forte, K.~Melnikov, and G.~Ridolfi,
-  ``{Signal-background interference effects for $gg→H→W^+W^-$ beyond
-  leading order},'' \emph{Phys.Rev.}, vol. D88, no.~3, p. 034032, 2013.
-
 \bibitem{Ballestrero:2007xq}
 A.~Ballestrero, A.~Belhouari, G.~Bevilacqua, V.~Kashkan, and E.~Maina,
   ``{PHANTOM: A Monte Carlo event generator for six parton final states at high
   energy colliders},'' \emph{Comput.Phys.Commun.}, vol. 180, pp. 401--417,
   2009.
-
-\bibitem{Alioli:2010xd}
-S.~Alioli, P.~Nason, C.~Oleari, and E.~Re, ``{A general framework for
-  implementing NLO calculations in shower Monte Carlo programs: the POWHEG
-  BOX},'' \emph{JHEP}, vol. 1006, p. 043, 2010.
 
 \bibitem{Bierweiler:2013dja}
 A.~Bierweiler, T.~Kasprzik, and J.~H. Kühn, ``{Vector-boson pair production at
@@ -715,19 +712,10 @@ J.~Baglio, L.~D. Ninh, and M.~M. Weber, ``{Massive gauge boson pair production
 S.~Chatrchyan \emph{et~al.}, ``{Identification of b-quark jets with the CMS
   experiment},'' \emph{JINST}, vol.~8, p. P04013, 2013.
 
-\bibitem{Alekhin:2011sk}
-S.~Alekhin, S.~Alioli, R.~D. Ball, V.~Bertone, J.~Blumlein \emph{et~al.},
-  ``{The PDF4LHC Working Group Interim Report},'' \emph{Eprint only}, 2011.
-
-\bibitem{Botje:2011sn}
-M.~Botje, J.~Butterworth, A.~Cooper-Sarkar, A.~de~Roeck, J.~Feltesse
-  \emph{et~al.}, ``{The PDF4LHC Working Group Interim Recommendations},''
-  \emph{Eprint only}, 2011.
-
-\bibitem{Ball:2011mu}
-R.~D. Ball, V.~Bertone, F.~Cerutti, L.~Del~Debbio, S.~Forte \emph{et~al.},
-  ``{Impact of Heavy Quark Masses on Parton Distributions and LHC
-  Phenomenology},'' \emph{Nucl.Phys.}, vol. B849, pp. 296--363, 2011.
+\bibitem{Bonvini:2013jha}
+M.~Bonvini, F.~Caola, S.~Forte, K.~Melnikov, and G.~Ridolfi,
+  ``{Signal-background interference effects for $gg→H→W^+W^-$ beyond
+  leading order},'' \emph{Phys.Rev.}, vol. D88, no.~3, p. 034032, 2013.
 
 \bibitem{CMS_AN_2014_018}
 N.~Amapane \emph{et~al.}, ``{A measurement of the Higgs boson width using
@@ -776,5 +764,25 @@ S.~Dawson, A.~Gritsan, H.~Logan, J.~Qian, C.~Tully \emph{et~al.}, ``{Working
 Y.~Chen, R.~Harnik, and R.~Vega-Morales, ``{Probing the Higgs Couplings to
   Photons in h→4ℓ at the LHC},'' \emph{Phys.Rev.Lett.}, vol. 113, no.~19,
   p. 191801, 2014.
+
+\bibitem{Khachatryan:2015cwa}
+V.~Khachatryan \emph{et~al.}, ``{Search for a Higgs boson in the mass range
+  from 145 to 1000 GeV decaying to a pair of W or Z bosons},'' 2015.
+
+\bibitem{Khachatryan:2014jba}
+V.~Khachatryan \emph{et~al.}, ``{Precise determination of the mass of the Higgs
+  boson and tests of compatibility of its couplings with the standard model
+  predictions using proton collisions at 7 and 8 $\,\text {TeV}$},''
+  \emph{Eur.Phys.J.}, vol. C75, no.~5, p. 212, 2015.
+
+\bibitem{Aad:2015xua}
+G.~Aad \emph{et~al.}, ``{Constraints on the off-shell Higgs boson signal
+  strength in the high-mass $ZZ$ and $WW$ final states with the ATLAS
+  detector},'' 2015.
+
+\bibitem{CMS_AN_2014_247}
+N.~Amapane \emph{et~al.}, ``{Lifetime of the Higgs boson and constraints on its
+  width considering anomalous couplings with H->4l},'' \emph{CMS Internal
+  Analysis Note}, vol. 2014/247, 2014.
 
 \end{thebibliography}

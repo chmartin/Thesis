@@ -2,7 +2,7 @@
 \label{sec:Spin_Experiment}
 \chaptermark{Spin \& Parity of a Higgs Boson}
 
-In this these, an extensive study of the spin-parity properties of the Higgs boson and of the tensor structure of its interactions with electroweak gauge bosons is presented using the $H \to ZZ$, $Z\gamma^*$, $\gamma^*\gamma^*\to4\ell$, where the interference between the three intermediate states is included. The study focuses on testing for the presence of anomalous effects in $HZZ$ and interactions under spin-zero, -one, and -two hypotheses, but also probes the $Z\gamma^*$, $\gamma^*\gamma^*\to4\ell$ terms. Constraints are set on eleven anomalous coupling contributions to the $HVV$ interactions, where $V$ is a gauge vector boson, under the spin-zero assumption of the Higgs boson. Extending the exclusion of $0^{-}\left(2_{m}^{+}\right)$ hypotheses in favor of the SM and the original measurement of the $f_{a3}$ parameter \cite{Chatrchyan:2012jja}, this thesis work developed the most comprehensive study of the spin-parity and tensor structure measurements to date. These studies have been published in \cite{Chatrchyan:2013mxa} and submitted for publication in \cite{Khachatryan:2014kca}. A summary of the measurements performed is outlined in the first section, a summary of the event simulated data and four lepton selection is discussed, then an description of the analysis techniques is given. Finally, the results of this analysis are presented. The results section first presents spin-one and spin-two exclusions followed by the study of spin-zero $HVV$ couplings.
+In this thesis, an extensive study of the spin-parity properties of the Higgs boson and of the tensor structure of its interactions with electroweak gauge bosons is presented using the $H \to ZZ/Z\gamma^*/\gamma^*\gamma^*\to4\ell$ decay channel, where the interference between the three intermediate states is included. The study focuses on testing for the presence of anomalous effects in $HZZ$ and interactions under spin-zero, -one, and -two hypotheses, but also probes the $Z\gamma^*$ or $\gamma^*\gamma^*\to4\ell$ terms. Constraints are set on eight anomalous coupling contributions to the $HVV$ interactions\footnote{Eleven when the $HWW$ extensions are included.}, where $V$ is a gauge vector boson, under the spin-zero assumption of the Higgs boson. Extending the exclusion of $0^{-}\left(2_{m}^{+}\right)$ hypotheses in favor of the SM and the original measurement of the $f_{a3}$ parameter \cite{Chatrchyan:2012jja}, this thesis work developed the most comprehensive study of the spin-parity and tensor structure measurements to date. These studies have been published in \cite{Chatrchyan:2013mxa} and submitted for publication in \cite{Khachatryan:2014kca}. A summary of the measurements performed is outlined in the first section, a summary of the simulated data and four lepton event selection is discussed, then an description of the analysis techniques is given. Finally, the results of this analysis are presented. The results section first presents spin-one and spin-two exclusions followed by the study of spin-zero $HVV$ couplings.
 
 \section{Summary of Spin/Parity Measurements}
 \label{sec:General_Spin_Parity}
@@ -59,10 +59,8 @@ $\unit{125.6}{\GeV}$ resonance, $105.6 \le m_{4\ell} \le \unit{140.6}{\GeV}$.
 
 After the selection, the dominant background for $H \to VV \to 4\ell$ originates from the
 $q\bar{q} \to ZZ/Z\gamma^*$ and $gg \to ZZ/Z\gamma^*$ processes
-and is evaluated from simulation, following \cite{Chatrchyan:2013mxa}.
-The other backgrounds come from the production of $Z$ and $WZ$ bosons in association with jets,
-as well as $t\bar{t}$, with one or two jets misidentified as an electron or a muon.
-The $Z + \text{jets}$ background is evaluated using a tight-to-loose misidentification rate method \cite{Chatrchyan:2013mxa}. The number of estimated background and signal events, and the number of
+and is evaluated from simulation, following \cite{Chatrchyan:2013mxa}
+while the $Z + \text{jets}$ background is evaluated as previously described \cite{Chatrchyan:2013mxa}. The number of estimated background and signal events, and the number of
 observed candidates after the final selection in data in the
 narrow mass region around $\unit{125.6}{\GeV}$  is given in table~\ref{tab:EventYieldsLowMass_spin}.
 
@@ -127,7 +125,7 @@ produced in association with $H$ boson is not used either. This approach differs
 
 The distributions of the eight kinematic observables $(m_1, m_2, m_{4\ell}, \vec\Omega)$ in data,
 as well as the expectations for the SM background, the Higgs boson signal, and some characteristic alternative
-spin-zero scenarios are shown in figure \ref{fig:kinematics_sp}\footnote{Some previously shown in figure \ref{fig:kinematics}}. All distributions in figure \ref{fig:kinematics_sp}, with the exception of the $m_{4\ell}$ distribution, are presented using events in the $m_{4\ell}$ range of $\unit{121.5--130.5}{\GeV}$ to enhance the signal purity. The observables with their correlations are used in the analysis to establish the consistency of the spin and parity quantum numbers and tensor structure of interactions with respect to the SM predictions. These observables also permit a further discrimination of signal from background, increasing the signal sensitivity and reducing the statistical uncertainty in the measurements.
+spin-zero scenarios are shown in figure \ref{fig:kinematics_sp}\footnote{Some previously shown in figure \ref{fig:kinematics}}. All distributions in figure \ref{fig:kinematics_sp}, with the exception of the $m_{4\ell}$ distribution, are presented using events in the $m_{4\ell}$ range of $\unit{121.5--130.5}{\GeV}$ to enhance the signal purity. The observables with their correlations are used in the analysis to establish the consistency of the spin and parity quantum numbers and tensor structure of interactions with respect to the SM predictions. As previously discussed, these observables also permit a further discrimination of signal from background, increasing the signal sensitivity and reducing the statistical uncertainty in the measurements.
 
 \begin{figure}
 \centering
@@ -179,22 +177,21 @@ $121.5 < m_{4\ell} < \unit{130.5}{\GeV}$ \cite{Khachatryan:2014kca}.
 \subsection{MELA Observables} 
 \label{sec:KDMethod}
 
-A comprehensive analysis of the kinematics of the decay of a Higgs boson would include up to eight observables,
+A comprehensive analysis of the kinematics of the decay of a Higgs boson could include up to eight observables,
 as discussed above. In such an analysis, it is required to have a parameterization of the multidimensional
 distributions as a function of the parameters of interest. However, it becomes challenging to describe all
 the correlations of the observables and detector effects. It is possible to reduce the number of observables
-and keep the necessary information using the matrix element likelihood approach.
+and keep the necessary information using the matrix element likelihood approach (MELA).
 In this approach, the kinematic information is stored in a discriminant designed for the separation of
 either background, the alternative signal components, or interference between those components.
 The parameterization of up to three observables can be performed with full simulation or data from
-the control regions. This approach is adopted in the $H \to VV \to 4\ell$ analysis.
+the control regions.
 
 The use of kinematic discriminants in Higgs boson studies was introduced in
 previous CMS analyses~\cite{Chatrchyan:2012ufa,Chatrchyan:2012jja, Chatrchyan:2013mxa,Khachatryan:2014iha}
 and feasibility studies~\cite{Bolognesi:2012mm,Anderson:2013afp},
 and here it is extended both to a number of new models and to new techniques.
-The construction of the kinematic discriminants follows the matrix element likelihood approach,
-where the probabilities for an event are calculated using the LO matrix elements as a function
+The construction of the kinematic discriminants follows the probabilities for an event are calculated using the LO matrix elements as a function
 of angular and mass observables. In this way, the kinematic information, which fully characterizes
 the $4\ell$ event topology of a certain process in its center-of-mass frame, is condensed to a
 reduced number of observables.
@@ -227,7 +224,7 @@ the effective probabilities are defined for each event using a set of kinematic 
 where $\mathcal{P}^\text{kin}(m_1, m_2, \vec\Omega|m_{H}) = |{A}(m_1, m_2, \vec\Omega|m_{H})|^2$
 are the probabilities computed from the LO matrix elements and generally are not normalized.
 The variable $\mathcal{P}^\text{mass}(m_{4\ell}|m_{H})$ is the probability as a function of the four-lepton reconstructed mass
-and is calculated using the $m_{4\ell}$ parameterization described in ~\cite{Chatrchyan:2012jja, Chatrchyan:2013mxa}
+and is calculated using the $m_{4\ell}$ parameterization described in previously in section \ref{sec:4l_Experiment}
 including the $m_{H}=\unit{125.6}{\GeV}$ hypothesis for signal.
 The probabilities $\mathcal{P}_{J^P} ^\text{int}$ parameterize interference between contributions from the SM and
 anomalous couplings, where $J^P$ refers to a spin-zero tensor structure of interest, and are allowed to have both positive
@@ -242,7 +239,7 @@ Several kinematic discriminants are constructed for the main signal and backgrou
 from the set of probabilities described above
 \begin{equation}\begin{aligned}
  \mathcal{D}_\text{bkg} =& \frac{\mathcal{P}_\mathrm{SM} }{\mathcal{P}_\mathrm{SM} +\mathcal{P}_{q\bar{q}ZZ} }=
-\left[1+c(m_{4\ell})\times\frac{\mathcal{P}^\text{kin}_{q\bar{q}ZZ} (m_1, m_2, \vec\Omega | m_{4\ell})\times \mathcal{P}^\text{mass}_{q\bar{q}ZZ} (m_{4\ell})  }
+\left[1+\frac{\mathcal{P}^\text{kin}_{q\bar{q}ZZ} (m_1, m_2, \vec\Omega | m_{4\ell})\times \mathcal{P}^\text{mass}_{q\bar{q}ZZ} (m_{4\ell})  }
 {\mathcal{P}^\text{kin}_\mathrm{SM} (m_1, m_2, \vec\Omega | m_{4\ell}) \times \mathcal{P}^\text{mass}_\text{sig} (m_{4\ell}|m_{H}) } \right]^{-1} ,
  \\
 \mathcal{D}_{J^P} =& \frac{\mathcal{P}_\mathrm{SM} }{\mathcal{P}_\mathrm{SM} + \mathcal{P}_{J^P} }=
@@ -289,7 +286,9 @@ A complete list of all the discriminants used in the analysis is presented in ta
 Some examples of the distributions as expected from simulation and as observed in data can be seen
 in figure~\ref{fig:discriminants} for all the discriminants used in the study of the spin-zero $HZZ$ couplings.
 A complete list of the measurements performed and observables used is discussed in sections~\ref{sec:ResultsExotic}
-and~\ref{sec:ResultsSpinZero}.
+and~\ref{sec:ResultsSpinZero}. 
+
+From figure \ref{fig:discriminants} the special role of $\mathcal{D}_{C\!P}$ can be observed. For the SM background processes, including a SM Higgs boson, this distribution is completely symmetric. However, if the observed boson contains a $C\!P$-violating component it will appear as an asymmetry in this distribution as shown by the $f_{a3} = 0.5$ example in the figure. 
 
 \begin{table}
 \centering
@@ -372,7 +371,7 @@ with the requirement $\mathcal{D}_\text{bkg}>0.5$ to enhance signal purity \cite
 \section{Spin/Parity Results}
 \label{sec:SpinParity_Results}
 
-Before giving a detailed description of the likelihoods that are created for this analysis, and detailed discussion of the exotic and spin-zero results, we will give a brief description of the systematic uncertainties used in this analysis.
+Before giving a detailed description of the likelihoods that are created for this analysis and discussion of thef results, we will give a brief description of the systematic uncertainties used in this analysis.
 
 The systematic uncertainties in the $H \to VV \to 4\ell$ channel are generally the same as the ones investigated in~\cite{Chatrchyan:2013mxa}. Among the yield uncertainties, experimental systematic uncertainties are evaluated from data for the lepton trigger efficiency and combined object reconstruction, identification, and isolation efficiencies.
 The theoretical uncertainties on the $ZZ$ background are described in \cite{Chatrchyan:2013mxa}, but the calculations have been updated using the recommendations in \cite{Heinemeyer:2013tqa}
@@ -465,7 +464,7 @@ is used for the final inference of whether a particular alternative signal hypot
 The study of the exotic-spin $J^P$ hypotheses of the observed boson with mass of $\unit{125.6}{\GeV}$ using the $X \to ZZ$ decay channel is summarized in this section. Mixed spin-one state hypotheses, as well as the spin-two models listed in table~\ref{tab:kdlist} are examined.
 
 In the case of the spin-one studies, the hypothesis testing is performed for a discrete set of values of the parameter $f_{b2}$. The input observables are $\left(\mathcal{D}_\text{bkg}, \mathcal{D}_{1-}, \mathcal{D}_{1+}\right)$. It has been demonstrated in the context of this study that the distributions of these observables are not sensitive to the phase between the $b_1$ and $b_2$ coupling parameters in equation \eqref{eq:ampl-spin1} and therefore the results of the $f_{b2}$ scan are valid for any value of the phase term in the interference. The spin-one hypothesis is tested for
-two scenarios, $qbar{q}$ production and using only decay information. The latter requires the input observables $\left(\mathcal{D}_\text{bkg}^\text{dec},\mathcal{D}_{1-}^\text{dec},\mathcal{D}_{1+}^\text{dec}\right)$.
+two scenarios, $q\bar{q}$ production and using only decay information. The latter requires the input observables $\left(\mathcal{D}_\text{bkg}^\text{dec},\mathcal{D}_{1-}^\text{dec},\mathcal{D}_{1+}^\text{dec}\right)$.
 
 The expected and observed separations of spin-one models from the test statistic distributions
 are summarized in table~\ref{tab:jpmodels_1} and in figure \ref{fig:jp_summary_1}.
@@ -481,11 +480,7 @@ is very close to unity, the two results for the expected separations are also si
 
 All spin-one tests are consistent with the expectation for the SM Higgs boson.
 While the decay-only analysis uses less information and is expected to provide weaker constraints,
-the fluctuations in the observed data lead to stronger constraints for spin-one models.
-The least restrictive result corresponds to the $1^+$ model in the $q\bar{q}$ production test
-with a $CL_{s}$ value of $0.031\%$.
-
-Any arbitrary spin-one model for the resonance observed in the $X \to ZZ\to 4\ell$ decay mode with any
+the fluctuations in the observed data lead to stronger constraints for spin-one models. Any arbitrary spin-one model for the resonance observed in the $X \to ZZ\to 4\ell$ decay mode with any
 mixture of parity-even and parity-odd interactions and any production mechanism is excluded at a C.L. of
 99.97\% or higher.
 
@@ -638,7 +633,7 @@ Given the exclusion of the exotic spin-one and spin-two scenarios presented in s
 detailed studies of $HVV$ interactions under the assumption that the new boson is a spin-zero
 resonance are performed. 
 
-First, constraints are applied on the presence of only one anomalous term in the $PHVV$
+First, constraints are applied on the presence of only one anomalous term in the $HVV$
 amplitude where the couplings are considered to be real. A summary of such results is presented
 in table~\ref{tab:summary_spin0} and figure~\ref{fig:spin0_summary}.
 The details of these and other measurements are presented in the following subsections, with further
@@ -842,8 +837,8 @@ $ a_{3}/a_{1} $ &   $[-2.05,2.19]$ & $[-3.85,3.85]$                             
 
 The above one-parameter measurements, with other couplings also considered to be unconstrained, are obtained
 from the fit configurations used for the two-parameter measurements shown in figure~\ref{fig:results_ZZ_2D}.
-Both options are considered, either with or without the assumption that the couplings are real. To keep
-the number of observables to the maximum of three, in the template approach, the following discriminants are
+Both options are considered, either with or without the assumption that the couplings are real. To simplify the analysis
+the number of observables is kept to a maximum of three, the following discriminants are
 used to set the constraints,
 ($\mathcal{D}_\text{bkg}$, $\mathcal{D}_{\Lambda1}$, $\mathcal{D}_{0h+}$),
 ($\mathcal{D}_\text{bkg}$, $\mathcal{D}_{\Lambda1}$, $\mathcal{D}_{0-}$),
