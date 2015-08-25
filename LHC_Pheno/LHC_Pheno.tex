@@ -116,7 +116,7 @@ Producing the Higgs boson in association with a W or Z boson is conceptually sim
 
 More details are presented in section \ref{sec:prod_dec_frac}, this thesis uses the different properties of ggH and VBF production modes to measure how often a Higgs boson is produced in each mode at the LHC. This work resulted in the first measurement of the production mechanism of Higgs bosons in the $4\ell$ final state.
 
-\section{Higgs boson decay to $ZZ \to 4\ell$}
+\section{Higgs boson decay to \texorpdfstring{$ZZ \to 4\ell$}{ZZ to 4l}}
 \label{sec:Higgs_Decay_ZZ_4l}
 
 The SM Higgs boson is an unstable particle that will decay before it can be detected with the CMS detector. However, we can search for this particle by looking at its decay products. To determine which decay products will be the most fruitful to use for a search, we look at the \textit{branching ratio} $BR_{X} = \frac{N_{X}}{N_{tot}}$ of the Higgs boson decay for a specific final state in relation to the total number of Higgs bosons we expect. Thus, a high branching ratio will result in a larger number of signal events. In figure \ref{fig:Higgs_BR} we plot some of the interesting branching ratios as a function of the Higgs boson mass. To decide if a search is valuable we compare the number of events we expect from a specific decay mode (given by the luminosity times branching ratio times the cross section $\mathcal{L}\cdot BR_{X}\cdot\sigma_{tot}$) to the number of background events we expect in the search range.
@@ -219,7 +219,7 @@ This width can also illuminate possible new physics. The lifetime of a particle 
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.46\linewidth]{{LHC_Pheno/YRHXS_BR_fig2}.eps}
+\includegraphics[width=0.46\linewidth]{{LHC_Pheno/YRHXS_BR_fig2}.pdf}
 \caption[Total width of the SM Higgs boson as a function of its mass.]{Total width of the SM Higgs boson as a function of its mass\cite{Dittmaier:2011ti}.}
 \label{fig:Higgs_width}
 \end{center}
@@ -270,7 +270,7 @@ However, the LHC will produce Higgs bosons far from this mass resonance as well.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.46\linewidth]{{LHC_Pheno/lhzwa_fig1b}.eps}
+\includegraphics[width=0.46\linewidth]{{LHC_Pheno/lhzwa_fig1b}.pdf}
 \caption[The NNLO ZZ (black) and WW (red) invariant mass distributions for $m_{H} = \unit{125}{\GeV}$.]{The NNLO ZZ (black) and WW (red) invariant mass distributions for $m_{H} = \unit{125}{\GeV}$\cite{Kauer:2012hd}.}
 \label{fig:Higgs_lineshape}
 \end{center}
@@ -303,7 +303,7 @@ The impact of these three terms is seen in figure \ref{fig:Higgs_sig/bkg/interf}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.46\linewidth]{{LHC_Pheno/lhzwa_fig2}.eps}
+\includegraphics[width=0.46\linewidth]{{LHC_Pheno/lhzwa_fig2}.pdf}
 \caption[The LO $ZZ$ invariant mass distribution $gg \to ZZ$ for $m_{H} = \unit{125}{\GeV}$. Black is the total $gg \to \ldots \to ZZ$ contribution once all interfrence effects are taken into account. Red is the $gg \to H^{*} \to ZZ$ signal only, and cyan is the $gg \to \ldots \to ZZ$ contribution ignoring the interference between the two contributions. For scale, the $q\bar{q} \to ZZ$ contribution is shown in blue.]{The LO $ZZ$ invariant mass distribution $gg \to ZZ$ for $m_{H} = \unit{125}{\GeV}$. Black is the total $gg \to \ldots \to ZZ$ contribution once all interfrence effects are taken into account. Red is the $gg \to H^{*} \to ZZ$ signal only, and cyan is the $gg \to \ldots \to ZZ$ contribution ignoring the interference between the two contributions. For scale, the $q\bar{q} \to ZZ$ contribution is shown in blue \cite{Kauer:2012hd}.}
 \label{fig:Higgs_sig/bkg/interf}
 \end{center}
@@ -333,6 +333,8 @@ When a new boson is produced it can be either spin-zero, one, or two\footnote{Un
 
 The scattering amplitude describing the interaction between a spin-zero H boson and two spin-one gauge bosons $VV$ $\left(ZZ, Z\gamma, \gamma\gamma, WW \text{ or } gg\right)$ can be defined as in equation \eqref{eq:formfact-fullampl-spin0}. Where the coupling parameters $a_{i}^{VV}$ can have both real and imaginary parts and in general are form factors which can depend on the suared Lorentz invariant four-momenta of $V_{1}$ and $V_{2}$, $q_{V1}^2$ and $q_{V2}^2$. In this expression, terms of higher order than $q_{V}^2$ have been dropped in the expansion under the assumption that anomalous couplings will only have a small contribution. In this expression, we use a different notation than previous sections and label the field strength tensor of a gauge boson with momentum $q_{Vi}$ and polaraization $\epsilon_{Vi}$ with $f^{\left(i\right) \mu \nu} = \epsilon^{\mu}_{Vi}q_{Vi}^{\nu} - \epsilon^{\nu}_{Vi}q_{Vi}^{\mu}$. ${\tilde f}^{\left(i\right)}_{\mu \nu} = \frac{1}{2}\epsilon_{\mu\nu\rho\sigma}f^{\left(i\right) \rho \sigma}$ is the dual field strength tensor, and the superscript $*$ designates a complex conjugate. The masses of the Z or W boson is labeled as $m_{V1}$, while in the case of massless bosons there is no contribution from this term. To understand the impact form factor will have on the $a_{1}$ term, an energy scale $\Lambda_{1}$ for beyond-SM physics that could impact the SM scattering amplitude is also studied \cite{Anderson:2013afp}. 
 
+\begingroup
+\small
 \begin{equation}
 A(H\to VV) \sim
 \left[ a_{1}^{VV}
@@ -342,6 +344,7 @@ m_{V1}^2 \epsilon_{V1}^* \epsilon_{V2}^*
 + a_{3}^{VV}   f^{*(1)}_{\mu \nu} {\tilde f}^{*(2)\mu\nu}
 \label{eq:formfact-fullampl-spin0}
 \end{equation}
+\endgroup
 
 In the SM, the tree-level contribution from $ZZ \left(WW\right)$ correspond to $a_{1}^{ZZ \left(WW\right)} \neq 0$, while the loop-induced SM contribution for $Z\gamma, \gamma\gamma, \text{ and } gg$ is $a_{2}^{VV} \neq 0$. Small SM contributions to the higher order $a_{i}$ terms can come from loop level contributions but, in general, these should be small. Additional restrictions on the allowed values for the $\kappa_{i}$ terms arise from symmetry and gauge invariance. For $ZZ$, they require $\kappa_{1}^{ZZ} = \kappa_{2}^{ZZ} = - \text{exp}\left(-i\phi_{\Lambda1}^{ZZ}\right)$ where $\phi_{\Lambda1}^{ZZ}$ is the relative phase between the $a_{1}^{ZZ}$ and $\Lambda_{1}$ terms. 
 

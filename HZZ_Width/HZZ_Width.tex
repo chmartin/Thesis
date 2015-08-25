@@ -2,7 +2,7 @@
 \label{sec:Width_Experiment}
 \chaptermark{Total Width of the Higgs Boson}
 
-As discussed in section \ref{sec:Higgs_Width_Pheno}, using the four lepton final state we can measure the total width of the recently observed Higgs boson using the ratio of on and off mass resonance production. This section presents a brief overview of the analysis followed by a discussion of the $4\ell$ and $2\ell2\mu$ analyses. Then, we will discuss the kinematic variables that are used to boost the sensitivity of the analysis. Finally, we will present the statistical formulation used in this measurement and results obtained. This section follows the publication of this work in \cite{Khachatryan:2014iha}.
+As discussed in section \ref{sec:Higgs_Width_Pheno}, using the four lepton final state we can measure the total width of the recently observed Higgs boson using the ratio of on and off mass resonance production. This section presents a brief overview of the analysis followed by a discussion of the $4\ell$ and $2\ell2\nu$ analyses. Then, we will discuss the kinematic variables that are used to boost the sensitivity of the analysis. Finally, we will present the statistical formulation used in this measurement and results obtained. This section follows the publication of this work in \cite{Khachatryan:2014iha}.
 
 \section{General Overview of Width Measurement}
 \label{sec:General_H_ZZ_Width}
@@ -12,8 +12,7 @@ The discovery of a new boson consistent with the standard model (SM) Higgs boson
 As discussed in section \ref{sec:Higgs_Width_Pheno}, it was recently proposed~\cite{Caola:2013yja} to constrain the Higgs boson width using its
 off-shell production and decay to two Z bosons away from the resonance peak~\cite{Kauer:2012hd}.
 In the dominant gluon fusion production mode the off-shell production cross section is known to be
-sizable. This arises from an enhancement in the decay amplitude due to the location of the Z-boson pair production
-threshold. A further enhancement comes, in gluon fusion production, from the top-quark
+sizable. This arises from an enhancement in the decay amplitude due to the interplay of either the Higgs boson or Z boson going offshell. A further enhancement comes, in gluon fusion production, from the top-quark
 pair production threshold. The zero-width approximation is inadequate and the ratio of the off-shell
 cross section above $2m_{Z}$ to the on-shell signal is of the order of 8\%~\cite{Kauer:2012hd,Kauer:2013cga}.
 Further developments to the measurement of the Higgs boson width were proposed in \cite{Campbell:2013una,Passarino:2013bha}.
@@ -21,15 +20,14 @@ Further developments to the measurement of the Higgs boson width were proposed i
 We present constraints on the Higgs boson width using its off-shell production and decay
 to Z-boson pairs, in the final states where one Z boson decays to an electron or a muon pair and the
 other to either an electron or a muon pair, $H \to ZZ \to 4\ell$ ($4\ell$ channel), or a pair
-of neutrinos, $H \to ZZ \to 2\ell2\nu$ ($2\ell2\nu$ channel). Relying on the observed Higgs boson
-signal in the resonance peak region~\cite{Chatrchyan:2013mxa}, the simultaneous measurement of the
+of neutrinos, $H \to ZZ \to 2\ell2\nu$ ($2\ell2\nu$ channel). Measuring on the observed Higgs boson
+signal in the resonance peak region~\cite{Chatrchyan:2013mxa} and the
 signal in the high-mass region leads to constraints on the Higgs boson width $\Gamma_{H}$ in the $4\ell$ decay
 channel. The $2\ell 2\nu$ decay channel, which benefits from a higher branching fraction~\cite{Chatrchyan:2013yoa,Chatrchyan:2012ft},
 is used in the high-mass region to further increase the sensitivity to the Higgs boson width.
 The analysis is performed for the tree-level HVV coupling of a scalar Higgs boson. The Higgs boson mass is set to the
-measured value in the $4\ell$ decay channel of $m_H = \unit{125.6}{\GeV}$ \cite{Chatrchyan:2013mxa} and the
-Higgs boson width is set to the corresponding expected value in the SM of
-$\Gamma_{H}^{\textrm{SM}} = \unit{4.15}{\MeV}$~\cite{Dittmaier:2011ti,Heinemeyer:2013tqa} for reference purposes.
+measured value in the $4\ell$ decay channel of $m_H = \unit{125.6}{\GeV}$ \cite{Chatrchyan:2013mxa} and for reference purposes the default Higgs boson width is set to the corresponding expected value in the SM of
+$\Gamma_{H}^{\textrm{SM}} = \unit{4.15}{\MeV}$~\cite{Dittmaier:2011ti,Heinemeyer:2013tqa}.
 
 \section{Event Selection, Simulation, \& Categorization}
 \label{sec:ZZ4l_ZZ2l2nu_Analysis}
@@ -74,7 +72,7 @@ functions~\cite{Martin:2009iq} are used. Higher-order QCD corrections for the gl
 are known to an accuracy of next-to-next-to-leading order (NNLO) and next-to-next-to-leading logarithms
 for the total cross section~\cite{Dittmaier:2011ti,Heinemeyer:2013tqa} and to
 NNLO as a function of $m_{ZZ}$~\cite{Passarino:2013bha}.
-These correction factors are applied to the signal, interference, and background processes.
+These correction factors are applied to the signal, interference, and background processes~\cite{Passarino:2013bha,Bonvini:2013jha}.
 
 Vector boson fusion events are generated with \textsc{phantom}~\cite{Ballestrero:2007xq}.
 Off-shell and interference effects with the nonresonant production are included at LO in these simulations.
@@ -90,7 +88,7 @@ We assume SM production rates for this background, the contribution of which is 
 simulation at NLO in QCD~\cite{Melia:2011tj}. Next-to-leading order EW calculations~\cite{Bierweiler:2013dja,Baglio:2013toa} are taken into account as well.
 
 All simulated events undergo parton showering and hadronization using \textsc{PYTHIA}.
-As is described in the previous section, for LO samples, the parton showering settings
+As is described in the section \ref{sec:Selection_Simulation_Categorizaiton}, for LO samples, the parton showering settings
 are tuned to approximately reproduce the ZZ $p_{T}$ spectrum predicted at NNLO for the Higgs boson
 production~\cite{deFlorian:2012mx}. Generated events are then processed with the detailed CMS detector simulation
 based on \textsc{GEANT4}~\cite{Allison:2006ve,Agostinelli2003250} as previously discussed.
@@ -100,7 +98,7 @@ based on \textsc{GEANT4}~\cite{Allison:2006ve,Agostinelli2003250} as previously 
 
 Here we present the different kinematic distributions that are used in the off resonance peak region. These are used in concert with the three-dimensional fit of the signal peak. For detailed discussion of the analysis of the signal peak see the previous sections. The first two subsections present the two kinematic variables that are used to fit the off resonance region for the $4\ell$ final state while the third presents the kinematic variable that is used in the $2\ell2\mu$ analysis.
 
-\subsection{$4\ell$ mass spectrum}
+\subsection{Four-lepton mass spectrum}
 \label{sec:width_m4l_spectrum}
 
 Similar to the $m_{4\ell}$ distribution that is used in the signal peak fit the shape of the $m_{4\ell}$ distribution is key to separating the $q\bar{q} \to ZZ$ background from the $gg \to \ldots \to ZZ$ process that now contains our signal. Figure~\ref{fig:massfull} presents the measured $m_{4\ell}$ distribution over the full mass range, $m_{4\ell} > \unit{100}{\GeV}$, together with the expected SM contributions. The $gg \to \ldots \to 4\ell$ contribution is treated as signal in this analysis and is clearly visible in the on-shell signal region and at the Z-boson pair production threshold, above the $q\bar{q} \to 4\ell$ background. The observed distribution is consistent with the expectation from SM processes.
@@ -134,9 +132,7 @@ for the off peak signal region ($m_{4\ell} > 220\GeV$) while the plot on the (ri
 The expected contributions from the $q\bar{q} \to 4\ell$ and reducible backgrounds,
 as well as for the total gluon fusion (gg) and vector boson fusion (VV) contributions, including the
 Higgs boson signal, are shown. The expected m$_{4\ell}$ distributions for the sum of all the
-processes, with a Higgs boson width $\Gamma_{H} = 10 \times \Gamma_{H}^{\mathrm{SM}}$ and a relative
-cross section with respect to the SM cross section equal to unity in both gluon fusion and VBF production
-modes, are also presented, showing the enhancement arising from the scaling of the squared product of the couplings. 
+processes, with a Higgs boson width $\Gamma_{H} = 10 \times \Gamma_{H}^{\mathrm{SM}}$ (while the squared product of the couplings are scaled to keep the on peak cross section equal to the one predicted by the SM) are also shown. 
 
 \begin{figure}
 \centering
@@ -164,7 +160,7 @@ all entries with masses above $\unit{800}{\GeV}$ \cite{Khachatryan:2014iha}.
 \label{fig:mss-discr}
 \end{figure}
 
-\subsection{$4\ell$ MELA discriminant}
+\subsection{Four-lepton MELA discriminant}
 \label{sec:MELA_gg}
 
 In order to enhance the sensitivity to the gg production in the off peak region, a likelihood discriminant
@@ -201,20 +197,18 @@ Individual distributions of the kinematic variables input into the $\mathcal{D}_
 \includegraphics[width=0.32\textwidth]{HZZ_Width/cCompare_DataMC_AllTeV_helphi_330.pdf}
 \includegraphics[width=0.32\textwidth]{HZZ_Width/cCompare_DataMC_AllTeV_phi_330.pdf}
 \caption[Distributions of the kinematic observables used in the $\mathcal{D}_{gg}$ discriminant:
-$m_{Z_i}$, $\cos\theta^*$, $\cos\theta_{i}$, $\Phi$, and $\Phi_{1}$. The distributions for $m_{Z_{1}}$ and $m_{Z_{2}}$ and $\cos\theta_{1}$ and $\cos\theta_{2}$ are summed together. The observed data (points with error bars), the expectations for the SM background (shaded areas),
-the SM Higgs boson signal (open areas under the solid histogram), and the Higgs boson width $\Gamma_{H} = 10 \times \Gamma_{H}^{\mathrm{SM}}$ are shown. The mass of the resonance is taken to be $\unit{125.6}{\GeV}$ and the gg enriched off resonance region is shown $m_{4\ell} > \unit{330}{\GeV}$.]{ Distributions of the eight kinematic observables used in the $\mathcal{D}_{gg}$ discriminant:
-$m_{Z_i}$, $\cos\theta^*$, $\cos\theta_{i}$, $\Phi$, and $\Phi_{1}$. The distributions for $m_{Z_{1}}$ and $m_{Z_{2}}$ and $\cos\theta_{1}$ and $\cos\theta_{2}$ are summed together. The observed data (points with error bars), the expectations for the SM background (shaded areas),
-the SM Higgs boson signal (open areas under the solid histogram), and the Higgs boson width $\Gamma_{H} = 10 \times \Gamma_{H}^{\mathrm{SM}}$ are shown. The mass of the resonance is taken to be $\unit{125.6}{\GeV}$ and the gg enriched off resonance region is shown $m_{4\ell} > \unit{330}{\GeV}$\cite{Khachatryan:2014iha}.}
+$m_{Z_i}$, $\cos\theta^*$, $\cos\theta_{i}$, $\Phi$, and $\Phi_{1}$. The distributions for $m_{Z_{1}}$ and $m_{Z_{2}}$, and $\cos\theta_{1}$ and $\cos\theta_{2}$, are summed together. The observed data (points with error bars), the expectations for the SM background and the SM Higgs boson signal (shaded area), and the Higgs boson with a width $\Gamma_{H} = 10 \times \Gamma_{H}^{\mathrm{SM}}$ (unfilled area) are shown. The mass of the resonance is taken to be $\unit{125.6}{\GeV}$ and the gg enriched off resonance region is shown $\left(m_{4\ell} > \unit{330}{\GeV}\right)$.]{Distributions of the kinematic observables used in the $\mathcal{D}_{gg}$ discriminant:
+$m_{Z_i}$, $\cos\theta^*$, $\cos\theta_{i}$, $\Phi$, and $\Phi_{1}$. The distributions for $m_{Z_{1}}$ and $m_{Z_{2}}$, and $\cos\theta_{1}$ and $\cos\theta_{2}$, are summed together. The observed data (points with error bars), the expectations for the SM background and the SM Higgs boson signal (shaded area), and the Higgs boson with a width $\Gamma_{H} = 10 \times \Gamma_{H}^{\mathrm{SM}}$ (unfilled area) are shown. The mass of the resonance is taken to be $\unit{125.6}{\GeV}$ and the gg enriched off resonance region is shown $\left(m_{4\ell} > \unit{330}{\GeV}\right)$\cite{Khachatryan:2014iha}.}
 \label{fig:Width_KD_inputs}
 \end{figure}
 
-Figure \ref{fig:kd-discr}(left) presents the $\mathcal{D}_{gg}$ invariant mass distribution
-for the off peak signal region ($m_{4\ell} > 220\GeV$) while the plot on the (right) presents the same region with an artificial cut on the mass, $m_{4\ell} > \unit{330}{\GeV}$.
+Figure \ref{fig:kd-discr}(left) presents the $\mathcal{D}_{gg}$ distribution
+for the off peak signal region ($m_{4\ell} > 220\GeV$) while the plot on the (right) presents the same region with the requirement that the mass, $m_{4\ell} > \unit{330}{\GeV}$.
 The expected contributions from the $q\bar{q} \to 4\ell$ and reducible backgrounds,
 as well as for the total gluon fusion (gg) and vector boson fusion (VV) contributions, including the
 Higgs boson signal, are shown. The expected kinematic distributions for the sum of all the
 processes, with a Higgs boson width $\Gamma_{H} = 10 \times \Gamma_{H}^{\mathrm{SM}}$ and a relative
-cross section with respect to the SM cross section equal to unity in both gluon fusion and VBF production
+on peak cross section with respect to the SM cross section equal to unity in both gluon fusion and VBF production
 modes, are also presented, showing the enhancement arising from the scaling of the squared product of the couplings. 
 
 \begin{figure}
@@ -228,10 +222,10 @@ modes, are also presented, showing the enhancement arising from the scaling of t
 \label{fig:kd-discr}
 \end{figure}
 
-\subsection{$2\ell2\nu$ $m_{T}$ discriminant}
+\subsection{\texorpdfstring{$2\ell2\nu$ $m_{T}$}{2l2nu mT} discriminant}
 \label{sec:2l2nu_mT}
 
-The previous section introduced the $m_{T}$ variable and that is an important distribution used to define the $2\ell2\nu$ signal region. It is also used as a kinematic distribution used in the final likelihood fit. Shown in figure \ref{fig:mtfit}, the off resonance $m_{T}$ distribution contains information about the width of the boson observed in the $4\ell$ final state. This distribution is used as a one-dimensional shape discriminant in each of the categories in this final state.
+The previous section introduced the $m_{T}$ variable and that is an important distribution used to define the $2\ell2\nu$ signal region. It is also used as a kinematic distribution used in the final likelihood fit. Shown in figure \ref{fig:mtfit}, the $m_{T}$ distribution contains information about the width of the boson observed in the $4\ell$ final state. This distribution is used as a one-dimensional shape discriminant in each of the categories in this final state.
 
 
 \begin{figure}[htb]
@@ -260,7 +254,7 @@ transverse masses above $\unit{1}{\TeV}$ \cite{Khachatryan:2014iha}.}
 \section{Off Resonance Width Results}
 \label{sec:Width_Results}
 
-In the $4\ell$ final state the number of observed events for the high mass region ($m_{4l} \ge \unit{220}{\GeV}$) as well as the number of expected events for the signal, the background and the interference contributions are presented on table~\ref{tab:4l_width_yields}. A good agreement is observed between the measured and total expected yields. Yields for the low-mass region ($105.6 \ge m_{4l} \ge \unit{140.6}{\GeV}$) are taken from the previous section~\cite{Chatrchyan:2013mxa}. As an illustration of the sensitivity of the kinematic variables used in this analysis, a modified set of yields are presented where the selection is modified from the actual analysis to the gg enhanced region, table \ref{tab:yields}
+In the $4\ell$ final state the number of observed events for the high mass region ($m_{4l} \ge \unit{220}{\GeV}$) as well as the number of expected events for the signal, the background and the interference contributions are presented on table~\ref{tab:4l_width_yields}. A good agreement is observed between the measured and SM predicted yields. Yields for the low-mass region ($105.6 \ge m_{4l} \ge \unit{140.6}{\GeV}$) are taken from the section \ref{sec:Search_Results}~\cite{Chatrchyan:2013mxa}. As an illustration of the sensitivity of the kinematic variables used in this analysis, a modified set of yields are presented where the selection is modified from the actual analysis to the gg enhanced region, table \ref{tab:yields}
 
 \begin{table}
 \begin{center}
@@ -348,14 +342,14 @@ The quoted uncertainties include only the systematic sources \cite{Khachatryan:2
 \label{tab:yields}
 \end{table}
 
-The systematic uncertainties used to estimate the unknown quantities in this analysis comprise of experimental uncertainties on the signal efficiency and
+The systematic uncertainties used to estimate the uncertain quantities in this analysis comprise of experimental uncertainties on the signal efficiency and
 background yield evaluation, as well as uncertainties on the signal and background from
 theoretical predictions. Since the measurement is performed in wide $m_{ZZ}$ regions, there
 are sources of systematic uncertainties that only affect the total normalization and
 others that affect both the normalization and the shape of the observables used in this
 analysis. In the $4\ell$ final state, only the latter type of systematic uncertainty
 affects the measurement of $\Gamma_{H}$, since normalization uncertainties change the on-shell
-and off-shell yields by the same amount.
+and off-shell yields by the same amount and do not affect the ratio.
 
 Among the signal uncertainties, experimental systematic uncertainties are evaluated
 from observed events for the trigger efficiency (1.5\%), and combined object reconstruction,
@@ -383,7 +377,7 @@ measuring simultaneously the yield from the same process in the on-shell signal 
 remaining uncertainties in the QCD renormalization and factorization
 scales amount to 2--4\% from \cite{Passarino:2013bha}. For the $gg \to ZZ$ continuum background production, we assign
 a 10\% additional uncertainty on the LO--NNLO matching, following \cite{Bonvini:2013jha}. This
-uncertainty also affects the interference with the signal. The parton distribution function uncertainties are estimated to be about 1\%. For the VBF processes,
+uncertainty also affects the interference with the signal. The parton distribution function uncertainties are estimated to be about 1\% from comparing different calculations of these functions (\textsc{MSTW2008}\cite{Martin:2009iq}, \textsc{CT10}\cite{Lai:2010vv}, \textsc{NNPDF2.1}\cite{Ball:2011mu}). For the VBF processes,
 no significant QCD scales or parton distribution function uncertainties are added because they are much smaller than for the gluon fusion processes~\cite{Dittmaier:2011ti,Heinemeyer:2013tqa}.
 In the $2\ell 2\nu$ final state, additional uncertainties on the yield arising from the theoretical
 description of the parton shower and underlying event are taken into account (6\%).
@@ -395,8 +389,8 @@ We perform a simultaneous unbinned maximum likelihood fit of a signal-plus-backg
 to the measured distributions in the $4\ell$ and $2\ell2\nu$ channels. In the $4\ell$ channel
 the analysis is performed in the on-shell and off-shell signal regions defined above. In the
 on-shell region, a three-dimensional distribution
-$\vec{x}= (m_{4\ell}, \mathcal{D}_\text{bkg}^\text{kin}, p_{T}^{4\ell}\ \text{or}\ \mathcal{D}_\text{jet})$
-is analyzed, following the analysis presented in the last section.
+ \\ $\vec{x}= (m_{4\ell}, \mathcal{D}_\text{bkg}^\text{kin}, p_{T}^{4\ell}\ \text{or}\ \mathcal{D}_\text{jet})$
+is analyzed, following the analysis presented in section \ref{sec:Search_Results}.
 
 In the off-shell $4\ell$ region, a two-dimensional distribution $\vec{x}=(m_{4\ell}, \mathcal{D}_{gg})$
 is analyzed. In the $2\ell2\nu$ channel, only the off-shell Higgs boson production is analyzed,
@@ -406,19 +400,21 @@ The parameterization of probability distributions function of the $gg\to ZZ$ and
 approach. It includes three correlated distributions for two processes and their interference. A similar 
 approach had already been developed for the spin-parity studies presented later and we adopt a similar methodology here. The total probability distribution function for the off-shell region includes the interference of two
 contributions in each production process:
- 
+ \begingroup
+ \footnotesize
  \begin{eqnarray}
- \mathcal{P}_\text{tot}^\text{off-shell}(\vec{x})  &=&
+ \mathcal{P}_\text{tot}^\text{off-shell}&(\vec{x})&  =
 \left[\mu_{\text{ggH}}\times\left(\Gamma_{H}/\Gamma_{H}^{\textrm{SM}}\right) \times \mathcal{P}^{\text{gg}}_\text{sig}\left(\vec{x}\right) +  \sqrt{\mu_{\text{ggH}}\times\left(\Gamma_{H}/\Gamma_{H}^{\textrm{SM}}\right)} \times  \mathcal{P}^{\text{gg}}_\text{int}(\vec{x})+ \mathcal{P}^{\text{gg}}_\text{bkg}(\vec{x}) \right] \nonumber \\
   &+& \left[\mu_{\text{VBF}}\times\left(\Gamma_{H}/\Gamma_{H}^{\textrm{SM}}\right) \times \mathcal{P}^{\text{VBF}}_\text{sig}\left(\vec{x}\right) +  \sqrt{\mu_{\text{VBF}}\times\left(\Gamma_{H}/\Gamma_{H}^{\textrm{SM}}\right)} \times  \mathcal{P}^{\text{VBF}}_\text{int}(\vec{x})+ \mathcal{P}^{\text{VBF}}_\text{bkg}(\vec{x}) \right] \nonumber \\
   &+& \mathcal{P}^{q\bar{q}ZZ}_\text{bkg}(\vec{x}) + \ldots
 \label{eq:pdf-prob-vbf}
 \end{eqnarray}
+\endgroup
 
 where $\mathcal{P}\left(\vec{x}\right)$ is the normalized probability distribution for each process
-defined as a template of two observables (or one observable in case of a 1D fit), and $\mu_{\text{ggH}}, \mu_{\text{VBF}}$ are the signal strength modifiers that were defined in the previous sections\footnote{While the $t\bar{t}H$ and $VH$ components are negligible away from the resonance peak.}. The list of background processes is extended beyond those quoted depending on the final state (Z+jets, top, W+jets, WW, WZ). The parameter $(\Gamma_{H}/\Gamma_{H}^{\text{SM}})$ is the scale factor which modifies the observed width with respect to the $\Gamma_{H}^{\text{SM}}$ value used in the reference parameterization.
+defined as a template of two observables (or one observable in case of a 1D fit), and $\mu_{\text{ggH}}, \mu_{\text{VBF}}$ are the on peak signal strength modifiers that were defined in section \ref{sec:prod_dec_frac}\footnote{While the $t\bar{t}H$ and $VH$ components are negligible away from the resonance peak.}. The list of background processes is extended beyond those quoted depending on the final state (Z+jets, top, W+jets, WW, WZ). The parameter $(\Gamma_{H}/\Gamma_{H}^{\text{SM}})$ is the scale factor which modifies the observed width with respect to the $\Gamma_{H}^{\text{SM}}$ value used in the reference parameterization.
 
-The three parameters $\Gamma_{H}$, $\mu_{\text{ggH}}$, and $\mu_\mathrm{VBF}$ are left unconstrained in the fit. The $\mu_{ggH}$ and $\mu_\mathrm{VBF}$ fitted values are found to be almost identical to those found in the previous section, and can be seen in table \ref{tab:fitresults}. 
+The three parameters $\Gamma_{H}$, $\mu_{\text{ggH}}$, and $\mu_\mathrm{VBF}$ are left unconstrained in the fit. The $\mu_{ggH}$ and $\mu_\mathrm{VBF}$ fitted values are found to be almost identical to those found in section \ref{sec:prod_dec_frac}, and can be seen in table \ref{tab:fitresults}. 
 
 \begin{table}[htb]
 \begin{center}
@@ -438,11 +434,11 @@ $m_{4\ell}$ and $\mathcal{D}_{gg}$ & 1.9$_{-1.9}^{+11.7}$ & 0.79$_{-0.36}^{+0.47
 \end{table}
 
 We first present the one-dimensional fit results from the $4\ell$ final state only. The fit results are shown as scans of the negative
-log-likelihood, $-2 \Delta \ln\mathcal{L}$, as a function of $\Gamma_{H}$. There are obtained using the measured mass distribution only and the $\mathcal{D}_{gg}$ discriminant only, where the two-dimensional templates are projected over the respective dimension. Figure \ref{fig:1D_width} (left) shows the width constraint from the $m_{4\ell}$ distribution alone. While figure \ref{fig:1D_width} (right) shows the width constraint from the $\mathcal{D}_{gg}$ discriminant only. The results of these one-dimensional fits, and the expectations are summarized along with the final fit results in table \ref{tab:Fit_results}
+log-likelihood, $-2 \Delta \ln\mathcal{L}$, as a function of $\Gamma_{H}$. These are obtained using the measured mass distribution only and the $\mathcal{D}_{gg}$ discriminant only, where the two-dimensional templates are projected into a one-dimensional analysis over the respective dimension. Figure \ref{fig:1D_width} (left) shows the width constraint from the $m_{4\ell}$ distribution alone. While figure \ref{fig:1D_width} (right) shows the width constraint from the $\mathcal{D}_{gg}$ discriminant only. The results of these one-dimensional fits, and the expectations are summarized along with the final fit results in table \ref{tab:Fit_results}
 
 \begin{figure}
 \begin{center}
-\caption[Fit results for (left) the 1D analysis using $m_{4\ell}$, and (right) 1D analysis using $\mathcal{D}_{gg}$, observed limits from data (solid) and expected results(dashed) are both shown.]{Fit results for (left) the 1D analysis using $m_{4\ell}$, and (right) 1D analysis using $\mathcal{D}_{gg}$, observed limits from data (solid) and expected results(dashed) are both shown \cite{Khachatryan:2014iha}.
+\caption[Fit results for (left) the 1D analysis using $m_{4\ell}$, and (right) 1D analysis using $\mathcal{D}_{gg}$, observed limits from data (solid) and expected (dashed) results are both shown.]{Fit results for (left) the 1D analysis using $m_{4\ell}$, and (right) 1D analysis using $\mathcal{D}_{gg}$, observed limits from data (solid) and expected (dashed) results are both shown \cite{Khachatryan:2014iha}.
 \label{fig:1D_width}}
 \includegraphics[width=0.45\textwidth]{HZZ_Width/1Dm4lFitPaper_30_04_14_MeV.pdf}
 \includegraphics[width=0.45\textwidth]{HZZ_Width/1DDggFitPaper_30_04_14_MeV.pdf}

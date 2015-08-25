@@ -1,0 +1,116 @@
+% Replace the following information with your document's actual
+% metadata. If you do not want to set a value for a certain parameter,
+% just omit it.
+%
+% Symbols permitted in metadata
+% =============================
+% 
+% Within the metadata, all printable ASCII characters except
+% '\', '{', '}', and '%' represent themselves. Also, all printable
+% Unicode characters from the basic multilingual plane (i.e., up to
+% code point U+FFFF) can be used directly with the UTF-8 encoding. 
+% Consecutive whitespace characters are combined into a single
+% space. Whitespace after a macro such as \copyright, \backslash, or
+% \sep is ignored. Blank lines are not permitted. Moreover, the
+% following markup can be used:
+%
+%  '\ '         - a literal space  (for example after a macro)                  
+%   \%          - a literal '%'                                                 
+%   \{          - a literal '{'                                                 
+%   \}          - a literal '}'                                                 
+%   \backslash  - a literal '\'                                                 
+%   \copyright  - the (c) copyright symbol                                      
+%
+% The macro \sep is only permitted within \Author, \Keywords, and
+% \Org.  It is used to separate multiple authors, keywords, etc.
+% 
+% List of supported metadata fields
+% =================================
+% 
+% Here is a complete list of user-definable metadata fields currently
+% supported, and their meanings. More may be added in the future.
+% 
+% General information:
+%
+%  \Author           - the document's human author. Separate multiple
+%                      authors with \sep.
+%  \Title            - the document's title.
+%  \Keywords         - list of keywords, separated with \sep.
+%  \Subject          - the abstract. 
+%  \Org              - publishers.
+% 
+% Copyright information:
+%
+%  \Copyright        - a copyright statement.
+%  \CopyrightURL     - location of a web page describing the owner
+%                      and/or rights statement for this document.
+%  \Copyrighted      - 'True' if the document is copyrighted, and
+%                      'False' if it isn't. This is automatically set
+%                      to 'True' if either \Copyright or \CopyrightURL
+%                      is specified, but can be overridden. For
+%                      example, if the copyright statement is "Public
+%                      Domain", this should be set to 'False'.
+%
+% Publication information:
+%
+% \PublicationType   - The type of publication. If defined, must be
+%                      one of book, catalog, feed, journal, magazine,
+%                      manual, newsletter, pamphlet. This is
+%                      automatically set to "journal" if \Journaltitle
+%                      is specified, but can be overridden.
+% \Journaltitle      - The title of the journal in which the document
+%                      was published. 
+% \Journalnumber     - The ISSN for the publication in which the
+%                      document was published.
+% \Volume            - Journal volume.
+% \Issue             - Journal issue/number.
+% \Firstpage         - First page number of the published version of
+%                      the document.
+% \Lastpage          - Last page number of the published version of
+%                      the document.
+% \Doi               - Digital Object Identifier (DOI) for the
+%                      document, without the leading "doi:".
+% \CoverDisplayDate  - Date on the cover of the journal issue, as a
+%                      human-readable text string.
+% \CoverDate         - Date on the cover of the journal issue, in a
+%                      format suitable for storing in a database field
+%                      with a 'date' data type.
+
+
+
+\Title        {Discovery and Characterization of a Higgs boson using four-lepton events from the CMS experiment}
+
+\Author       {Christopher B. Martin}
+
+\Copyright    {Copyright \copyright\ 2015 Christopher B. Martin}
+
+\Keywords     {LHC\sep
+               CMS\sep
+               Experimental Particle Physics\sep
+               Higgs boson\sep
+               Higgs boson discovery\sep
+               Higgs boson production mechanism\sep
+               Higgs boson total width\sep
+               Higgs boson quantum numbers\sep
+               Higgs boson spin-parity\sep
+               JHUGen\sep
+               MELA\sep
+               Matrix-Element Likelihood Analysis}
+
+\Subject      {A new particle decaying to a pair of vector bosons was discovered in 2012 by the ATLAS and CMS 
+               experiments at the Large Hadron Collider. In the wake of this discovery a rush of measurements 
+               was made to characterize this particle. The four-lepton final state has been instrumental in both 
+               the discovery and characterization of this new particle. With only about 20 events seen in the 
+               resonance peak at 125GeV the CMS experiment has been able to make considerable progress in 
+               characterizing the Higgs-like boson using the wealth of information in this final state in concert 
+               with other decay modes. In addition to the search for this new boson we present three recent results
+               in the study of the Higgs-like boson properties: studies of the production mode, total width, and 
+               spin-parity quantum numbers.
+               First we present the search for this new resonance using the H to ZZ to 4l decay channel. Then we 
+               discuss the production mode measurement using this final state. Next, we present two results that 
+               provided breakthroughs in the study of the Higgs-like resonance. One is the measurement of the width 
+               from an interplay between the off-shell and on-shell production, setting a limit three orders of 
+               magnitude tighter than previous limits. The other is the tensor structure measurement of the bosons 
+               interactions with pairs of vector bosons, leading to constraints on its spin-parity properties, where 
+               only limited measurements had been done before. All of these results provide further confirmation that 
+               CMS has discovered a Higgs boson near 125GeV.}

@@ -272,6 +272,13 @@ A.~Bonato \emph{et~al.}, ``{Application of Survey Measurements in Tracker
 W.~Adam \emph{et~al.}, ``{Alignment of the CMS Silicon Strip Tracker during
   stand-alone Commissioning},'' \emph{JINST}, vol.~4, p. T07001, 2009.
 
+\bibitem{CMS-DP-2015-029}
+\BIBentryALTinterwordspacing
+S.~Chatrchyan \emph{et~al.}, ``{Alignment of the CMS Tracking-Detector with
+  First 2015 Cosmic-Ray and Collision Data},'' \emph{CERN Document Server}, Aug
+  2015. [Online]. Available: \url{http://cds.cern.ch/record/2041841}
+\BIBentrySTDinterwordspacing
+
 \bibitem{CMS-DP-2013-017}
 \BIBentryALTinterwordspacing
 S.~Chatrchyan \emph{et~al.}, ``{2012 CMS Tracker Alignment: Performance
@@ -315,7 +322,7 @@ I.~Anderson, S.~Bolognesi, F.~Caola, Y.~Gao, A.~V. Gritsan \emph{et~al.},
 \bibitem{Khachatryan:2014kca}
 V.~Khachatryan \emph{et~al.}, ``{Constraints on the spin-parity and anomalous
   HVV couplings of the Higgs boson in proton collisions at 7 and 8 TeV},''
-  \emph{{CERN Document Server}}, 2014.
+  \emph{Phys. Rev.}, vol. D92, no.~1, p. 012004, 2015.
 
 \bibitem{Gao:2010qx}
 Y.~Gao, A.~V. Gritsan, Z.~Guo, K.~Melnikov, M.~Schulze \emph{et~al.}, ``{Spin
@@ -492,9 +499,9 @@ C.~Anastasiou, R.~Boughezal, and F.~Petriello, ``{Mixed QCD-electroweak
 
 \bibitem{deFlorian:2012mx}
 D.~de~Florian, G.~Ferrera, M.~Grazzini, and D.~Tommasini, ``{Higgs boson
-  production at the LHC: transverse momentum resummation effects in the
-  H->2gamma, H->WW->lnu lnu and H->ZZ->4l decay modes},'' \emph{JHEP}, vol.
-  1206, p. 132, 2012.
+  production at the LHC: transverse momentum resummation effects in the H to
+  2gamma, H to WW to lnu lnu and H to ZZ to 4l decay modes},'' \emph{JHEP},
+  vol. 1206, p. 132, 2012.
 
 \bibitem{Ciccolini:2007jr}
 M.~Ciccolini, A.~Denner, and S.~Dittmaier, ``{Strong and electroweak
@@ -526,9 +533,8 @@ T.~Melia, P.~Nason, R.~Rontsch, and G.~Zanderighi, ``{W+W-, WZ and ZZ
   production in the POWHEG BOX},'' \emph{JHEP}, vol. 1111, p. 078, 2011.
 
 \bibitem{Binoth:2008pr}
-T.~Binoth, N.~Kauer, and P.~Mertsch, ``{Gluon-induced QCD corrections to pp
-  ---> ZZ ---> l anti-l l-prime anti-l-prime},'' \emph{Eprint only}, p. 142,
-  2008.
+T.~Binoth, N.~Kauer, and P.~Mertsch, ``{Gluon-induced QCD corrections to pp to
+  ZZ to l anti-l l-prime anti-l-prime},'' \emph{Eprint only}, p. 142, 2008.
 
 \bibitem{Campbell:2011bn}
 J.~M. Campbell, R.~K. Ellis, and C.~Williams, ``{Vector boson pair production
@@ -559,31 +565,10 @@ H.-L. Lai, M.~Guzzi, J.~Huston, Z.~Li, P.~M. Nadolsky \emph{et~al.}, ``{New
 
 \bibitem{Agostinelli2003250}
 \BIBentryALTinterwordspacing
-S.~Agostinelli, J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
-  M.~Asai, D.~Axen, S.~Banerjee, G.~Barrand, F.~Behner, L.~Bellagamba,
-  J.~Boudreau, L.~Broglia, A.~Brunengo, H.~Burkhardt, S.~Chauvie, J.~Chuma,
-  R.~Chytracek, G.~Cooperman, G.~Cosmo, P.~Degtyarenko, A.~Dell'Acqua,
-  G.~Depaola, D.~Dietrich, R.~Enami, A.~Feliciello, C.~Ferguson, H.~Fesefeldt,
-  G.~Folger, F.~Foppiano, A.~Forti, S.~Garelli, S.~Giani, R.~Giannitrapani,
-  D.~Gibin, J.~G. Cadenas, I.~Gonz√°lez, G.~G. Abril, G.~Greeniaus,
-  W.~Greiner, V.~Grichine, A.~Grossheim, S.~Guatelli, P.~Gumplinger,
-  R.~Hamatsu, K.~Hashimoto, H.~Hasui, A.~Heikkinen, A.~Howard, V.~Ivanchenko,
-  A.~Johnson, F.~Jones, J.~Kallenbach, N.~Kanaya, M.~Kawabata, Y.~Kawabata,
-  M.~Kawaguti, S.~Kelner, P.~Kent, A.~Kimura, T.~Kodama, R.~Kokoulin,
-  M.~Kossov, H.~Kurashige, E.~Lamanna, T.~Lamp√©n, V.~Lara, V.~Lefebure,
-  F.~Lei, M.~Liendl, W.~Lockman, F.~Longo, S.~Magni, M.~Maire, E.~Medernach,
-  K.~Minamimoto, P.~M. de~Freitas, Y.~Morita, K.~Murakami, M.~Nagamatu,
-  R.~Nartallo, P.~Nieminen, T.~Nishimura, K.~Ohtsubo, M.~Okamura, S.~O'Neale,
-  Y.~Oohata, K.~Paech, J.~Perl, A.~Pfeiffer, M.~Pia, F.~Ranjard, A.~Rybin,
-  S.~Sadilov, E.~D. Salvo, G.~Santin, T.~Sasaki, N.~Savvas, Y.~Sawada,
-  S.~Scherer, S.~Sei, V.~Sirotenko, D.~Smith, N.~Starkov, H.~Stoecker,
-  J.~Sulkimo, M.~Takahata, S.~Tanaka, E.~Tcherniaev, E.~S. Tehrani,
-  M.~Tropeano, P.~Truscott, H.~Uno, L.~Urban, P.~Urban, M.~Verderi, A.~Walkden,
-  W.~Wander, H.~Weber, J.~Wellisch, T.~Wenaus, D.~Williams, D.~Wright,
-  T.~Yamada, H.~Yoshida, and D.~Zschiesche, ``Geant4-a simulation toolkit,''
-  \emph{Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment}, vol. 506,
-  no.~3, pp. 250 -- 303, 2003. [Online]. Available:
+S.~Agostinelli \emph{et~al.}, ``Geant4-a simulation toolkit,'' \emph{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol. 506, no.~3, pp. 250
+  -- 303, 2003. [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}
 \BIBentrySTDinterwordspacing
 
@@ -616,16 +601,16 @@ S.~Chatrchyan \emph{et~al.}, ``{Study of the Mass and Spin-Parity of the Higgs
 
 \bibitem{CMS-PAS-EWK-11-001}
 \BIBentryALTinterwordspacing
-C.~Collaboration, ``{Absolute Calibration of Luminosity Measurement at CMS:
-  Summer 2011 Update},'' CERN, Geneva, Tech. Rep. CMS-PAS-EWK-11-001, 2011.
-  [Online]. Available: \url{http://cds.cern.ch/record/1376102}
+CMS, ``{Absolute Calibration of Luminosity Measurement at CMS: Summer 2011
+  Update},'' CERN, Geneva, Tech. Rep. CMS-PAS-EWK-11-001, 2011. [Online].
+  Available: \url{http://cds.cern.ch/record/1376102}
 \BIBentrySTDinterwordspacing
 
 \bibitem{CMS-PAS-LUM-13-001}
 \BIBentryALTinterwordspacing
-C.~Collaboration, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer
-  2013 Update},'' CERN, Geneva, Tech. Rep. CMS-PAS-LUM-13-001, 2013. [Online].
-  Available: \url{http://cds.cern.ch/record/1598864}
+CMS, ``{CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update},''
+  CERN, Geneva, Tech. Rep. CMS-PAS-LUM-13-001, 2013. [Online]. Available:
+  \url{http://cds.cern.ch/record/1598864}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Denner:2011mq}
@@ -643,9 +628,10 @@ A.~L. Read, ``{Presentation of search results: The CL(s) technique},''
 
 \bibitem{CMS-NOTE-2011-005}
 \BIBentryALTinterwordspacing
-``{Procedure for the LHC Higgs boson search combination in Summer 2011},''
-  CERN, Geneva, Tech. Rep. CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, Aug 2011.
-  [Online]. Available: \url{http://cds.cern.ch/record/1379837}
+ATLAS and CMS, ``{Procedure for the LHC Higgs boson search combination in
+  Summer 2011},'' CERN, Geneva, Tech. Rep. CMS-NOTE-2011-005.
+  ATL-PHYS-PUB-2011-11, Aug 2011. [Online]. Available:
+  \url{http://cds.cern.ch/record/1379837}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Gross:2010qma}
@@ -692,6 +678,11 @@ N.~Kauer, ``{Interference effects for H $\to$ WW/ZZ $\to
 A.~Martin, W.~Stirling, R.~Thorne, and G.~Watt, ``{Parton distributions for the
   LHC},'' \emph{Eur.Phys.J.}, vol. C63, pp. 189--285, 2009.
 
+\bibitem{Bonvini:2013jha}
+M.~Bonvini, F.~Caola, S.~Forte, K.~Melnikov, and G.~Ridolfi,
+  ``{Signal-background interference effects for $gg→H→W^+W^-$ beyond
+  leading order},'' \emph{Phys.Rev.}, vol. D88, no.~3, p. 034032, 2013.
+
 \bibitem{Ballestrero:2007xq}
 A.~Ballestrero, A.~Belhouari, G.~Bevilacqua, V.~Kashkan, and E.~Maina,
   ``{PHANTOM: A Monte Carlo event generator for six parton final states at high
@@ -712,15 +703,20 @@ J.~Baglio, L.~D. Ninh, and M.~M. Weber, ``{Massive gauge boson pair production
 S.~Chatrchyan \emph{et~al.}, ``{Identification of b-quark jets with the CMS
   experiment},'' \emph{JINST}, vol.~8, p. P04013, 2013.
 
-\bibitem{Bonvini:2013jha}
-M.~Bonvini, F.~Caola, S.~Forte, K.~Melnikov, and G.~Ridolfi,
-  ``{Signal-background interference effects for $gg→H→W^+W^-$ beyond
-  leading order},'' \emph{Phys.Rev.}, vol. D88, no.~3, p. 034032, 2013.
+\bibitem{Ball:2011mu}
+R.~D. Ball, V.~Bertone, F.~Cerutti, L.~Del~Debbio, S.~Forte \emph{et~al.},
+  ``{Impact of Heavy Quark Masses on Parton Distributions and LHC
+  Phenomenology},'' \emph{Nucl.Phys.}, vol. B849, pp. 296--363, 2011.
 
 \bibitem{CMS_AN_2014_018}
 N.~Amapane \emph{et~al.}, ``{A measurement of the Higgs boson width using
   off-shell production and decay to 4 leptons},'' \emph{CMS Internal Analysis
   Note}, vol. 2014/018, 2014.
+
+\bibitem{Chatrchyan:2012sn}
+S.~Chatrchyan \emph{et~al.}, ``{Search for a Higgs boson in the decay channel
+  $H$ to ZZ(*) to $q$ qbar $\ell^-$ l+ in $pp$ collisions at $\sqrt{s}=7$
+  TeV},'' \emph{JHEP}, vol.~04, p. 036, 2012.
 
 \bibitem{Chen:2012jy}
 Y.~Chen, N.~Tran, and R.~Vega-Morales, ``{Scrutinizing the Higgs Signal and
@@ -757,8 +753,12 @@ V.~Khachatryan \emph{et~al.}, ``{Observation of the diphoton decay of the Higgs
   no.~10, p. 3076, 2014.
 
 \bibitem{Dawson:2013bba}
-S.~Dawson, A.~Gritsan, H.~Logan, J.~Qian, C.~Tully \emph{et~al.}, ``{Working
-  Group Report: Higgs Boson},'' 2013.
+\BIBentryALTinterwordspacing
+S.~Dawson \emph{et~al.}, ``{Working Group Report: Higgs Boson},'' in
+  \emph{{Community Summer Study 2013: Snowmass on the Mississippi (CSS2013)
+  Minneapolis, MN, USA, July 29-August 6, 2013}}, 2013. [Online]. Available:
+  \url{https://inspirehep.net/record/1262795/files/arXiv:1310.8361.pdf}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Chen:2014gka}
 Y.~Chen, R.~Harnik, and R.~Vega-Morales, ``{Probing the Higgs Couplings to
@@ -767,7 +767,8 @@ Y.~Chen, R.~Harnik, and R.~Vega-Morales, ``{Probing the Higgs Couplings to
 
 \bibitem{Khachatryan:2015cwa}
 V.~Khachatryan \emph{et~al.}, ``{Search for a Higgs boson in the mass range
-  from 145 to 1000 GeV decaying to a pair of W or Z bosons},'' 2015.
+  from 145 to 1000 GeV decaying to a pair of W or Z bosons},'' 2015, comments:
+  Submitted to JHEP.
 
 \bibitem{Khachatryan:2014jba}
 V.~Khachatryan \emph{et~al.}, ``{Precise determination of the mass of the Higgs
@@ -778,11 +779,11 @@ V.~Khachatryan \emph{et~al.}, ``{Precise determination of the mass of the Higgs
 \bibitem{Aad:2015xua}
 G.~Aad \emph{et~al.}, ``{Constraints on the off-shell Higgs boson signal
   strength in the high-mass $ZZ$ and $WW$ final states with the ATLAS
-  detector},'' 2015.
+  detector},'' \emph{Eur. Phys. J.}, vol. C75, no.~7, p. 335, 2015.
 
 \bibitem{CMS_AN_2014_247}
 N.~Amapane \emph{et~al.}, ``{Lifetime of the Higgs boson and constraints on its
-  width considering anomalous couplings with H->4l},'' \emph{CMS Internal
+  width considering anomalous couplings with H to 4l},'' \emph{CMS Internal
   Analysis Note}, vol. 2014/247, 2014.
 
 \end{thebibliography}
